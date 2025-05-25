@@ -50,29 +50,28 @@ jobs:
           
           awk '
           # コメント・正規表現っぽい行はスキップ
-          {
-            if ($0 ~ /^#/ || /[+?(){}\\]/) {
-              next
+          /^#/ || /[+?(){}\\]/ {
+             next
+           }
+           #コメント行を除外し、フィルタ形式じゃない行を処理
+           !/^!/ && !/^\|\|/ && !/^@@/ {
+             # 修正前の確認用
+             print >> "Filters/tmp_before_bad_filter.txt"
+             # 先頭の:// を || に変換
+             sub(/^:[/][/]/, "||")
+             # 先頭の . を || に変換
+             sub(/^\./, "||")
+             # || が付いてなければ付ける
+            if ($0 !~ /^\|\|/) {
+              $0 = "||" $0
             }
-            #コメント行を除外し、フィルタ形式じゃない行を処理
-            if ($0 !~ /^!/ && $0 !~ /^\|\|/ && $0 !~ /^@@/) {
-              # 修正前の確認用
-              print >> "Filters/tmp_before_bad_filter.txt"
-              # 先頭の:// を || に変換
-              sub(/^:[/][/]/, "||")
-              # 先頭の . を || に変換
-              sub(/^\./, "||")
-              # || が付いてなければ付ける
-              if ($0 !~ /^\|\|/) {
-                $0 = "||" $0
-              }
-              # 修正後の確認用
-              print >> "Filters/tmp_before_bad_filter_fix.txt"
-              print
-            }
+            print
           }
-          ' Filters/main_filter.txt | sort -u >> Filters/main_filter.txt
+          ' Filters/main_filter.txt | sort -u > Filters/tmp_before_bad_filter_fix.txt
 
+          # 修正したものをメインフィルタに追記
+          cat Filters/tmp_before_bad_filter_fix.txt >> Filters/main_filter.txt
+          
           # 中間データの確認
           cat Filters/tmp_before_bad_filter.txt
           cat Filters/tmp_before_bad_filter_fix.txt
