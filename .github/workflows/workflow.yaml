@@ -50,24 +50,26 @@ jobs:
           
           awk '
           # コメント・正規表現っぽい行はスキップ
-          /^#/ || /[+?(){}\\]/ {
-            next
-          }
-          #コメント行を除外し、フィルタ形式じゃない行を抽出
-          !/^!/ && !/^\|\|/ && !/^@@/ {
-            # 修正前の確認用
-            print >> "Filters/tmp_before_bad_filter.txt"
-            # 先頭の:// を || に変換
-            sub(/^:[/][/]/, "||")
-            # 先頭の . を || に変換
-            sub(/^\./, "||")
-            # || が付いてなければ付ける
-            if ($0 !~ /^\|\|/) {
-              $0 = "||" $0
+          {
+            if ($0 ~ /^#/ || /[+?(){}\\]/) {
+              next
             }
-            # 修正後の確認用
-            print >> "Filters/tmp_before_bad_filter_fix.txt"
-            print
+            #コメント行を除外し、フィルタ形式じゃない行を処理
+            if ($0 !~ /^!/ && $0 !~ /^\|\|/ && $0 !~ /^@@/) {
+              # 修正前の確認用
+              print >> "Filters/tmp_before_bad_filter.txt"
+              # 先頭の:// を || に変換
+              sub(/^:[/][/]/, "||")
+              # 先頭の . を || に変換
+              sub(/^\./, "||")
+              # || が付いてなければ付ける
+              if ($0 !~ /^\|\|/) {
+                $0 = "||" $0
+              }
+              # 修正後の確認用
+              print >> "Filters/tmp_before_bad_filter_fix.txt"
+              print
+            }
           }
           ' Filters/main_filter.txt | sort -u >> Filters/main_filter.txt
 
