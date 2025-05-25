@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-05-25 07:18:18 JST
+! Version: 2025-05-25 15:27:41 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
 
@@ -20932,6 +20932,7 @@ nmac.to##.adslot_buttom_inner > a[href*="/4/"][target="_blank"]
 ||yasir252.com/file^$doc,urlskip=?link -base64
 goodstream.one##+js(set, adbon, 0)
 ||goodstream.one/js2/noadblocker.js
+smartworld.it##+js(aost, document.createElement, _0x)
 
 !# End include: Filters/tmp_dir/filters-2025.txt
 
