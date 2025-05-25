@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-25T11:52:53.458Z
+! Last modified: 2025-05-25T11:58:26.677Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
