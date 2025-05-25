@@ -42,6 +42,8 @@ jobs:
           ./node_modules/.bin/hostlist-compiler -c configuration.json -o Filters/main_filter.txt --verbose
           
       # クリーンアップ前の異常フィルタを一部修正
+      # ホストコンパイラ側で原則処理されてるからここで処理することはおそらくほぼない
+      # コンパイラ設定弄る前の名残として一応残しておく
       - name: Pre-cleanup of malformed filters
         run: |
         
