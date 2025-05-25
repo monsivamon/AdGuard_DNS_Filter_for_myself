@@ -47,27 +47,32 @@ jobs:
         
           # オリジナルファイルバックアップ
           cp Filters/main_filter.txt Filters/generated_org.txt
-          
+
+          # 異常箇所の抽出
           awk '
           # コメント・正規表現っぽい行はスキップ
           /^#/ || /[+?(){}\\]/ {
-             next
-           }
-           #コメント行を除外し、フィルタ形式じゃない行を処理
-           !/^!/ && !/^\|\|/ && !/^@@/ {
-             # 修正前の確認用
-             print >> "Filters/tmp_before_bad_filter.txt"
-             # 先頭の:// を || に変換
-             sub(/^:[/][/]/, "||")
-             # 先頭の . を || に変換
-             sub(/^\./, "||")
-             # || が付いてなければ付ける
+            next
+          }
+          #コメント行を除外し、フィルタ形式じゃない行を処理
+          !/^!/ && !/^\|\|/ && !/^@@/ {
+            print
+          }
+          ' Filters/main_filter.txt | sort -u > Filters/tmp_before_bad_filter.txt
+           
+          awk '
+          {
+            # 先頭の:// を || に変換
+            sub(/^:[/][/]/, "||")
+            # 先頭の . を || に変換
+            sub(/^\./, "||")
+            # || が付いてなければ付ける
             if ($0 !~ /^\|\|/) {
               $0 = "||" $0
             }
             print
           }
-          ' Filters/main_filter.txt | sort -u > Filters/tmp_before_bad_filter_fix.txt
+          ' Filters/tmp_before_bad_filter.txt | sort -u > Filters/tmp_before_bad_filter_fix.txt
 
           # 修正したものをメインフィルタに追記
           cat Filters/tmp_before_bad_filter_fix.txt >> Filters/main_filter.txt
