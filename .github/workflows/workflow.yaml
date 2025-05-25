@@ -41,30 +41,22 @@ jobs:
           # フィルタビルド実行
           ./node_modules/.bin/hostlist-compiler -c configuration.json -o Filters/main_filter.txt --verbose
           
-      # 生成直後のフィルタは一応残す
-      - name: Original Filter BackUP
+      # クリーンアップ前の異常フィルタを一部修正
+      - name: Pre-cleanup of malformed filters
         run: |
+        
+          # オリジナルファイルバックアップ
           cp Filters/main_filter.txt Filters/generated_org.txt
           
-      # クリーンアップ前の異常行を抽出
-      - name: Before Bad Filter
-        run: |
-          awk '
-          #コメント行を除外し、フィルタ形式じゃない行を抽出
-          !/^!/ && !/^\|\|/ && !/^@@/ {
-            print
-          }
-          ' Filters/main_filter.txt | sort -u > Filters/tmp_before_bad_filter.txt
-          
-      # クリーンアップ前の異常フィルタを一部修正
-      - name: Before Bad Filter modify
-        run: |          
           awk '
           # コメント・正規表現っぽい行はスキップ
           /^#/ || /[+?(){}\\]/ {
             next
           }
-          {
+          #コメント行を除外し、フィルタ形式じゃない行を抽出
+          !/^!/ && !/^\|\|/ && !/^@@/ {
+            # 修正前の確認用
+            print >> "Filters/tmp_before_bad_filter.txt"
             # 先頭の:// を || に変換
             sub(/^:[/][/]/, "||")
             # 先頭の . を || に変換
@@ -73,11 +65,15 @@ jobs:
             if ($0 !~ /^\|\|/) {
               $0 = "||" $0
             }
+            # 修正後の確認用
+            print >> "Filters/tmp_before_bad_filter_fix.txt"
             print
           }
-          ' Filters/tmp_before_bad_filter.txt | sort -u > Filters/tmp_before_bad_filter_fix.txt
-          # 修正したフィルタをメインフィルタに追記
-          cat Filters/tmp_before_bad_filter_fix.txt >> Filters/main_filter.txt
+          ' Filters/main_filter.txt | sort -u >> Filters/main_filter.txt
+
+          # 中間データの確認
+          cat Filters/tmp_before_bad_filter.txt
+          cat Filters/tmp_before_bad_filter_fix.txt
           
       # フィルタ部分をクリーンアップ
       - name: Filter Clean up
@@ -261,6 +257,9 @@ jobs:
           # ファイル行数が0の場合、bad_filter.txtを削除
           if [ $(wc -l < Filters/bad_filter.txt) -eq 0 ]; then
             rm Filters/bad_filter.txt
+          else
+            # 内容表示
+            cat Filters/bad_filter.txt
           fi
 
       # AdAway Host方式に変換    
