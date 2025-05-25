@@ -44,7 +44,7 @@ jobs:
       # 生成直後のフィルタは一応残す
       - name: Original Filter BackUP
         run: |
-          cp Filters/main_filter.txt Filters/before_modify.txt
+          cp Filters/main_filter.txt Filters/generated_org.txt
           
       # クリーンアップ前の異常行を抽出
       - name: Before Bad Filter
@@ -60,37 +60,20 @@ jobs:
       - name: Before Bad Filter modify
         run: |          
           awk '
-          # コメント行スキップ
-          /^#/ {
-            next
-          }
-          # ". * $ ^" を除いた正規表現を含む行をスキップ
-          /[+?(){}\\]/ {
+          # コメント・正規表現っぽい行はスキップ
+          /^#/ || /[+?(){}\\]/ {
             next
           }
           {
-            # 行末の ^ がある場合削除
-            sub(/\^+$/, "")
-            # 行末が ^ でない場合、^ を追加
-            if (!/\^$/) {
-              $0 = $0 "^"
-            }
-          }
-          # 先頭"://"を修正
-          /^:[/][/]/ {
+            # 先頭の:// を || に変換
             sub(/^:[/][/]/, "||")
-            print
-            next
-          }
-          # 先頭がドットの行を修正
-          /^\./ {
+            # 先頭の . を || に変換
             sub(/^\./, "||")
+            # || が付いてなければ付ける
+            if ($0 !~ /^\|\|/) {
+              $0 = "||" $0
+            }
             print
-            next
-          }
-          # その他の行
-          {
-            print "||" $0
           }
           ' Filters/tmp_before_bad_filter.txt | sort -u > Filters/tmp_before_bad_filter_fix.txt
           # 修正したフィルタをメインフィルタに追記
@@ -100,8 +83,8 @@ jobs:
       - name: Filter Clean up
         run: |
           awk '
-          #コメント行,正規表現が絡む行を除外し、フィルタ形式の行のみ対象
-          !/^!/ && !/\// && (/^\|\|/ || /^@@/) {
+          #フィルタ形式の行のみ対象
+          /^\|\|/ || /^@@/ {
             # $badfilterを@@に変換(本来この処理は正しいとは言えないがDNSフィルタなのでとりあえずこうする)
             if ($0 ~ /\$badfilter/) {
               sub(/\$badfilter/, "")
@@ -117,11 +100,11 @@ jobs:
             }
             # @@行の最終処理
             if (/^@@/) {
-              # 行末の | がある場合削除
-              sub(/\|+$/, "")
-              # 行末が | でない場合、^ を追加
-              if (!/\|$/) {
-                $0 = $0 "|"
+              # 行末が ^| でなければ ^| にする
+              if ($0 !~ /\^\|$/) {
+                # 既に ^ や | が末尾にあれば削除
+                sub(/[\^|]+$/, "")
+                $0 = $0 "^|"
               }
             }
             # ||行の最終処理
