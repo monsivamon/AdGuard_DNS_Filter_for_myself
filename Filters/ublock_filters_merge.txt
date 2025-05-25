@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-05-25 15:27:41 JST
+! Version: 2025-05-25 23:17:30 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
 
@@ -14733,8 +14733,6 @@ youpouch.com##.post-content img.lazy:style(opacity: 1 !important;)
 italpress.com##+js(set, td_ad_background_click_link, undefined)
 italpress.com##body.td-background-link:style(cursor:default !important;)
 dlpanda.com##+js(aeld, load, XMLHttpRequest)
-socialmediagirls.com##+js(aeld, load, puURLstrpcht)
-socialmediagirls.com##+js(set, TextEncoder, undefined)
 einrichtungsbeispiele.de##+js(aeld, load, AdBlocker)
 shareus.in##+js(nowoif)
 weadown.com##+js(nostif, showModal)
@@ -20933,6 +20931,9 @@ nmac.to##.adslot_buttom_inner > a[href*="/4/"][target="_blank"]
 goodstream.one##+js(set, adbon, 0)
 ||goodstream.one/js2/noadblocker.js
 smartworld.it##+js(aost, document.createElement, _0x)
+socialmediagirls.com##+js(acs, document.querySelectorAll, popMagic)
+socialmediagirls.com##+js(nowoif)
+||imagepond.net/sdk/imagepondupload.js$script,domain=forums.socialmediagirls.com
 
 !# End include: Filters/tmp_dir/filters-2025.txt
 
@@ -21709,32 +21710,30 @@ stfly.biz,airevue.net,atravan.net##.my-20
 stfly.biz,airevue.net,atravan.net##.max-w-screen-lg.mt-6.prose-lg.prose.mx-auto > div:has(p)
 stfly.biz,airevue.net,atravan.net##.font-medium.text-sm.tracking-wider.uppercase.text-blue-400
 stfly.biz,airevue.net,atravan.net##.lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl
-apkmoddone.com##+js(nostif, 1e3*)
-apkmoddone.com##+js(rpnt, script, ;return;, , condition, _0x)
-apkmoddone.com##+js(rpnt, script, /return Array[^;]+/, return true)
-apkmoddone.com##+js(no-fetch-if, /veepteero|tag\.min\.js/)
-apkmoddone.com##+js(nowoif, /^/, 10)
-sitemini.io.vn,vip1s.top##+js(nostif, , 1999)
+www.apkmoddone.com##+js(nostif, 1e3*)
+www.apkmoddone.com##+js(rpnt, script, ;return;, , condition, _0x)
+www.apkmoddone.com##+js(rpnt, script, /return Array[^;]+/, return true)
+www.apkmoddone.com##+js(no-fetch-if, /veepteero|tag\.min\.js/)
+www.apkmoddone.com##+js(nowoif, /^/, 10)
 sitemini.io.vn,vip1s.top##+js(nostif, , 2000)
-sitemini.io.vn,vip1s.top##+js(disable-newtab-links)
 sitemini.io.vn,vip1s.top###fakeDown, .siteMap
-@@||phongroblox.com^$ghide
-phongroblox.com##+js(nostif, /^/, 1000)
-phongroblox.com##+js(set-cookie, antiBlock, 1)
-phongroblox.com##+js(rpnt, script, return!![], return![])
-phongroblox.com##+js(set, aSl.gcd, 0)
-phongroblox.com##+js(nowoif, /\/4.+ _0/)
-phongroblox.com###fakeDown
-phongroblox.com##.RecurringadBanner:style(clip-path: circle(0) !important;)
-phongroblox.com##.NoteAd
-phongroblox.com##[data-da]
+@@*$ghide,domain=phongroblox.com|dl.apkmoddone.com
+dl.apkmoddone.com,phongroblox.com##+js(nostif, /^/, 1000)
+dl.apkmoddone.com,phongroblox.com##+js(set-cookie, antiBlock, 1)
+dl.apkmoddone.com,phongroblox.com##+js(rpnt, script, return!![], return![])
+dl.apkmoddone.com,phongroblox.com##+js(set, aSl.gcd, 0)
+dl.apkmoddone.com,phongroblox.com##+js(nowoif, /\/4.+ _0/)
+dl.apkmoddone.com,phongroblox.com###fakeDown
+dl.apkmoddone.com,phongroblox.com##.RecurringadBanner:style(clip-path: circle(0) !important;)
+dl.apkmoddone.com,phongroblox.com##.NoteAd
+dl.apkmoddone.com,phongroblox.com##[data-da]
 @@||acscdn.com/script/$script,3p,header=x-guploader-uploadid,domain=apkmoddone.com
 @@||acscdn.com/script/$script,3p,domain=apkmoddone.com
 @@||youradexchange.com/script/$xhr,3p,domain=apkmoddone.com
 @@||ipinfo.io/json$xhr,3p,domain=apkmoddone.com
 @@||alwingulla.com/88/tag.min.js$script,xhr,domain=apkmoddone.com
 ||acscdn.com/script/aclib.js$script,redirect-rule=noopjs
-||alwingulla.com^$script,3p,redirect-rule=noopjs,domain=apkmoddone.com
+||alwingulla.com^$script,3p,redirect-rule=noopjs,domain=www.apkmoddone.com
 ||adosiz.net^
 ||dpuplet.net^
 ||golnkz.com^
@@ -21875,6 +21874,7 @@ advicefunda.com,bestloanoffer.net,computerpedia.in,techconnection.in##.overlay
 advicefunda.com,bestloanoffer.net,computerpedia.in,techconnection.inn##.popup
 dailytech-news.eu##+js(nostif, _0x)
 dailytech-news.eu##+js(rpnt, script, /element\.contains\(document\.activeElement\)|document\.hidden && !timeCounted/g, true)
+dailytech-news.eu##+js(noeval-if, ads)
 worldmak.com##+js(no-fetch-if, googlesyndication)
 technoinformations.com,worldmak.com###wpsafe-link:style(display: block !important;)
 bollywoodchamp.in##+js(trusted-suppress-native-method, eval, '"/chp_?ad/"')
