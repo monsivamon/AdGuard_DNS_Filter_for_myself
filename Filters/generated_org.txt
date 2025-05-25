@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-25T11:58:26.677Z
+! Last modified: 2025-05-25T17:22:12.098Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -9709,6 +9709,7 @@
 ||bothererune.com^
 ||bothoorgoamsab.net^
 ||bothwest.pro^
+||botpynlmmizsr.click^
 ||bottledchagrinfry.com^
 ||bottledfriendship.com^
 ||bottleschance.com^
@@ -10679,6 +10680,7 @@
 ||chicconnate.com^
 ||chicheecmaungee.net^
 ||chicks4date.com^
+||chief-branch.pro^
 ||chief-cry.pro^
 ||chieflyquantity.com^
 ||chiffrerums.top^
@@ -11847,6 +11849,7 @@
 ||cvujydqxsgvfu.one^
 ||cvvemdvrojgo.com^
 ||cvxwaslonejulyha.info^
+||cwevcagil.com^
 ||cwfpkipntwfudvo.com^
 ||cwicawat.com^
 ||cwoapffh.com^
@@ -13553,6 +13556,7 @@
 ||emumuendaku.info^
 ||emunicatetheben.org^
 ||emxdgt.com^
+||emzxhwzaxdarg.vip^
 ||enactdubcompetitive.com^
 ||enacttournamentcute.com^
 ||enalidjann.shop^
@@ -13844,6 +13848,7 @@
 ||eurse.com^
 ||euskarawordman.shop^
 ||eusvnhgypltw.life^
+||euvshmpgabfk.com^
 ||euz.net^
 ||ev-dating.com^
 ||evaluateuncanny.com^
@@ -13877,6 +13882,7 @@
 ||evzhzppj5kel.com^
 ||evzrqgvsgngmg.world^
 ||ewblapjfknviwm.com^
+||ewbvurkrbxspe.vip^
 ||ewdxisdrc.com^
 ||ewesmedia.com^
 ||ewhareey.com^
@@ -14114,6 +14120,7 @@
 ||familycomplexionardently.com^
 ||famous-mall.pro^
 ||famous-risk.pro^
+||famtepsooluhe.net^
 ||famulliunruth.com^
 ||fancylow.pro^
 ||fancywhim.com^
@@ -14264,6 +14271,7 @@
 ||femininetextmessageseducing.com^
 ||femsoahe.com^
 ||fenacheaverage.com^
+||fenaglesummula.com^
 ||fenixm.com^
 ||fenmanswagman.top^
 ||fenoofaussut.net^
@@ -14290,6 +14298,7 @@
 ||ffnlfxeyqpjg.com^
 ||ffofcetgurwrd.com^
 ||ffswithabras.com^
+||fftwttdqtpcwd.com^
 ||fgbnnholonge.info^
 ||fgeivosgjk.com^
 ||fgjaelzvzxtdq.rocks^
@@ -14542,6 +14551,7 @@
 ||florinsqrs.top^
 ||floroonwhun.com^
 ||flossdiversebates.com^
+||flotasgallow.com^
 ||flousecuprate.top^
 ||flouterhoolie.shop^
 ||flowerbooklet.com^
@@ -15396,6 +15406,7 @@
 ||glaultoa.com^
 ||glaurtas.com^
 ||glaussogira.xyz^
+||glautchoapes.net^
 ||glazedugra.com^
 ||glazingretentionupcoming.com^
 ||glbjhmruwbosw.club^
@@ -15810,6 +15821,7 @@
 ||gronsoakoube.net^
 ||grookilteepsou.net^
 ||groomoub.com^
+||groorgeckoa.net^
 ||groorsoa.net^
 ||grooseem.net^
 ||grootcho.com^
@@ -16071,6 +16083,7 @@
 ||hangoverknock.com^
 ||hannahfireballperceive.com^
 ||hanqpwl.com^
+||haplymimmest.com^
 ||happenemerged.com^
 ||happeningflutter.com^
 ||happinessunderneathmotion.com^
@@ -16913,6 +16926,7 @@
 ||idolismsupari.top^
 ||idolsstars.com^
 ||idownloadgalore.com^
+||idsrscpzgpgzw.rocks^
 ||idswinpole.casa^
 ||idydlesswale.info^
 ||ie8eamus.com^
@@ -17654,6 +17668,7 @@
 ||jbrlsr.com^
 ||jbtul.com^
 ||jbucljxqgbgzk.icu^
+||jbzmwqmwqyejw.top^
 ||jc32arlvqpv8.com^
 ||jcadamsu.com^
 ||jcafpiaqjoh.com^
@@ -21147,6 +21162,7 @@
 ||nvpylxkdptacm.today^
 ||nvtvssczb.com^
 ||nvuzubaus.tech^
+||nvxbjvswajhug.space^
 ||nwabcuwugact.com^
 ||nwemnd.com^
 ||nweztoovg.com^
@@ -21335,6 +21351,7 @@
 ||oeciyalb.top^
 ||oedipalchuppah.shop^
 ||oehgk.com^
+||oemeomlbkba.com^
 ||oempafnyfiexpe.com^
 ||oemutbhpmcvfpnv.com^
 ||oestpq.com^
@@ -21763,6 +21780,7 @@
 ||optyruntchan.com^
 ||optzsrv.com^
 ||opvanillishan.com^
+||opzazcvitci.com^
 ||opzobraq.com^
 ||opztheobfpho.com^
 ||opzvalfafh.com^
@@ -21946,6 +21964,7 @@
 ||oulonsertie.com^
 ||oulsaultaulert.com^
 ||oulsools.com^
+||oulteechads.com^
 ||oumtirsu.com^
 ||oundandround.com^
 ||oundaymitools.org^
@@ -23040,6 +23059,7 @@
 ||pounamudrossel.com^
 ||poundswarden.com^
 ||pounti.com^
+||poutoonaigilaub.com^
 ||pouyyonlgw.com^
 ||povsefcrdj.com^
 ||powerad.ai^
@@ -23367,6 +23387,7 @@
 ||psoaftob.xyz^
 ||psoaphorsoa.com^
 ||psockapa.net^
+||psomsoumsockolt.com^
 ||psoorgou.com^
 ||psoostelrupt.net^
 ||psootaun.com^
@@ -23725,6 +23746,7 @@
 ||qerkbejqwqjkr.top^
 ||qevseeymcpxby.click^
 ||qewwklaovmmw.top^
+||qeyfncfppnjq.com^
 ||qf-ebeydt.top^
 ||qfdn3gyfbs.com^
 ||qfeadpmagq.com^
@@ -23906,6 +23928,7 @@
 ||quotes.com^
 ||quzwteqzaabm.com^
 ||quzxatapvz.com^
+||qvcnveqlnmrcg.click^
 ||qvglxrsojnyaz.site^
 ||qvikar.com^
 ||qvjqbtbt.com^
@@ -25650,6 +25673,7 @@
 ||shotgunchancecruel.com^
 ||shoukigaigoors.net^
 ||shoulderadmonishstore.com^
+||shoungunsoosson.com^
 ||shoupsoolsoagna.net^
 ||shourdoonsaist.com^
 ||shoutmandatoryimplication.com^
@@ -29312,6 +29336,7 @@
 ||whoursie.com^
 ||whouseem.com^
 ||whouvoart.com^
+||whuftauwhib.com^
 ||whukouglomoadsi.com^
 ||whulsaux.com^
 ||whutchey.com^
@@ -29789,6 +29814,7 @@
 ||xlqgxdxdlrcdkoa.com^
 ||xlrdr.com^
 ||xlrm-tech.com^
+||xlsfswiaqcrxc.xyz^
 ||xlviiirdr.com^
 ||xlviirdr.com^
 ||xlvirdr.com^
@@ -29838,6 +29864,7 @@
 ||xszpuvwr7.com^
 ||xtalfuwcxh.com^
 ||xtaooroiinxo.com^
+||xtcpooexxvutu.xyz^
 ||xtdztyiqyhmet.global^
 ||xtraserp.com^
 ||xtremeviewing.com^
@@ -30060,6 +30087,7 @@
 ||yqeuu.com^
 ||yqjshgx.bar^
 ||yqmxfz.com^
+||yqmyzkialhdoi.vip^
 ||yqp-oxzxjecq.world^
 ||yr9n47004g.com^
 ||yremovementxvi.org^
@@ -30106,6 +30134,7 @@
 ||yxyrblnpmtahz.world^
 ||yy9s51b2u05z.com^
 ||yydwkkxhjb.com^
+||yyidbueudlkcw.love^
 ||yyjvimo.com^
 ||yyselrqpyu.com^
 ||yzfjlvqa.com^
@@ -30910,7 +30939,6 @@
 ||clean-1-clean.club^
 ||clean-blocker.com^
 ||clentrk.com^
-||click.ggpickyaff.com^
 ||clickdaly.com^
 ||clickfilter.co^
 ||clickfuse.com^
@@ -33219,21 +33247,98 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
-||cwevcagil.com^
-||fenaglesummula.com^
-||flotasgallow.com^
+||abjmkkoavoomb.top^
+||abjmkkoavowmm.top^
+||abjmkkowboyow.top^
+||agencytroops.com^
+||aklmjylamvkbm.top^
+||amzrjyzjolzvm.top^
+||anedukerationpeci.com^
+||anquerafusser.com^
+||apercusberms.shop^
+||armaturereadiness.com^
+||artuscarotic.shop^
+||avajwlwqbkaab.top^
+||avancelanated.top^
+||aveuglediking.com^
+||avvelwamqklew.top^
+||avzwkkmoearyr.top^
+||ayzylwqazojor.top^
+||azazyjjovmmwa.top^
+||azazyjjovmvov.top^
+||bagfulchiefmeant.com^
+||barefitaiding.com^
+||basquedbeloam.com^
+||battiesnarras.com^
+||bedrollhyzone.com^
+||bkzwzwemvvrzz.top^
+||brevetottroye.com^
+||chufastances.guru^
+||cinderycandor.com^
+||commonssquegs.com^
+||coxwaintholed.com^
+||ctvieijupz.com^
+||cytdmhahgvmur.fun^
+||darvuxbakh.com^
+||decnetshantih.com^
+||diazoleformby.top^
+||dslfndqpednqu.xyz^
+||eanlingtumfie.com^
+||earthyinteger.com^
+||ebbbhtkridivs.love^
+||eldredsundial.com^
+||energyborazon.com^
+||followingpartlyindicator.com^
+||fwcavwstvmekw.online^
 ||gaming001.site
 ||get-me-wow.
-||haplymimmest.com^
+||graungeenohoal.com^
+||grimilybepill.com^
+||hamzascoxwain.top^
+||hastenundress.com^
+||ipocrasgrits.shop^
+||japersromancy.top^
+||judgedlivest.shop^
+||kaithipasquil.com^
+||keratolascian.com^
+||kfwolwopegike.love^
+||lacertakakan.shop^
+||lbzyjmbvmkkzr.top^
+||lejarimsoa.net^
+||lightingstipulate.com^
+||lowhoughevoass.com^
+||murkestminter.com^
 ||noopapnoeic.digital
-||oemeomlbkba.com^
-||opzazcvitci.com^
-||psomsoumsockolt.com^
+||paicoosout.com^
+||parlorintines.com^
+||peptizecynips.top^
+||pphtrwrnsuyl.com^
+||protomaedging.com^
+||pyghwgyjuuaht.space^
+||pzjndhdke.com^
+||qmslgwdr.com^
+||rakzyonvccpaad.com^
+||ravisonwitess.top^
+||rohunamissays.com^
+||sauchaihoo.net^
+||securehostdns.com^
+||sigloiexedent.com^
+||spooneypardie.top^
+||tadraubsedroucm.com^
+||taurostaupse.com^
+||tbdhrjsywgjcq.tech^
+||thootipheguph.com^
+||timbernarabis.top^
+||toisecindery.top^
+||upcoastfondle.com^
+||uperizetranse.top^
+||vxwmkbtkhtpru.today^
 ||wenoolgo.icu
-||whuftauwhib.com^
-||xlsfswiaqcrxc.xyz^
-||xtcpooexxvutu.xyz^
-||yqmyzkialhdoi.vip^
+||xpxondckpvbub.com^
+||xwxludcukzfer.rocks^
+||zinniafianced.com^
+||zoiefwqhcaczun.com^
+||zpilkesyasa.com^
 ||adservice.google.
 ||admothreewallent.com
 ||mimosaavior.top
@@ -35153,7 +35258,6 @@
 ||agedmigrationpepper.com^
 ||agedpagefat.live^
 ||agencyrearrangepasture.com^
-||agencytroops.com^
 ||agendacomedian.com^
 ||agentweakermental.com^
 ||aggravationencourage.com^
@@ -35464,6 +35568,7 @@
 ||ariessifts.click^
 ||arioiundated.com^
 ||arithmeticrobust.com^
+||arkabstoppit.com^
 ||arkcalamity.com^
 ||arkharmonious.com^
 ||armedauditoriumclog.com^
@@ -35675,6 +35780,7 @@
 ||benchraspberry.com^
 ||bendproceed.com^
 ||benefitanna.com^
+||bennismottle.com^
 ||benzeinlune.com^
 ||beprayhots.com^
 ||bequl.com^
@@ -35860,9 +35966,11 @@
 ||burgerscapra.shop^
 ||burialgrief.com^
 ||burkhahemoid.com^
+||burlilynemos.com^
 ||burly-assumption.com^
 ||busbarsselter.shop^
 ||bushedcoldest.com^
+||bushescarnic.top^
 ||bushitmas.live^
 ||bushpoutquest.com^
 ||buskersvis.shop^
@@ -35870,6 +35978,7 @@
 ||busyingcambogecarib.shop^
 ||buthawk.com^
 ||buthoacm.net^
+||butinehamal.com^
 ||butomuskainah.com^
 ||buttduckwiser.com^
 ||bwbmyzvnjqrbk.top^
@@ -36724,6 +36833,7 @@
 ||ghaytebanc.store^
 ||ghnomovudiqybo.com^
 ||ghuzwaxlike.shop^
+||gibbetfloyt.shop^
 ||gibbetsvower.shop^
 ||gigboost.me^
 ||giggitchao.click^
@@ -37259,6 +37369,7 @@
 ||leezunikoohauh.net^
 ||leftishburgout.com^
 ||lemmingunlit.top^
+||lencansalpae.top^
 ||lend-rb.bid^
 ||lenzmx.com^
 ||lestaigames.com^
@@ -37378,6 +37489,7 @@
 ||marasgumpus.com^
 ||marciaarmata.com^
 ||maremmewived.shop^
+||maristbister.top^
 ||marriage40.cfd^
 ||marybskitchen.com^
 ||masouckomirtu.net^
@@ -38590,6 +38702,7 @@
 ||thriftywaste.com^
 ||thstvv.com^
 ||thusmumid.live^
+||thymeycimnel.com^
 ||ti-files.org^
 ||ticticungag.top^
 ||tiepinshazings.com^
@@ -38689,6 +38802,7 @@
 ||twistneedylever.com^
 ||twk20rw5v1.com^
 ||twrences.xyz^
+||tympanojann.com^
 ||typhondeck.com^
 ||tyranhorrid.com^
 ||tyrfd.ovh^
@@ -39182,6 +39296,8 @@
 ||getgamers.eu^
 ||gethide.com^
 ||getlinksinaseconds.com^
+||ggpickaff.com^
+||ggpickyaff.com^
 ||go2cliks.net^
 ||imitrk.com^
 ||infossztech.cfd^
@@ -39884,6 +40000,7 @@
 ||weitietl.com^
 ||bgf05251lko.com^
 ||iggdf88.com^
+||siqc.cn^
 ||7awf4fi9k7.com^
 ||lkdqrtsj6g.com^
 ||sai7348.xyz^
@@ -49300,6 +49417,7 @@
 ||demo123.info^
 ||demtaudeeg.com^
 ||dendranthe4edm7um.com^
+||depreciatorybollocksupkitchen.com^
 ||despicablereporthusband.com^
 ||detachmentoccasionedarena.com^
 ||detailedgovernment.com^
@@ -50302,6 +50420,7 @@
 ||monetizemore.com^
 ||money4exit.de^
 ||moneyexpert.com^
+||monitor.fraudblocker.com^
 ||monitoring.youronlinechoices.com^
 ||monorail-edge.shopifysvc.com^
 ||monsterpops.com^
