@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-05-26 23:20:33 JST
+! Version: 2025-05-27 07:19:10 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
 
@@ -19329,7 +19329,7 @@ animeshqip.site,apkship.shop,buzter.pro,enjoysports.bond,filedot.to,foreverquote
 /adc-ads-lib|$script
 ||highperformanceformat.com^$popup
 rgshows.me##+js(aost, localStorage, tag.min.js)
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|googleapis.com|jsdelivr.net|plyr.io,domain=1shows.live|enma.lol|rgshows.me
+||pages.dev^$script,domain=1shows.live|enma.lol|rgshows.me
 ||api.aieasypic.com/api/civit_model_version/ad_list/$xhr,3p
 wuxia.click##.mantine-Center-root + br + div[class^="mantine-"]:has(> .adsbygoogle)
 wuxia.click###chapterText + div.mantine-Container-root
