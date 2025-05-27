@@ -210,6 +210,12 @@
       "transformations": ["Validate"]
     },
     {
+      "name": "Phishing URL Blocklist (AdGuard)",
+      "source": "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt",
+      "type": "adblock",
+      "transformations": ["Validate"]
+    },
+    {
       "name": "Additional rules",
       "source": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt",
       "type": "adblock",
