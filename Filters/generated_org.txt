@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-26T17:23:57.260Z
+! Last modified: 2025-05-27T02:45:42.519Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -2191,7 +2191,6 @@
 ||dd47055762.df6733029c.com^
 ||df48924623.4e16b2e294.com^
 ||e2154c9ee1.87eb0a33a9.com^
-||e2a4ad946f.e7903973a7.com^
 ||e8a209dc96.ab0a4bc0ae.com^
 ||ecd2f27cc8.d0056a5b0b.com^
 ||f33ad99755.8028acf188.com^
@@ -2234,7 +2233,6 @@
 ||36a657286a.2e001e2b2b.com^
 ||36e2c762e2.6a59fa5129.com^
 ||3a89fe0cd6.2cd21b9973.com^
-||41df22289e.edbacc0b70.com^
 ||42a95337ac.07a243cfe3.com^
 ||45d31559c9.26fc91ec79.com^
 ||4e459a72cc.d4bd4c34af.com^
@@ -2422,7 +2420,6 @@
 ||75003826de.8619047757.com^
 ||783c48008d.e7c1562b4f.com^
 ||7896d16982.7cce6c4822.com^
-||7a0dab879b.6d7486ee46.com^
 ||7e4bb44dd2.b1158965a8.com^
 ||7fc6635248.24ccdb8c44.com^
 ||80fb1b35c2.47ae11ce2f.com^
@@ -6331,6 +6328,7 @@
 ||884de19f2b.com^
 ||888promos.com^
 ||88cb0eb486.com^
+||88d3a9a9a1.com^
 ||88d7b6aa44fb8eb.com^
 ||88eq7spm.de^
 ||8ab16250fe.com^
@@ -7401,6 +7399,7 @@
 ||agl002.online^
 ||agl002.org^
 ||agl003.com^
+||aglachoglaizy.net^
 ||agle21xe2anfddirite.com^
 ||aglobally.com^
 ||aglocobanners.com^
@@ -7524,6 +7523,7 @@
 ||ajjbacpfuog.com^
 ||ajjcpertu.com^
 ||ajjovmbf.com^
+||ajjwutdytigzg.rocks^
 ||ajkzd9h.com^
 ||ajoosheg.com^
 ||ajrkm1.com^
@@ -8142,6 +8142,7 @@
 ||aramb.site^
 ||araneidboruca.com^
 ||arbersunroof.com^
+||arborerplanful.shop^
 ||arbourrenewal.com^
 ||arbutterfreer.com^
 ||archaicgrilledignorant.com^
@@ -8223,6 +8224,7 @@
 ||articlegarlandferment.com^
 ||articlepawn.com^
 ||artistic-run.com^
+||artistictastesn.org^
 ||artlesscontagionseated.com^
 ||artoas301endore.com^
 ||artoomanyrelati.com^
@@ -8751,6 +8753,7 @@
 ||ayjvwlrbjamyv.top^
 ||aykqyjzbkkkra.top^
 ||ayletcecils.shop^
+||aymoabxgahihu.world^
 ||ayoukpts.guru^
 ||aywivflptwd.com^
 ||aywnaoliigc.com^
@@ -9040,6 +9043,7 @@
 ||bd51static.com^
 ||bd64dc73db.com^
 ||bdckqpofmclr.com^
+||bddhprzriicus.world^
 ||bdhsahmg.com^
 ||bdxhujrned.buzz^
 ||be-frioaj.love^
@@ -9066,6 +9070,7 @@
 ||beavertron.com^
 ||beaverydalasi.shop^
 ||beaxewr.com^
+||bebautvdrradc.world^
 ||bebloommulvel.com^
 ||bebreloomr.com^
 ||bebseegn.com^
@@ -9469,6 +9474,7 @@
 ||bkr5xeg0c.com^
 ||bksoylhvsx.com^
 ||bktsauna.com^
+||bkwuodwvehlzr.life^
 ||bkzwzwemvvrzz.top^
 ||bl230126pb.com^
 ||blabbasket.com^
@@ -9556,6 +9562,7 @@
 ||blossomfertilizerproperly.com^
 ||blotecardthumb.com^
 ||blownsuperstitionabound.com^
+||blprgctcgxjreyu.com^
 ||blu5fdclr.com^
 ||blubberrowan.com^
 ||blubberspoiled.com^
@@ -12756,6 +12763,7 @@
 ||divtqucu.xyz^
 ||divvyprorata.com^
 ||diwhuteshu.com^
+||dizznplerllul.love^
 ||dizzy-drag.pro^
 ||dizzyporno.com^
 ||dj-updates.com^
@@ -14394,6 +14402,7 @@
 ||fgbnnholonge.info^
 ||fgeivosgjk.com^
 ||fgjaelzvzxtdq.rocks^
+||fgjyhsfpywrgw.com^
 ||fgk-jheepn.site^
 ||fgoqnva.com^
 ||fgpejmtfpdtcs.com^
@@ -16803,6 +16812,7 @@
 ||housewifereceiving.com^
 ||housingduelli.shop^
 ||houthautoaptapi.com^
+||houvaulauchair.net^
 ||hoveltran.xyz^
 ||hoverclassicalroused.com^
 ||hoverr.co^
@@ -17711,6 +17721,7 @@
 ||iwuh.org^
 ||iwuwkslisixyq.xyz^
 ||iwyrldaeiyv.com^
+||ixabcdszeufqo.icu^
 ||ixafr.com^
 ||ixnow.xyz^
 ||ixnp.com^
@@ -18101,6 +18112,7 @@
 ||judicialclinging.com^
 ||judosllyn.com^
 ||judvl.org^
+||jufbcunisak.com^
 ||jufzanca.com^
 ||jugerfowells.com^
 ||jugglingoverfedparalyze.com^
@@ -18161,6 +18173,7 @@
 ||jwalf.com^
 ||jwalkin.com^
 ||jwamnd.com^
+||jwqvnbzxwiibj.one^
 ||jwuazngiqap.com^
 ||jwuobtag.com^
 ||jwympcc.com^
@@ -18668,6 +18681,7 @@
 ||labeldollars.com^
 ||labonhnzy.com^
 ||labourattention.com^
+||labqjxrhyjufl.world^
 ||labsogleesta.xyz^
 ||labtfeavcan.com^
 ||lacecompressarena.com^
@@ -19045,6 +19059,7 @@
 ||lightningbarrelwretch.com^
 ||lightningcast.net^
 ||lightningly.co^
+||lightsteal.pro^
 ||liglomsoltuwhax.net^
 ||ligninenchant.com^
 ||ligvraojlrr.com^
@@ -19393,6 +19408,7 @@
 ||lpuafmkidvm.com^
 ||lpuodgmca.com^
 ||lpyyzoetztnmv.one^
+||lpzttnoezjdir.xyz^
 ||lqbvjmkoomerm.top^
 ||lqbzvmmojjkk.top^
 ||lqcaznzllnrfh.com^
@@ -19459,6 +19475,7 @@
 ||lugwzalsqvacb.one^
 ||luhhcodutax.com^
 ||luhmeqkcjix.com^
+||luhoacmokoah.net^
 ||luhoysvkxsewc.xyz^
 ||lukeinoffensive.com^
 ||lukyday.xyz^
@@ -20395,6 +20412,7 @@
 ||monxserver.com^
 ||mooawlqwrkhxlt.com^
 ||moodirresolute.com^
+||moogusteefa.com^
 ||mookie1.com^
 ||moolexspool.com^
 ||mooltanagra.top^
@@ -20456,6 +20474,7 @@
 ||mountaincaller.top^
 ||mountedstoppage.com^
 ||mountrideroven.com^
+||mouphouglug.net^
 ||mourncohabit.com^
 ||mournfulparties.com^
 ||mournpatternremarkable.com^
@@ -20539,6 +20558,7 @@
 ||mt34iofvjay.com^
 ||mtburn.com^
 ||mtkgyrzfygdh.com^
+||mtkjiscqlln.com^
 ||mtnkeext.xyz^
 ||mtssv.club^
 ||mtuqqwbromboy.today^
@@ -20850,6 +20870,7 @@
 ||needfulazafrin.shop^
 ||needyscarcasserole.com^
 ||neegreez.com^
+||neephougroo.net^
 ||negateacted.com^
 ||negationomitor.com^
 ||negationpompeypit.com^
@@ -21529,6 +21550,7 @@
 ||oeciyalb.top^
 ||oedipalchuppah.shop^
 ||oehgk.com^
+||oekmddefrcntj.com^
 ||oemeomlbkba.com^
 ||oempafnyfiexpe.com^
 ||oemutbhpmcvfpnv.com^
@@ -21628,6 +21650,7 @@
 ||ogvandsa.com^
 ||ogvaqxjzfm-n.top^
 ||ogxntutl.fun^
+||ohgaqlsrea.com^
 ||ohgpibzmola.com^
 ||ohgqwicco.com^
 ||ohjfacva.com^
@@ -22091,6 +22114,7 @@
 ||ostilllookinga.cc^
 ||ostlersreleve.shop^
 ||ostlon.com^
+||ostoasheth.net^
 ||ostrichmustardalloy.com^
 ||oswapjmzeacv.com^
 ||oszlnxwqlc.com^
@@ -22254,6 +22278,7 @@
 ||ovjgithud.com^
 ||ovowkbtrrrsaawe.com^
 ||ovrhufsadsca.com^
+||ovtflklfxbrgo.today^
 ||ovtvfydcyor.com^
 ||ovtwiparr.com^
 ||ovtzuuepngygl.icu^
@@ -22576,6 +22601,7 @@
 ||pblcpush.com^
 ||pblinq.com^
 ||pbmt.cloud^
+||pbtbypkdqlxmn.love^
 ||pbterra.com^
 ||pbxai.com^
 ||pc-ads.com^
@@ -22594,6 +22620,7 @@
 ||pcqze.tech^
 ||pctlwm.com^
 ||pctsrv.com^
+||pcvikuehvx.com^
 ||pdavbtkidyyra.click^
 ||pdfsearchhq.com^
 ||pdn-1.com^
@@ -23961,6 +23988,7 @@
 ||qfqdbkxmovpli.xyz^
 ||qgerr.com^
 ||qgevavwyafjf.com^
+||qghqtntnadq.com^
 ||qgmoslspensxh.buzz^
 ||qgwgweoxulrb.com^
 ||qgxbluhsgad.com^
@@ -23992,6 +24020,7 @@
 ||qjmlmaffrqj.com^
 ||qjpoeodqmzdm.com^
 ||qjvksieybn.vip^
+||qkbjclwirtotj.vip^
 ||qksrv.cc^
 ||qksrv.net^
 ||qksrv1.com^
@@ -24054,6 +24083,7 @@
 ||qrubv.buzz^
 ||qrwoayzjybzwo.top^
 ||qrytnvspqpkip.com^
+||qsblvjjutcbhh.buzz^
 ||qsbqxvdxhbnf.xyz^
 ||qseacheby.xyz^
 ||qservz.com^
@@ -24143,6 +24173,7 @@
 ||qvkrfcjwebgvyuw.com^
 ||qwikln.com^
 ||qwjxcvdzrafum.club^
+||qwlbvlyeqlzjb.top^
 ||qwoyfys.com^
 ||qwpsgqyzrzcr.life^
 ||qwrwawwlrlkyr.top^
@@ -25111,6 +25142,7 @@
 ||rsharndfgbtnyg.com^
 ||rsirkdevvgn.com^
 ||rsthwwqhxef.xyz^
+||rswypdqpda.com^
 ||rtb-media.me^
 ||rtb42td.com^
 ||rtb4lands.com^
@@ -28307,6 +28339,7 @@
 ||udarem.com^
 ||udbaa.com^
 ||udderhobble.com^
+||udehadaudra.net^
 ||udinugoo.com^
 ||udjevpavryo.com^
 ||udmserve.net^
@@ -28329,6 +28362,7 @@
 ||ufpcdn.com^
 ||ufphkyw.com^
 ||ufqqksbtbjm.com^
+||ufrbtrzrinhgx.top^
 ||ugbkfsvqkayt.icu^
 ||ugekrelsewhe.com^
 ||ughesterurelanderp.org^
@@ -29168,6 +29202,7 @@
 ||vqelkqlaavjmm.top^
 ||vqonjcnsl.com^
 ||vqoqlebqqammj.top^
+||vqqaelqkkzvvy.top^
 ||vqrozzojjlwbz.top^
 ||vrfuznaicvxaj.life^
 ||vrgvugostlyhewo.info^
@@ -30076,6 +30111,7 @@
 ||xlivesucces.world^
 ||xlivrdr.com^
 ||xlqgxdxdlrcdkoa.com^
+||xlqkfmvgpemxae.com^
 ||xlrdr.com^
 ||xlrm-tech.com^
 ||xlsfswiaqcrxc.xyz^
@@ -30118,6 +30154,7 @@
 ||xqmvzmt.com^
 ||xqwcchybybnro.com^
 ||xqwrdegbmdfrv.top^
+||xrehxiuglsxrrxh.com^
 ||xrpikxtnmvcm.com^
 ||xrrdi.com^
 ||xsifzaieypxqr.global^
@@ -30303,6 +30340,7 @@
 ||yogar2ti8nf09.com^
 ||yojbiagdemrac.buzz^
 ||yokeeroud.com^
+||yokesdolmen.com^
 ||yomeno.xyz^
 ||yomxt.icu^
 ||yonabrar.com^
@@ -30638,6 +30676,7 @@
 ||zuzodoad.com^
 ||zvetokr2hr8pcng09.com^
 ||zvsglctjjmstn.space^
+||zvvajeommbajz.top^
 ||zvvqprcjjnh.com^
 ||zvwhrc.com^
 ||zvzmzrawlvryj.top^
@@ -32010,6 +32049,7 @@
 ||ads.betfair.com^
 ||ads.kelkoo.com^
 ||ads.linkedin.com^
+||ads.scored.co^
 ||ads.sportradar.com^
 ||ads.viralize.tv^
 ||ads2.hsoub.com^
@@ -33531,21 +33571,21 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
-||aglachoglaizy.net^
-||aymoabxgahihu.world^
-||bddhprzriicus.world^
-||bkwuodwvehlzr.life^
+||6d7486ee46.com^
+||e7903973a7.com^
+||edbacc0b70.com^
+||fwtntihjaqbko.com^
 ||gaming001.site
 ||get-me-wow.
-||houvaulauchair.net^
-||jufbcunisak.com^
-||luhoacmokoah.net^
-||moogusteefa.com^
+||indyadvertising.com^
+||lqrjuhhbzagoq.online^
 ||noopapnoeic.digital
-||pcvikuehvx.com^
-||udehadaudra.net^
+||popupblockermax.app^
+||reowihep.com^
+||upznliourhwyz.fun^
+||vixentycckwtz.buzz^
 ||wenoolgo.icu
-||xrehxiuglsxrrxh.com^
+||whtrsheljrpso.rocks^
 ||adservice.google.
 ||admothreewallent.com
 ||mimosaavior.top
@@ -40191,6 +40231,12 @@
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||3kfvgobkw.com^
+||wy12cewh4.com^
+||bgf05270lko.com^
+||21cfhm0s1.top^
+||ysavom.icu^
+||osjt.cn^
 ||gkxqt.cn^
 ||m9s3h265lq.com^
 ||apeacc.icu^
@@ -48622,7 +48668,6 @@
 ||ads.roblox.com^
 ||ads.rpgdot.com^
 ||ads.scifi.com^
-||ads.scored.co^
 ||ads.seniorfriendfinder.com^
 ||ads.shizmoo.com^
 ||ads.shopstyle.com^
@@ -55779,6 +55824,7 @@
 ||electrummonero.com^
 ||electrum-xmr.net^
 ||electrum-bch.net^
+||play-lustgoddess.com^
 ||secure.payment*.xin^
 ||zengbindn.cn^
 ||pbcdf.cn^
