@@ -52,6 +52,7 @@ They have been invaluable for learning and building this filter list.
 - [AdGuardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter) – DNS-based blocking of ads and tracking.
 - [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) – Official filter list from the uBlock Origin team.
 - [blechschmidt/massdns](https://github.com/blechschmidt/massdns) – High-performance DNS resolver used here to verify domains.
+- [curbengh/phishing-filter](https://github.com/curbengh/phishing-filter) – Blocks sites that try to steal your info by pretending to be legit.
 - [Yuki2718/adblock2](https://github.com/Yuki2718/adblock2) – AdGuard/uBlock-compatible filter tailored for Japanese websites.
 - [host2ch](https://note.com/hosts2ch) - Host filters for smartphone apps and websites, freely distributed in Japan.
 
