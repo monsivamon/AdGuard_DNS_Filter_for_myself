@@ -249,7 +249,7 @@ jobs:
           # 確認用
           ls -la Filters
           # 一時ファイル削除
-          rm Filters/tmp*.txt
+          rm Filters/tmp*.txt Filters/exclusions.txt
           
       # 完成フィルタから異常フィルタを抽出
       - name: Bad Filter Check
