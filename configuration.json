@@ -188,8 +188,16 @@
       "transformations": ["RemoveModifiers", "ValidateAllowIp"]
     },
     {
+      "name": "uBlock₀ filters – Quick fixes",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "exclusions": ["/(?!^(\\|\\||@@\\|\\|))^.+/", "$third-party"],
+      "transformations": ["RemoveModifiers", "ValidateAllowIp"]
+    },
+    {
       "name": "AdGuard Japanese filter Plus",
-      "source": "https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt",
+      "source": "https://yuki2718.github.io/adblock2/japanese/jpf-plus.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "exclusions": ["/(?!^(\\|\\||@@\\|\\|))^.+/", "$third-party"],
@@ -197,7 +205,7 @@
     },
     {
       "name": "AdGuard DNS filter Unbreaker for Japanese",
-      "source": "https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/dns-unbreak.txt",
+      "source": "https://yuki2718.github.io/adblock2/japanese/dns-unbreak.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
