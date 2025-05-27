@@ -1,7 +1,7 @@
 # AdGuard DNS Filter for Personal Use
 
-This is a custom AdGuard DNS filter list, created primarily for personal learning and experimentation.
-Please note that I am still learning GitHub and filter creation, so this repository may not follow all best practices or produce perfect results.
+This is a personal AdGuard DNS filter list, mainly created for learning and experimentation.
+I'm still learning GitHub and filter creation, so things might not be perfect — thanks for your understanding!
 
 ---
 
@@ -9,7 +9,7 @@ Please note that I am still learning GitHub and filter creation, so this reposit
 
 - This filter is intended for testing and personal use only.
 - I do not guarantee its effectiveness in blocking ads, trackers, or harmful content.
-- Use at your own risk. I am not responsible for any issues caused by using this filter.
+- Use at your own risk — I'm not responsible if anything breaks or goes wrong.
 
 ---
 
@@ -23,7 +23,7 @@ Please note that I am still learning GitHub and filter creation, so this reposit
 
 ---
 
-## 🔗 How to Use with AdGuard or AdAway
+## 🔗 How to Use This Filter
 
 To use this filter in AdGuard (AdGuard Home, AdGuard DNS, etc.), add the following URL to your custom DNS filter list:
 
@@ -63,7 +63,7 @@ I deeply respect the original authors and thank them for their contributions.
 ## ⚖️ License
 
 This project includes components from other repositories licensed under the GNU General Public License v3.0.  
-Therefore, this repository is also distributed under the GPL v3 license.  
+Therefore, this repository is also licensed under the GPL v3.
 Some referenced data sources, such as [DNSet/public-dns](https://github.com/DNSet/public-dns), are licensed under GPL v2.  
 Since this project only references their public data and does not include or modify their source code, there is no license conflict.  
 For full terms, please refer to the [LICENSE](./LICENSE) file.
