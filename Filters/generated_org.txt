@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-27T14:59:08.687Z
+! Last modified: 2025-05-27T17:25:36.020Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -18977,6 +18977,7 @@
 ||lengerpanisk.top^
 ||lenkmio.com^
 ||lenmit.com^
+||lensmenfratchy.shop^
 ||lenthyblent.com^
 ||lentmatchwithyou.com^
 ||leojmp.com^
@@ -20104,6 +20105,7 @@
 ||meteordentproposal.com^
 ||methodyprovand.com^
 ||methoxyunpaled.com^
+||methylstewed.com^
 ||metissebifold.shop^
 ||metlcuiousdates.com^
 ||metlculousdates.net^
@@ -22851,6 +22853,7 @@
 ||pheegopt.xyz^
 ||pheersie.com^
 ||pheftoud.com^
+||phemietoric.shop^
 ||phempaftutch.com^
 ||phenidudo.pro^
 ||pheniter.com^
@@ -25446,6 +25449,7 @@
 ||sandysuspicions.com^
 ||sane-entertainment.pro^
 ||sanereply.com^
+||sangarmuting.shop^
 ||sanggauchelys.shop^
 ||sanggilregard.com^
 ||sanitybead.com^
@@ -28642,6 +28646,7 @@
 ||unusedhair.pro^
 ||unusuallypilgrim.com^
 ||unusualtestoverthrow.com^
+||unusualvirus.pro^
 ||unwantedpointingwaspish.com^
 ||unwaryunpegs.top^
 ||unwelcomegardenerinterpretation.com^
@@ -33641,12 +33646,7 @@
 !
 ||gaming001.site
 ||get-me-wow.
-||lensmenfratchy.shop^
-||methylstewed.com^
 ||noopapnoeic.digital
-||phemietoric.shop^
-||sangarmuting.shop^
-||unusualvirus.pro^
 ||wenoolgo.icu
 ||adservice.google.
 ||admothreewallent.com
