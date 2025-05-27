@@ -17,6 +17,7 @@ Please note that I am still learning GitHub and filter creation, so this reposit
 
 - The filter list is first generated using the [AdGuardTeam/HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler).
 - Then, shell scripts are used to clean and customize the filter list.
+- You can view the original unprocessed filter list [here](https://monsivamon.github.io/AdGuard_DNS_Filter_for_myself/Filters/generated_org.txt).
 - These customizations include filtering out non-existent domains by checking them with [massdns](https://github.com/blechschmidt/massdns).
 - Please note that these modifications are unofficial and might reduce the effectiveness of the original filter[AdGuardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter).
 
