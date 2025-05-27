@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-27T09:29:12.388Z
+! Last modified: 2025-05-27T14:23:47.057Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -11,6 +11,7 @@
 ! Source name: AdGuard Base filter
 ! Source: https://filters.adtidy.org/windows/filters/2.txt
 !
+||entertainlavish.com^
 ||forcefulpacehauled.com^
 ||granaryhills.com^
 ||undoneferocious.com^
@@ -7636,6 +7637,7 @@
 ||alitems.co^
 ||alitems.site^
 ||alive-airport.com^
+||alive-human.pro^
 ||aliveprompt.com^
 ||aliwjo.com^
 ||aliyothvoglite.top^
@@ -8098,6 +8100,7 @@
 ||appxufopj.com^
 ||appyrinceas.com^
 ||appzery.com^
+||apqqwpshxpgaq.xyz^
 ||aprilads.space^
 ||aprilxnet4.xyz^
 ||apritvun.com^
@@ -9033,6 +9036,8 @@
 ||bbd834il.de^
 ||bbgtranst.com^
 ||bbiwvlyketvf.com^
+||bbjfobnwtbsok.com^
+||bbkwxjbvj.com^
 ||bbrdbr.com^
 ||bbrjelrxnp.com^
 ||bc48fa9adc.com^
@@ -9102,6 +9107,7 @@
 ||bedvbvb.com^
 ||beegotou.net^
 ||beegrenugoz.com^
+||beegruwhoazoa.net^
 ||beehiveavertconfessed.com^
 ||beehivematty.top^
 ||beemauhu.xyz^
@@ -11684,6 +11690,7 @@
 ||crazylovepartners.com^
 ||crbbgate.com^
 ||crcgrilses.com^
+||crcwmxyhc.com^
 ||crdefault.link^
 ||crdefault1.com^
 ||crdgbpgzdoicy.world^
@@ -14551,6 +14558,7 @@
 ||firstlyfirstpompey.com^
 ||firstosama.com^
 ||firtaips.com^
+||fishedembathe.shop^
 ||fishermanplacingthrough.com^
 ||fishermanslush.com^
 ||fistevasionjoint.com^
@@ -17789,6 +17797,7 @@
 ||jaletemetia.com^
 ||jalewaads.com^
 ||jambosmodesty.com^
+||jambulfeuter.com^
 ||jamez.site^
 ||jamokepullers.shop^
 ||jampackedemphasis.com^
@@ -17833,6 +17842,7 @@
 ||jazzyzest.cfd^
 ||jb-dqxiin.today^
 ||jbafulwrb.com^
+||jbaqavqkrowyl.top^
 ||jbbyyryezqqvq.top^
 ||jbbyyryolqvby.top^
 ||jbbyyryolqvvb.top^
@@ -18213,6 +18223,7 @@
 ||jyozavobzrlkz.top^
 ||jyqekzzlmymab.top^
 ||jyqekzzlmymzy.top^
+||jytftzydfogtu.online^
 ||jyusesoionsglear.info^
 ||jyvkwqjremabw.top^
 ||jyvkwqjremqll.top^
@@ -19058,6 +19069,7 @@
 ||lidsaich.net^
 ||lieforepawsado.com^
 ||liegelygosport.com^
+||lieomvgvsmuc.com^
 ||liestseiser.shop^
 ||lifadfxkid.com^
 ||lifeboatdetrimentlibrarian.com^
@@ -19196,6 +19208,7 @@
 ||ljvmokwyromjj.top^
 ||ljybybyerzoev.top^
 ||ljypfykcofguz.fun^
+||lkauxiqpwlsfr.rocks^
 ||lkcoffe.com^
 ||lkdvvxvtsq6o.com^
 ||lkg6g644.de^
@@ -19782,6 +19795,7 @@
 ||manureinforms.com^
 ||manureoddly.com^
 ||manurepatronageitalian.com^
+||maocsjbcjljog.online^
 ||mapamnni.com^
 ||maper.info^
 ||maplecurriculum.com^
@@ -20112,6 +20126,7 @@
 ||mfeqckmfw.com^
 ||mfyavsmiha.com^
 ||mfyktikuvq.com^
+||mfylalov.com^
 ||mgcash.com^
 ||mgdjmp.com^
 ||mghkpg.com^
@@ -20282,6 +20297,7 @@
 ||ml314.com^
 ||mladedda.net^
 ||mlatrmae.net^
+||mlifyigbpoxxm.top^
 ||mlldrlujqg.com^
 ||mlnadvertising.com^
 ||mlrfltuc.com^
@@ -22819,6 +22835,7 @@
 ||pgssl.com^
 ||phabycebe.com^
 ||phadsophoogh.net^
+||phagesbuzzies.com^
 ||phaikroo.net^
 ||phaiksul.net^
 ||phaitaghy.com^
@@ -25913,6 +25930,7 @@
 ||shifthare.com^
 ||shikarsfrecket.top^
 ||shikroux.net^
+||shiltaupsy.com^
 ||shimmeringconcert.com^
 ||shimmeyenfonce.top^
 ||shimpooy.com^
@@ -26908,6 +26926,7 @@
 ||sub.xxx-porn-tube.com^
 ||sub2.avgle.com^
 ||subanunpollee.shop^
+||subbasejigman.shop^
 ||subdatejutties.com^
 ||subdo.torrentlocura.com^
 ||subduedgrainchip.com^
@@ -29464,6 +29483,7 @@
 ||wcuggkuxfgutu.today^
 ||wcwijbtqgajxf.global^
 ||wdcwmeklhgnfc.xyz^
+||wdhufqjt.com^
 ||wdibwgllvzies.love^
 ||wdohhlagnjzi.com^
 ||wdoyouknowsai.org^
@@ -29815,6 +29835,7 @@
 ||wlvkzwqmyjkmw.top^
 ||wlyikeacon.org^
 ||wlzzwzeevbwez.top^
+||wlzzwzeevbyak.top^
 ||wma.io^
 ||wmbbsat.com^
 ||wmccd.com^
@@ -33618,18 +33639,11 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
-||apqqwpshxpgaq.xyz^
-||bbjfobnwtbsok.com^
-||fishedembathe.shop^
 ||gaming001.site
 ||get-me-wow.
-||jambulfeuter.com^
-||jytftzydfogtu.online^
-||lieomvgvsmuc.com^
 ||noopapnoeic.digital
-||phagesbuzzies.com^
+||unusualvirus.pro^
 ||wenoolgo.icu
-||wlzzwzeevbyak.top^
 ||adservice.google.
 ||admothreewallent.com
 ||mimosaavior.top
@@ -40285,6 +40299,10 @@
 ||hftxbq.top^
 ||etlz1mt67.com^
 ||epmumb34x.top^
+||88lmfff666.com^
+||bgf05271lko.com^
+||lqftuugziloa.com^
+||qdheqraln.com^
 ||gkxqt.cn^
 ||m9s3h265lq.com^
 ||apeacc.icu^
@@ -49885,7 +49903,6 @@
 ||evergage.com^
 ||eviltracker.net^
 ||evt.mxplay.com^
-||exactag.com^
 ||exacttargetapis.com^
 ||exchange-it.com^
 ||exchange.bg^
@@ -56020,8 +56037,20 @@
 ||api-2-0.spot.im^$badfilter
 ||users.atw.hu^$badfilter
 !
+! Source name: uBlock₀ filters – Quick fixes
+! Source: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt
+!
+||tbd.infinityscans.net^
+||droci.buzz^
+||qsiyfgazubcu.top^
+||sez88e.fun^
+||vrkonefd.buzz^
+||xpobbwxzhe-l.site^
+||sapphire-api.target.com^$badfilter
+||msstavby.cz^$badfilter
+!
 ! Source name: AdGuard Japanese filter Plus
-! Source: https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt
+! Source: https://yuki2718.github.io/adblock2/japanese/jpf-plus.txt
 !
 ||ads.zippal.com^
 ||mopub.com^$badfilter
@@ -56029,7 +56058,7 @@
 ||taboola.com^$badfilter
 !
 ! Source name: AdGuard DNS filter Unbreaker for Japanese
-! Source: https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/dns-unbreak.txt
+! Source: https://yuki2718.github.io/adblock2/japanese/dns-unbreak.txt
 !
 ! Title: AdGuard DNS filter Unbreaker for Japanese
 ! Expires: 5 days
