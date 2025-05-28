@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-28T02:52:54.494Z
+! Last modified: 2025-05-28T09:29:53.047Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -8082,6 +8082,7 @@
 ||appreciatelilacmakeover.com^
 ||apprefaculty.pro^
 ||apprehensivecommercial.pro^
+||apprenticelandfallenough.com^
 ||appriating.com^
 ||appriedtheligh.org^
 ||approbationoutwardconstrue.com^
@@ -8174,6 +8175,7 @@
 ||areelektrosstor.com^
 ||areliux.cc^
 ||arenosegesten.shop^
+||arepushedadorn.com^
 ||argenabovethe.com^
 ||argeredru.info^
 ||arglingpistole.com^
@@ -8444,6 +8446,7 @@
 ||athletedurable.com^
 ||athletethrong.com^
 ||athlg.com^
+||atholicncesispe.com^
 ||atholicncesispe.info^
 ||athyimemediat.com^
 ||athyimemediates.org^
@@ -8606,6 +8609,7 @@
 ||avauntinnyard.shop^
 ||avazu.net^
 ||avazutracking.net^
+||aveepsaukseeta.net^
 ||avengeghosts.com^
 ||avenueinvoke.com^
 ||averialuchuan.shop^
@@ -8793,6 +8797,7 @@
 ||azoogleads.com^
 ||azorbe.com^
 ||azqqloblawqbj.top^
+||azqqlobqwomqr.top^
 ||azskk.com^
 ||aztecash.com^
 ||azulcw7.com^
@@ -9335,6 +9340,7 @@
 ||bfxytxdpnk.com^
 ||bg4nxu2u5t.com^
 ||bgecvddelzg.com^
+||bgedagiwyimix.com^
 ||bgkec.global^
 ||bh3.net^
 ||bhalukecky.com^
@@ -10778,6 +10784,7 @@
 ||chipspasteprowl.com^
 ||chiralboutons.top^
 ||chirmsseaman.shop^
+||chirpscacur.com^
 ||chiselhld.top^
 ||chitchaudsoax.net^
 ||chitika.net^
@@ -11225,6 +11232,7 @@
 ||collectinggraterjealousy.com^
 ||collection-day.com^
 ||collectiveablygathering.com^
+||collectivequestioningcompartment.com^
 ||collectorcommander.com^
 ||collectrum.com^
 ||colleem.com^
@@ -12183,6 +12191,7 @@
 ||dawnfilthscribble.com^
 ||dawplm.com^
 ||dawtittalky.shop^
+||dawurtinsumpoaz.net^
 ||daylongtrigae.top^
 ||dayqy.space^
 ||dazedarticulate.com^
@@ -12525,6 +12534,7 @@
 ||dheqzygafg.com^
 ||dhertouchingthe.org^
 ||dhootiepawed.com^
+||dhphkgifchpc.com^
 ||di7stero.com^
 ||diabeteprecursor.com^
 ||diagnosisheadsetrekindle.com^
@@ -13509,6 +13519,7 @@
 ||effectscouncilman.com^
 ||efficientorbit.co^
 ||eflewroundand.com^
+||efnjfbkge.com^
 ||efortiessdate.net^
 ||efrnedmiralpenb.info^
 ||efrunuoozskl.com^
@@ -13901,6 +13912,7 @@
 ||esemnjeptffjb.xyz^
 ||esereperigee.shop^
 ||eserinemersion.shop^
+||esfljmhdtpdvj.xyz^
 ||eshkol.io^
 ||eshkol.one^
 ||eshouloo.net^
@@ -14974,6 +14986,7 @@
 ||frivolous-copy.pro^
 ||friy.site^
 ||frizzannoyance.com^
+||frmmqfwviupoa.today^
 ||frockherbal.com^
 ||frogeyeparaiba.top^
 ||frolnk.com^
@@ -15025,6 +15038,7 @@
 ||ftgprtrhfntks.today^
 ||ftheusysianeduk.com^
 ||ftjcfx.com^
+||ftqogglkyycok.com^
 ||ftslrfl.com^
 ||ftv-publicite.fr^
 ||fu-nu-ra.com^
@@ -15048,6 +15062,7 @@
 ||fulbe-whs.com^
 ||fulcraldongs.shop^
 ||fulfilledappease.com^
+||fulgentrosalyn.com^
 ||fulgidshp.shop^
 ||fulhamscaboose.website^
 ||fulheaddedfea.com^
@@ -15069,6 +15084,7 @@
 ||functionsreturn.com^
 ||functionssubqueries.com^
 ||fundatingquest.fun^
+||fundingsidenote.com^
 ||fundtraveller.com^
 ||fungiaoutfame.com^
 ||fungifysinal.shop^
@@ -16691,6 +16707,7 @@
 ||hmntf.com^
 ||hmsuxcnrcyzmn.today^
 ||hmxg5mhyx.com^
+||hmxoufchteecf.world^
 ||hnejuupgblwc.com^
 ||hnmikeloarp.com^
 ||hnrgmc.com^
@@ -16915,6 +16932,7 @@
 ||huafcpvegmm.xyz^
 ||huapydce.xyz^
 ||huawoyjmdtyag.love^
+||hubarejnbsobic.com^
 ||hubbabu2bb8anys09.com^
 ||hubbyobjectedhugo.com^
 ||hubhc.com^
@@ -17635,6 +17653,7 @@
 ||ironcladtrouble.com^
 ||ironicaldried.com^
 ||irousbisayan.com^
+||irqkfyeoyiac.com^
 ||irradiateher.com^
 ||irradiatestartle.com^
 ||irregularstripes.com^
@@ -18342,6 +18361,7 @@
 ||keewoach.net^
 ||kegimminent.com^
 ||kehalim.com^
+||keithozevjfnc.com^
 ||keiztimzdbjt.click^
 ||kekrouwi.xyz^
 ||kektds.com^
@@ -18554,6 +18574,7 @@
 ||koabouphie.xyz^
 ||koacucooptour.com^
 ||koafaimoor.net^
+||koalatuba.top^
 ||koalaups.com^
 ||koanewhaideeb.com^
 ||koapsout.com^
@@ -19701,6 +19722,7 @@
 ||magicianboundary.com^
 ||magicianguideours.com^
 ||magicianimploredrops.com^
+||magicianmost.com^
 ||magnificent-cup.com^
 ||magnificent-listen.com^
 ||magnificentdates.com^
@@ -20487,6 +20509,7 @@
 ||moradu.com^
 ||moral-enthusiasm.pro^
 ||mordeegroo.net^
+||mordentmyxoma.com^
 ||mordoops.com^
 ||moreadsfeed.top^
 ||morebrokedddomname.com^
@@ -20538,6 +20561,7 @@
 ||movad.net^
 ||movcpm.com^
 ||movemeforward.co^
+||movependulous.com^
 ||movesickly.com^
 ||moveyouforward.co^
 ||moveyourdesk.co^
@@ -20675,6 +20699,7 @@
 ||mutenessdollyheadlong.com^
 ||mutsjeamenism.com^
 ||mutteredadisa.com^
+||muxasqansttaou.com^
 ||muzarabeponym.website^
 ||muzikguide.com^
 ||muzoohat.net^
@@ -20770,6 +20795,7 @@
 ||myvpistasrwah.one^
 ||mywondertrip.com^
 ||myxstalk.lol^
+||mzdhejfvuankc.global^
 ||mzicucalbw.com^
 ||mzidpylu.com^
 ||mziso.xyz^
@@ -21964,6 +21990,7 @@
 ||oonsouque.com^
 ||oopatet.com^
 ||ooqtjsubfcppe.life^
+||oorgooteckax.com^
 ||oorsoozo.top^
 ||oosoojainy.xyz^
 ||oostotsu.com^
@@ -22661,6 +22688,7 @@
 ||pblcpush.com^
 ||pblinq.com^
 ||pbmt.cloud^
+||pbqhjgkueppwm.online^
 ||pbtbypkdqlxmn.love^
 ||pbterra.com^
 ||pbxai.com^
@@ -23165,6 +23193,7 @@
 ||poachostistour.net^
 ||poapeecujiji.com^
 ||poaptapuwhu.com^
+||poarichivoawie.net^
 ||poasotha.com^
 ||poavoabe.net^
 ||pocketenvironmental.com^
@@ -24029,6 +24058,7 @@
 ||qdgfcrifm.com^
 ||qdhrbget.click^
 ||qdmil.com^
+||qdodqhbmmb.com^
 ||qdvkgjfculfmr.site^
 ||qdxpid-bxcy.today^
 ||qebpwkxjz.com^
@@ -24232,6 +24262,7 @@
 ||quotationfirearmrevision.com^
 ||quotersoxbane.top^
 ||quotes.com^
+||qutvihlwup.com^
 ||quzwteqzaabm.com^
 ||quzxatapvz.com^
 ||qvcnveqlnmrcg.click^
@@ -25183,6 +25214,7 @@
 ||roxot-panel.com^
 ||roxyaffiliates.com^
 ||royalcactus.com^
+||royaltyfig.com^
 ||rozamimo9za10.com^
 ||rpfytkt.com^
 ||rpokplgddrbjg.site^
@@ -25350,6 +25382,7 @@
 ||rwuruwrufmp.com^
 ||rwwmbymaezkla.top^
 ||rwyfudaqldbcoz.com^
+||rwzvqzvqkzowy.top^
 ||rxaknawcahtqi.xyz^
 ||rxcihltrqjvdeus.com^
 ||rxeosevsso.com^
@@ -26592,6 +26625,7 @@
 ||sportstreams.xyz^
 ||sportsyndicator.com^
 ||sportzflix.xyz^
+||spotless-wood.pro^
 ||spotlessabridge.com^
 ||spotlesscomplaint.com^
 ||spotlessincome.pro^
@@ -26839,6 +26873,7 @@
 ||stonkstime.com^
 ||stonysuingtartness.com^
 ||stoodthestatueo.com^
+||stoogoofaltimpu.net^
 ||stookoth.com^
 ||stoomawy.net^
 ||stoopfalse.com^
@@ -26941,6 +26976,7 @@
 ||stunthypocrisy.com^
 ||stupid-luck.com^
 ||stupidityscream.com^
+||stuppmisrule.shop^
 ||stupsouchig.com^
 ||sturdyarrival.com^
 ||sturtsbabassu.shop^
@@ -29034,6 +29070,7 @@
 ||vestrydual.top^
 ||vesuvinaqueity.top^
 ||vetchesthiever.com^
+||vetoedawns.shop^
 ||vetoembrace.com^
 ||vevikynr.com^
 ||vexevutus.com^
@@ -30519,6 +30556,7 @@
 ||ytzihf.com^
 ||yu0123456.com^
 ||yucanesiote.top^
+||yuckedklunk.com^
 ||yuearanceofam.info^
 ||yuhuads.com^
 ||yuintbradshed.com^
@@ -33678,10 +33716,25 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
+||daivxppvng.com^
+||elated-professional.pro^
+||fardsdesmid.com^
+||fithocmeetho.com^
 ||gaming001.site
 ||get-me-wow.
+||isbcynskb.com^
+||koaroachauk.com^
+||kqalbhgnd.com^
 ||noopapnoeic.digital
+||paludicbetook.top^
+||profusepathic.shop^
+||qfwwhelkdjaeu.buzz^
+||qruatazgwctro.fun^
+||rephobeejigra.com^
+||unairgaultie.com^
 ||wenoolgo.icu
+||wlvkzwqmyjwoz.top^
+||yfypfpfmcfvmi.top^
 ||adservice.google.
 ||admothreewallent.com
 ||mimosaavior.top
@@ -40334,6 +40387,11 @@
 ||lvsm.cn^
 ||rpvqhicca.com^
 ||q5sn40kmp2.com^
+||43eksc8w59.com^
+||jitdlj.icu^
+||fevrvd.top^
+||6c641lgikp.top^
+||vrow.cn^
 ||3kfvgobkw.com^
 ||wy12cewh4.com^
 ||bgf05270lko.com^
@@ -56102,6 +56160,7 @@
 ||sapphire-api.target.com^$badfilter
 ||msstavby.cz^$badfilter
 ||oogiri-ads-bucket.s3.ap-northeast-3.amazonaws.com^$badfilter
+||search.odin.io^$badfilter
 !
 ! Source name: AdGuard Japanese filter Plus
 ! Source: https://yuki2718.github.io/adblock2/japanese/jpf-plus.txt
