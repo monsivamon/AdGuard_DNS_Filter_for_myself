@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-05-28 15:30:31 JST
+! Version: 2025-05-28 23:21:58 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
 
@@ -20904,7 +20904,7 @@ giff.cloud##+js(nostif, getComputedStyle)
 @@||api.adinplay.com/v*/live/aip/ad-manager.js^$script,domain=geotastic.net
 ||vtcnews.vn/dist/adsbyvtc_ver*.js
 ||vtcnews.vn/NewsV*/GetAdsHeader
-onepiecepower.com##+js(aopr, navigator.brave)
+onepiecepower.com##+js(aopr, aclib)
 freestreams-live.*>>,~chatango.com,~twitter.com,~youtube.com##+js(nowoif)
 freestreams-live.*>>,~chatango.com,~twitter.com,~youtube.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
 freestreams-live.*>>,~chatango.com,~twitter.com,~youtube.com##+js(rmnt, script, adserverDomain)
@@ -20954,6 +20954,8 @@ anime3rb.com##div[x-data*="countdown"]
 3minx.com,555fap.com,ai18.pics,blackwidof.org,cnpics.org,cnxx.me,cosplay18.pics,fc2ppv.stream,hentai4f.com,hentaipig.com,javball.com,javbee.vip,javring.com,javsunday.com,kin8-av.com,porn4f.org,sweetie-fox.com,xcamcovid.com##+js(rmnt, script, /detect|WebAssembly/)
 ||2489may2024.com^
 gadgetbond.com##+js(no-fetch-if, adsbygoogle)
+updateroj24.com##+js(no-fetch-if, adsbygoogle)
+updateroj24.com##.ad-container
 
 !# End include: Filters/tmp_dir/filters-2025.txt
 
