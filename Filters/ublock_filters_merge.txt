@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-05-29 07:19:33 JST
+! Version: 2025-05-29 15:30:59 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
 
@@ -6852,6 +6852,7 @@ techdracula.com##ins.adsbygoogle
 ||feddanseldom.com^
 ||filmishquila.com^
 ||fixatessoused.com^
+||intendwaitresssalty.com^
 ||huskilyvroom.com^
 ||myosoteruins.com^
 ||nearbyasquare.com^
@@ -6866,7 +6867,7 @@ techdracula.com##ins.adsbygoogle
 ||undoneferocious.com^
 ||yowdenfalcial.com^
 ||zitzithquaff.top^
-/\/[0-9a-f]{32}\.js\b/$script,3p,to=com,from=141jav.com|2embed.cc|andydaytv.click|aniworld.to|asiaflix.net|azmovies.ag|bigwarp.art|bookfrom.net|bstsrs.in|desiupload.co|djpunjab.me|drop.download|fsportshd.net|fztvseries.ng|hianime.to|hianimez.to|hikari.gg|indi-share.com|javboys.cam|javbraze.com|javhat.tv|javhd.today|javhdz.today|javseen.tv|koshalworld.com|loadedfiles.org|media.cm|moviemaniak.com|nekolink.site|nekopoi.care|neymartv.net|noxx.to|omegascans.org|onejav.com|pagalfree.com|pagalnew.com|pagalworld.us|photocall.site|photocalltv.org|player4u.xyz|poapan.xyz|poophd.pm|pornhoarder.tv|pornohd.blue|s.to|sexiezpix.com|songspk.com.se|srstop.link|streampoi.com|streams.lat|streamtape.to|streamup.ws|tokyomotion.net|torrentgalaxy-official.com|vegamovvies.to|vidjoy.pro
+/\/[0-9a-f]{32}\.js\b/$script,3p,to=com,from=141jav.com|2embed.cc|andydaytv.click|aniworld.to|asiaflix.net|azmovies.ag|bigwarp.art|bookfrom.net|bstsrs.in|desiupload.co|djpunjab.me|drop.download|fsportshd.net|fztvseries.ng|hianime.to|hianimez.to|hikari.gg|indi-share.com|javboys.cam|javbraze.com|javhat.tv|javhd.today|javhdz.today|javseen.tv|koshalworld.com|loadedfiles.org|media.cm|moviemaniak.com|nekolink.site|nekopoi.care|neymartv.net|noxx.to|omegascans.org|onejav.com|pagalfree.com|pagalnew.com|pagalworld.us|photocall.site|photocalltv.org|player4u.xyz|poapan.xyz|poophd.pm|pornhoarder.tv|pornohd.blue|s.to|seriesgod.com|sexiezpix.com|songspk.com.se|srstop.link|streampoi.com|streams.lat|streamtape.to|streamup.ws|tokyomotion.net|torrentgalaxy-official.com|vegamovvies.to|vidjoy.pro
 /\/[0-9a-f]{32}\.js\b/$script,3p,to=com,from=bembed.net|embedv.net|fslinks.org|listeamed.net|moflix-stream.*|v6embed.xyz|vgplayer.xyz|vid-guard.com
 /\/[0-9a-f]{32}\.js\b/$script,3p,to=com,from=moflix-stream.day|moflix-stream.fans
 ||thankstoyou.website^$all
@@ -7832,8 +7833,8 @@ meilblog.com##.adblock_subtitle
 meilblog.com##.adblock_title
 @@||hyogo.ie-t.net^$ghide
 enryumanga.com,varnascan.com###floatcenter
-celebzcircle.com,bi-girl.net,ftuapps.*,hentaiseason.com,hoodtrendspredict.com,marcialhub.xyz,odiadance.com,osteusfilmestuga.online,ragnarokscanlation.opchapters.com,sampledrive.org,showflix.*,swordalada.org,tojimangas.com,tvappapk.com,twobluescans.com,varnascan.xyz##^script:has-text(/decodeURIComponent\(escape|fairAdblock/)
-celebzcircle.com,bi-girl.net,ftuapps.*,hentaiseason.com,hoodtrendspredict.com,marcialhub.xyz,odiadance.com,osteusfilmestuga.online,ragnarokscanlation.opchapters.com,sampledrive.org,showflix.*,swordalada.org,tojimangas.com,tvappapk.com,twobluescans.com,varnascan.xyz##+js(rmnt, script, /decodeURIComponent\(escape|fairAdblock/)
+celebzcircle.com,bi-girl.net,ftuapps.*,hentaiseason.com,hoodtrendspredict.com,marcialhub.xyz,odiadance.com,osteusfilmestuga.online,ragnarokscanlation.opchapters.com,sampledrive.org,showflix.*,swordalada.org,tvappapk.com,twobluescans.com,varnascan.xyz##^script:has-text(/decodeURIComponent\(escape|fairAdblock/)
+celebzcircle.com,bi-girl.net,ftuapps.*,hentaiseason.com,hoodtrendspredict.com,marcialhub.xyz,odiadance.com,osteusfilmestuga.online,ragnarokscanlation.opchapters.com,sampledrive.org,showflix.*,swordalada.org,tvappapk.com,twobluescans.com,varnascan.xyz##+js(rmnt, script, /decodeURIComponent\(escape|fairAdblock/)
 hentaiseason.com,showflix.*##+js(aost, document.getElementById, fairAdblock)
 ftuapps.*##body > div:has(.adblock_title)
 twobluescans.com###ad-container
@@ -7874,8 +7875,8 @@ dcleakers.com,esgeeks.com,pugliain.net,uplod.net,worldfreeware.com##+js(nostif, 
 *$script,redirect-rule=noopjs,domain=siamblockchain.com
 ||pugliain.net/wp-content/uploads/*.gif$image
 siamblockchain.com##.headerad-desk
-ariversegl.com,cgtips.org,dx-tv.com,freereadnovel.online,idlixvip.*,javboys.tv,netfuck.net,tuktukcinma.com##+js(no-fetch-if, /googlesyndication|doubleclick/, length:10, {"type": "cors"})
-ariversegl.com,cgtips.org,dx-tv.com,freereadnovel.online,idlixvip.*,javboys.tv,netfuck.net,tuktukcinma.com##+js(no-xhr-if, /googlesyndication|doubleclick/, length:10)
+ariversegl.com,cgtips.org,dx-tv.com,freereadnovel.online,idlixvip.*,javboys.tv,netfuck.net,tojimangas.com,tuktukcinma.com##+js(no-fetch-if, /googlesyndication|doubleclick/, length:10, {"type": "cors"})
+ariversegl.com,cgtips.org,dx-tv.com,freereadnovel.online,idlixvip.*,javboys.tv,netfuck.net,tojimangas.com,tuktukcinma.com##+js(no-xhr-if, /googlesyndication|doubleclick/, length:10)
 /\/wp-content\/uploads(\/[a-f]{6}){2}\.js\?ver=/$script,1p,domain=ariversegl.com|cgtips.org|dx-tv.com
 /^https:\/\/www\.tuktukcinma\.com\/wp-content\/plugins\/[a-f]{6}\.js\?\w+$/$script,1p,domain=tuktukcinma.com
 idlixvip.*##img[alt]:style(display: block !important;)
@@ -20597,7 +20598,6 @@ mlive.com##+js(rmnt, script, admbenefits)
 drama-online.tv##+js(aost, document.readyState, drama-online)
 ||cdn.drama-online.tv/wp-content/plugins/eeacab.js
 esportstales.com##+js(aeld, DOMContentLoaded, detect)
-tojimanhwas.com##+js(aost, setTimeout, adsBlocked)
 missavtv.com##+js(no-fetch-if, doubleclick)
 ||headerbidding.ai^$script,domain=gamehub.cam,redirect=noopjs
 weknowconquer.com##+js(nostif, getComputedStyle)
@@ -20956,6 +20956,7 @@ anime3rb.com##div[x-data*="countdown"]
 gadgetbond.com##+js(no-fetch-if, adsbygoogle)
 updateroj24.com##+js(no-fetch-if, adsbygoogle)
 updateroj24.com##.ad-container
+mega.nz##+js(json-prune-fetch-response, *, 0.aurl, propsToMatch, /cs?id=)
 
 !# End include: Filters/tmp_dir/filters-2025.txt
 
