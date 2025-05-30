@@ -145,16 +145,15 @@ jobs:
       # massdnsチェック用にドメインのみ抽出
       - name: Grep Domain
         run: |
-          # ブロックルールの抽出
           awk '
+          # 許可側のドメイン切り出し
           /^@@/ {
             sub(/^@@\|\|/, "")
             sub(/\^\|$/, "")
             print > "Filters/tmp_domains_only_before_check_allow.txt"
           }
-          # || で始まる行を処理
+          # ブロック側ドメインの切り出し
           /^\|\|/ {
-            # || と ^ を削除してドメイン部分だけ残す
             sub(/^\|\|/, "")
             sub(/\^$/, "")
             print > "Filters/tmp_domains_only_before_check_block.txt"
