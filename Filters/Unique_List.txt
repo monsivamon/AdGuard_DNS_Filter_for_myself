@@ -53,3 +53,35 @@
 @@||youtube.googleapis.com^|
 @@||yt3.ggpht.com^|
 
+! ChatGPT (OpenAI)
+@@||openai.com^
+@@||api.openai.com^
+@@||chat.openai.com^
+
+! Azure OpenAI (Microsoft)
+@@||azure.com^
+@@||azure.microsoft.com^
+@@||openai.azure.com^
+
+! Gemini (Google Bard / PaLM)
+@@||google.com^
+@@||bard.google.com^
+@@||palm.googleapis.com^
+
+! GitHub Copilot
+@@||github.com^
+@@||copilot.github.com^
+
+! DeepSeek
+@@||deepseek.ai^
+@@||deepseek.com^
+
+! Hugging Face
+@@||huggingface.co^
+@@||huggingfaceusercontent.com^
+
+! Common AI-related CDNs
+@@||cloudflare.com^
+@@||fastly.net^
+@@||akamai.net^
+
