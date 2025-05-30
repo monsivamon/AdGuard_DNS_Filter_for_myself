@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-30T12:34:45.123Z
+! Last modified: 2025-05-30T17:25:12.208Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -9651,6 +9651,7 @@
 ||bnmjjwinf292.com^
 ||bnmkl.com^
 ||bnmnkib.com^
+||bnmqtggqjoqic.buzz^
 ||bnmtgboouf.com^
 ||bnp3.com^
 ||bnpknicjeb.com^
@@ -11706,6 +11707,7 @@
 ||cpxinteractive.com^
 ||cpyahxlsjcrn.com^
 ||cpyjcefu.com^
+||cpykudhagov.com^
 ||cqaqwekgzvkek.tech^
 ||cqmgoxqbhsmgg.site^
 ||cqnmtmqxecqvyl.com^
@@ -13696,6 +13698,7 @@
 ||elliotannouncing.com^
 ||elliptical-mode.pro^
 ||ellipticaltrack.com^
+||elmalpnzdvjwft.com^
 ||eloahamomum.shop^
 ||elongatedmiddle.com^
 ||elonreptiloid.com^
@@ -14247,6 +14250,7 @@
 ||eynol.xyz^
 ||eynpauoatsdawde.com^
 ||eyrybuiltin.shop^
+||eysismhqh.com^
 ||ezaicmee.xyz^
 ||ezcgojaamg.com^
 ||ezcsceqke.tech^
@@ -16940,6 +16944,7 @@
 ||hostadsmarkets.com^
 ||hostave.net^
 ||hostave4.net^
+||hostileconductive.com^
 ||hostingcloud.racing^
 ||hot-datingsjunction.com^
 ||hot4k.org^
@@ -17761,6 +17766,7 @@
 ||iptautup.com^
 ||iqtest365.online^
 ||iramb.site^
+||irbvstqvt.com^
 ||iredindeedeisasb.com^
 ||iredirect.net^
 ||iresandal.info^
@@ -18139,6 +18145,7 @@
 ||jjurfdkmdx.com^
 ||jk4lmrf2.de^
 ||jkajyrkqaoyjl.top^
+||jkbewmebyqkoq.top^
 ||jkha742.xyz^
 ||jklpy.com^
 ||jktabzfgykmxa.top^
@@ -18578,6 +18585,7 @@
 ||kiaughsviner.com^
 ||kibmswncw.com^
 ||kibyglsp.top^
+||kiccfigldezuu.com^
 ||kiddiesdruidic.shop^
 ||kidimportant.com^
 ||kidjackson.com^
@@ -18677,6 +18685,7 @@
 ||klutzesobarne.top^
 ||km-kryxqvt.site^
 ||kmbjerbaafdn.global^
+||kmfkiwghhe.xyz^
 ||kmhmmhmj.com^
 ||kmmrukqrphix.com^
 ||kmodukuleqasfo.info^
@@ -22300,6 +22309,7 @@
 ||orbengine.com^
 ||orbitcarrot.com^
 ||orbitercocket.top^
+||orbmatchingenough.com^
 ||orbsdiacle.com^
 ||orbsrv.com^
 ||orclrul.com^
@@ -25182,9 +25192,11 @@
 ||rhinemangers.shop^
 ||rhinoaffiliates.com^
 ||rhizopiseparte.shop^
+||rhizotebabbie.top^
 ||rhoawnzfiaz.com^
 ||rhombicsomeday.com^
 ||rhrim.com^
+||rhrwzngtmubvk.com^
 ||rhtpbupf.com^
 ||rhubarbmasterpiece.com^
 ||rhudsplm.com^
@@ -28604,6 +28616,7 @@
 ||tubestrap.com^
 ||tubeultra.com^
 ||tubewalk.com^
+||tubfurryhen.com^
 ||tubroaffs.org^
 ||tuckedmajor.com^
 ||tuckedtucked.com^
@@ -29313,6 +29326,7 @@
 ||vdeiseyswdfco.global^
 ||vdlvry.com^
 ||vdopia.com^
+||vdulz.org^
 ||vdzna.com^
 ||vealbkvvorqry.top^
 ||vebadu.com^
@@ -29522,6 +29536,7 @@
 ||virtualroecrisis.com^
 ||virtuereins.com^
 ||visariomedia.com^
+||viscincoetus.top^
 ||viscountquality.com^
 ||visfirst.com^
 ||visiads.com^
@@ -37809,7 +37824,6 @@
 ||hopimimeoed.com^
 ||hoptreeunburst.website^
 ||hosenmesitae.com^
-||hostileconductive.com^
 ||hotbedssmarmy.digital^
 ||hotboys.biz^
 ||hotodoar.net^
@@ -39536,7 +39550,6 @@
 ||tubetitties.com^
 ||tubetob.com^
 ||tubevideos.biz^
-||tubfurryhen.com^
 ||tuesdaysale.bid^
 ||tuitivegaff.com^
 ||tunnedlehua.com^
@@ -40749,6 +40762,8 @@
 ||jcdard.top^
 ||gtuy6el1hd.com^
 ||u7wnylbb28.top^
+||tzethaungot.com^
+||rajf.cn^
 ||bgf05290lko.com^
 ||15ftgllk1.com^
 ||tw0ihhb04.com^
@@ -48768,6 +48783,7 @@
 ||152media.info^
 ||17mmc5g1n.com^
 ||1frozenthrone1.com^
+||1slms.com^
 ||207.net^
 ||228tuchuang.com^
 ||2433march2024.com^
@@ -49815,6 +49831,7 @@
 ||bizrate.com^
 ||bjdxhs.com^
 ||bjhmt.com^
+||bjtrjviiovl.com^
 ||blackbrake.com^
 ||blacknesskeepplan.com^
 ||blast4traffic.com^
@@ -50915,6 +50932,7 @@
 ||kliks.nl^
 ||klkchits.com^
 ||klsdee.com^
+||klumn.com^
 ||kmfwrqdp.com^
 ||knorex.com^
 ||knotch-cdn.com^
@@ -50985,6 +51003,7 @@
 ||lizardslaugh.com^
 ||lkhbcpwpyecs.com^
 ||llink.site^
+||lmmjj.lqbvjmkoozark.top^
 ||lngtd.com^
 ||lo8ve6ygour3pea4cee.com^
 ||loading321.com^
@@ -51998,6 +52017,7 @@
 ||senddroid.com^
 ||sendmepixel.com^
 ||sensenetworks.com^
+||sentry.monplayer.org^
 ||seo4india.com^
 ||sermonoccupied.com^
 ||serv0.com^
@@ -85085,6 +85105,7 @@
 ||stookroocoudray.com^
 ||batchzoo.com^
 ||s0fast.net^
+||doubleclick.net^$badfilter
 ||rdrclk.com^
 ||curryfielddistribution.com^
 ||antonellapouncedcrewels.com^
