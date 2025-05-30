@@ -164,14 +164,14 @@
       "transformations": ["RemoveModifiers", "ValidateAllowIp"]
     },
     {
-      "name": "Phishing URL Blocklist (AdGuard)",
+      "name": "Phishing URL Blocklist",
       "source": "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
-      "name": "Online Malicious URL Blocklist (AdGuard Home)",
-      "source": "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt",
+      "name": "Online Malicious URL Blocklist",
+      "source": "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
