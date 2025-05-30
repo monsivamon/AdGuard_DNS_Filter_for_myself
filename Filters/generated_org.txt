@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-30T02:45:56.221Z
+! Last modified: 2025-05-30T09:00:22.706Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -5794,6 +5794,7 @@
 ||1ep.co^
 ||1ep2l1253.de^
 ||1f63b94163.com^
+||1fa107ed6e.com^
 ||1fcf60d54c.com^
 ||1fd92n6t8.de^
 ||1fkx796mw.com^
@@ -6047,6 +6048,7 @@
 ||38fbsbhhg0702m.shop^
 ||38hgc.com^
 ||39268ea911.com^
+||3936fb9cdf.com^
 ||39489ef6ae.com^
 ||39e6p9p7.de^
 ||3ac1b30a18.com^
@@ -6300,6 +6302,7 @@
 ||7c5734761f.com^
 ||7ca78m3csgbrid7ge.com^
 ||7d77f23c90.com^
+||7ed58b948f.com^
 ||7ee4c0f141.com^
 ||7f3adt.com^
 ||7fc0966988.com^
@@ -7379,6 +7382,7 @@
 ||againboundless.com^
 ||againoutlaw.com^
 ||againstentertainmentpalpable.com^
+||agaisaghoon.net^
 ||agajx.com^
 ||agalarvitaran.com^
 ||agalumineonr.com^
@@ -7441,6 +7445,7 @@
 ||ahbdsply.com^
 ||ahcdsply.com^
 ||ahdvpuovkaz.com^
+||aheadprincessmeal.com^
 ||aheadreflectczar.com^
 ||aheebacoadseech.xyz^
 ||ahfmruafx.com^
@@ -7907,6 +7912,7 @@
 ||andohs.net^
 ||andomedia.com^
 ||andomediagroup.com^
+||andorrategment.top^
 ||android-cleaners.com^
 ||androidduvetscribble.com^
 ||androidfilehost.cfd^
@@ -8677,6 +8683,7 @@
 ||awbbjmp.com^
 ||awbbsat.com^
 ||awbms.com^
+||awbrwrywkwqwj.top^
 ||awcrpu.com^
 ||awdeliverynet.com^
 ||awecr.com^
@@ -9037,6 +9044,7 @@
 ||bathepoliteness.com^
 ||batheunits.com^
 ||baticalfelixstown.org^
+||batomqsmoocc.com^
 ||battepush.com^
 ||battiesnarras.com^
 ||battleautomobile.com^
@@ -9478,6 +9486,7 @@
 ||biturl.co^
 ||bitx.tv^
 ||biunityrebear.top^
+||bivanecacana.top^
 ||bivos.xyz^
 ||bivqasthu.com^
 ||bivrhywwuwzo.com^
@@ -10686,6 +10695,7 @@
 ||challengetoward.com^
 ||chambermaidthree.xyz^
 ||chambersinterdependententirely.com^
+||chamberssnorted.com^
 ||championshipcoma.com^
 ||chamtuboalteecu.net^
 ||chancecorny.com^
@@ -12274,6 +12284,7 @@
 ||dddashasledopyt.com^
 ||dddashasledopyt.xyz^
 ||dddomainccc.com^
+||ddodvlbtbgf.com^
 ||ddrsemxv.com^
 ||ddtladjyq.com^
 ||ddtvskish.com^
@@ -12312,6 +12323,7 @@
 ||decide.dev^
 ||decidedlychips.com^
 ||decidedlyenjoyableannihilation.com^
+||decimalcursor.com^
 ||decimalediblegoose.com^
 ||decisionmark.com^
 ||decisionnews.com^
@@ -13412,6 +13424,7 @@
 ||easylummos.com^
 ||easymrkt.com^
 ||easysearch.click^
+||easysemblyjusti.com^
 ||easysemblyjusti.info^
 ||easythedate-casual.com^
 ||eatasesetitoefa.info^
@@ -14385,6 +14398,7 @@
 ||fawhosyma.pro^
 ||faxbfxhkdjoma.icu^
 ||faxqaaawyb.com^
+||faxxdeohexmnj.com^
 ||fazanppq.com^
 ||fb-plus.com^
 ||fb47ed8a25.com^
@@ -14416,6 +14430,7 @@
 ||fdawdnh.com^
 ||fdelphaswcealifornica.com^
 ||fdiirjong.com^
+||fdjwhykja.com^
 ||fdlqccbxhqthy.com^
 ||fdubsbonier.top^
 ||fe7qygqi2p2h.com^
@@ -15251,6 +15266,7 @@
 ||gabberhavel.shop^
 ||gabblewhining.com^
 ||gabsailr.com^
+||gaciwhemsaz.net^
 ||gadsabs.com^
 ||gadsatz.com^
 ||gadslimz.com^
@@ -15578,6 +15594,7 @@
 ||gipostart-1.co^
 ||gipsiesthyrsi.com^
 ||gipsyhit.com^
+||gipsymandate.com^
 ||girdedshevri.com^
 ||girdersacetla.top^
 ||girl-topdate.com^
@@ -16440,6 +16457,7 @@
 ||hbstqpvrzpfx.com^
 ||hbudqnvaytwdc.world^
 ||hcevuzobtkit.com^
+||hcigejbedup.com^
 ||hcimixnajojl.com^
 ||hcituicbxfc.com^
 ||hcmmknaqaxbe.com^
@@ -18228,6 +18246,7 @@
 ||jrfxjqnefkgw.com^
 ||jriaqfqtufu.com^
 ||jriortnf.com^
+||jrirhwddn.com^
 ||jrolyrlabyjyj.top^
 ||jrolyrlabykmb.top^
 ||jrpkizae.com^
@@ -18422,6 +18441,7 @@
 ||karafutem.com^
 ||karoon.xyz^
 ||karstsnill.com^
+||karthliunstagy.com^
 ||karwobeton.com^
 ||kastafor.com^
 ||katecrochetvanity.com^
@@ -19230,6 +19250,7 @@
 ||liestseiser.shop^
 ||lifadfxkid.com^
 ||lifeboatdetrimentlibrarian.com^
+||lifeboatlegalalleviate.com^
 ||lifeimpressions.net^
 ||lifemoodmichelle.com^
 ||lifeporn.net^
@@ -19967,6 +19988,7 @@
 ||maplecurriculum.com^
 ||maquiags.com^
 ||marapcana.online^
+||marathonseaside.com^
 ||marazma.com^
 ||marbil24.co.za^
 ||marcherfilippo.com^
@@ -22191,6 +22213,7 @@
 ||operatorgullibleacheless.com^
 ||opfourpro.org^
 ||opgolan.com^
+||ophoacit.com^
 ||ophryonandiron.shop^
 ||oplcgtbsr.com^
 ||opleshouldthink.com^
@@ -23116,6 +23139,7 @@
 ||phoosuss.net^
 ||phortaub.com^
 ||photographcrushingsouvenirs.com^
+||phouptoatch.net^
 ||phoutsitchaun.net^
 ||phouvemp.net^
 ||phraa-lby.com^
@@ -24331,6 +24355,7 @@
 ||qmpolidwfefrxem.com^
 ||qmrelvevwlwlw.top^
 ||qmslgwdr.com^
+||qmyzawzrqryjj.top^
 ||qn-5.com^
 ||qnesnufjs.com^
 ||qnhuxyqjv.com^
@@ -24340,6 +24365,7 @@
 ||qnsr.com^
 ||qnsxtvhfnajnw.global^
 ||qoaaa.com^
+||qokoylbzaqhnmt.com^
 ||qorbnalwihvhbp.com^
 ||qoredi.com^
 ||qotctehoza.com^
@@ -25030,6 +25056,7 @@
 ||resultlinks.com^
 ||resultsz.com^
 ||resurrectionincomplete.com^
+||retagcoppet.top^
 ||retagro.com^
 ||retainedpotential.com^
 ||retaliatepoint.com^
@@ -25136,6 +25163,7 @@
 ||rhoawnzfiaz.com^
 ||rhombicsomeday.com^
 ||rhrim.com^
+||rhtpbupf.com^
 ||rhubarbmasterpiece.com^
 ||rhudsplm.com^
 ||rhvdsplm.com^
@@ -25577,6 +25605,7 @@
 ||rviqwckvfbjtay.com^
 ||rvisofoseveralye.com^
 ||rvisofoseveralyear.com^
+||rvrhehihlrhy.com^
 ||rvrpushserv.com^
 ||rvstcsghqcu.com^
 ||rvukbeuexr.com^
@@ -28073,6 +28102,7 @@
 ||tnpads.xyz^
 ||tnujzhfuslgwm.space^
 ||tnupftuhrahco.com^
+||tnzlmhzidwjzq.fun^
 ||toadcampaignruinous.com^
 ||toafuptoophol.com^
 ||toaglegi.com^
@@ -28143,6 +28173,7 @@
 ||tooniboy.com^
 ||toonujoops.net^
 ||toopsoug.net^
+||toostaupsoobaul.net^
 ||toothbrushlimbperformance.com^
 ||toothcauldron.com^
 ||toourmarketingef.org^
@@ -28654,6 +28685,7 @@
 ||tychon.bid^
 ||tyfqjbuk.one^
 ||tyfuufdp-xbd.top^
+||tyintxwkjmkm.com^
 ||tyjttinacorners.info^
 ||tylosischewer.com^
 ||tylulewe.com^
@@ -29629,6 +29661,7 @@
 ||vuidccfq.life^
 ||vujctuqi.com^
 ||vukrlistntcrl.online^
+||vukwagdfhjzbz.club^
 ||vulgarmilletappear.com^
 ||vulnerableimmigrateaboveaverage.com^
 ||vulnerablepeevestendon.com^
@@ -30284,6 +30317,7 @@
 ||woulddecade.com^
 ||wouldmakefeagr.com^
 ||wouldmeukeuk.com^
+||woulukdliketob.com^
 ||wovensur.com^
 ||wow-click.click^
 ||wowlnk.com^
@@ -30329,6 +30363,7 @@
 ||wrmoadl.guru^
 ||wrnxvvbriocgob.xyz^
 ||wroahqavna.com^
+||wronginside.pro^
 ||wrongwayfarer.com^
 ||wrqkrnicufwmc.xyz^
 ||wrrlidnlerx.com^
@@ -30653,7 +30688,6 @@
 ||yakmakhond.top^
 ||yallarec.com^
 ||yamshikbrucia.top^
-||yandex.com^
 ||yardr.net^
 ||yarlnk.com^
 ||yasesumedadele.com^
@@ -32027,7 +32061,6 @@
 ||oobsaurt.net^
 ||openadserving.com^
 ||operarymishear.store^
-||ophoacit.com^
 ||opparasecton.com^
 ||opptmzpops.com^
 ||opskln.com^
@@ -34022,22 +34055,15 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
-||1fa107ed6e.com^
-||3936fb9cdf.com^
-||7ed58b948f.com^
-||ddodvlbtbgf.com^
-||faxxdeohexmnj.com^
-||gaciwhemsaz.net^
 ||gaming001.site
 ||get-me-wow.
 ||noopapnoeic.digital
-||qmyzawzrqryjj.top^
-||rvrhehihlrhy.com^
-||tnzlmhzidwjzq.fun^
-||tyintxwkjmkm.com^
-||vukwagdfhjzbz.club^
+||rrbzvmklrzwmk.top^
+||unxmlkgwrslom.com^
+||vsxgrrjvgerjdtb.com^
+||vvkbpshrzoy.com^
 ||wenoolgo.icu
-||wronginside.pro^
+||yfveranuqguoc.love^
 ||adservice.google.
 ||admothreewallent.com
 ||mimosaavior.top
@@ -35985,7 +36011,6 @@
 ||agrophip.net^
 ||ahaoverturn.com^
 ||aheadlimitedplug.com^
-||aheadprincessmeal.com^
 ||ahimsaslatrate.com^
 ||aicandy.link^
 ||aidsairdul.net^
@@ -40698,6 +40723,8 @@
 ||vgfj.cn^
 ||hbdruktekf.com^
 ||jcdard.top^
+||gtuy6el1hd.com^
+||u7wnylbb28.top^
 ||bgf05290lko.com^
 ||15ftgllk1.com^
 ||tw0ihhb04.com^
@@ -47644,6 +47671,7 @@
 ||applog.zijieapi.com^
 ||applogios.uc.cn^
 ||applvn.com^
+||appmetrica.yandex.com^
 ||appmetrica.yandex.net^
 ||appmetrica.yandex.ru^
 ||appnext.com^
@@ -47778,6 +47806,7 @@
 ||cj1*.online^
 ||clarity.ms^
 ||clarium.global.ssl.fastly.net^
+||clck.yandex.com^
 ||clevertap-prod.com^
 ||clevertap.com^
 ||click.aliexpress.com^
@@ -48175,6 +48204,7 @@
 ||maxymiser.com^
 ||maxymiser.net^
 ||mazu.sec.miui.com^
+||mc.yandex.com^
 ||mc.yandex.ru^
 ||mcs-sg.tiktok.com^
 ||mcs-va.tiktokv.com^
@@ -53216,7 +53246,6 @@
 ||thankstoyou.website^
 ||creeperplotgrove.com^
 ||culinar9sync.com^
-||decimalcursor.com^
 ||mywatchtones.com^
 ||wordsdelivery.com^
 ||jeengweb.com^
@@ -85355,3 +85384,28 @@
 @@||www.google-analytics.com^|
 @@||youtube.googleapis.com^|
 @@||yt3.ggpht.com^|
+! ChatGPT (OpenAI)
+@@||openai.com^
+@@||api.openai.com^
+@@||chat.openai.com^
+! Azure OpenAI (Microsoft)
+@@||azure.com^
+@@||azure.microsoft.com^
+@@||openai.azure.com^
+! Gemini (Google Bard / PaLM)
+@@||google.com^
+@@||bard.google.com^
+@@||palm.googleapis.com^
+! GitHub Copilot
+@@||github.com^
+@@||copilot.github.com^
+! DeepSeek
+@@||deepseek.ai^
+@@||deepseek.com^
+! Hugging Face
+@@||huggingface.co^
+@@||huggingfaceusercontent.com^
+! Common AI-related CDNs
+@@||cloudflare.com^
+@@||fastly.net^
+@@||akamai.net^
