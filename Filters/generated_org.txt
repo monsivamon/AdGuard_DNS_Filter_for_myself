@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-30T09:00:22.706Z
+! Last modified: 2025-05-30T09:28:40.373Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -29646,6 +29646,7 @@
 ||vsftsyriv.com^
 ||vsgyfixkbow.com^
 ||vstserv.com^
+||vsxgrrjvgerjdtb.com^
 ||vtabnalp.net^
 ||vtfwwilv.com^
 ||vtpyvbwtldlvl.site^
@@ -29674,6 +29675,7 @@
 ||vuzhzlzswecvc.global^
 ||vv8h9vyjgnst.com^
 ||vvaywbqwuo.com^
+||vvkbpshrzoy.com^
 ||vvmkzawomeywq.top^
 ||vvprcztaw.com^
 ||vvsalar.top^
@@ -34055,13 +34057,16 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
+||apczazvwydwnz.club^
+||ejetvnmrqm.com^
 ||gaming001.site
+||gauntercleek.shop^
 ||get-me-wow.
+||jaucoawotaunee.net^
 ||noopapnoeic.digital
 ||rrbzvmklrzwmk.top^
+||thoughtfulbill.pro^
 ||unxmlkgwrslom.com^
-||vsxgrrjvgerjdtb.com^
-||vvkbpshrzoy.com^
 ||wenoolgo.icu
 ||yfveranuqguoc.love^
 ||adservice.google.
