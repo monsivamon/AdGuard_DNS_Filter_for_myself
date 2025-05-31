@@ -15,7 +15,7 @@ permissions:
 env:
   NODE_VERSION: 18.x
   OUTPUT_FILE: Filters/converted_adawy.txt
-  WORK_DIR: Filters/tmp_adawy_dir
+  WORK_DIR: Filters/tmp_adaway_dir
   
 jobs:
   create:
@@ -86,7 +86,7 @@ jobs:
                   # TLDルールに合致したら親ドメインを決定
                   base = parts[i-1] "." tld_candidate
                 } else {
-                  base = parts[i] "." tld_candidate
+                  base = tld_candidate
                 }
                 print base
                 break
