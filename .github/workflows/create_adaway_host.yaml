@@ -35,6 +35,9 @@ jobs:
       - name: Create Adaway
         run: |
 
+          # ディレクトリの確認
+          ls -la Filters
+          
           # 作業用ディレクトリ作成＆初期化
           mkdir -p "$WORK_DIR"
           rm -f "$OUTPUT_FILE"
