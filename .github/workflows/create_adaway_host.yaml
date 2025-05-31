@@ -85,8 +85,11 @@ jobs:
                 if (i > 1) {
                   # TLDルールに合致したら親ドメインを決定
                   base = parts[i-1] "." tld_candidate
-                  print base
-                  break
+                } else {
+                  base = parts[i] "." tld_candidate
+                }
+                print base
+                break
                 }
               }
               i--
