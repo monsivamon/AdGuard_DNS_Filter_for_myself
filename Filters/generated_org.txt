@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/master/LICENSE
-! Last modified: 2025-05-31T02:43:23.902Z
+! Last modified: 2025-05-31T09:25:56.014Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -6399,6 +6399,7 @@
 ||9analytics.live^
 ||9b4069b2fa.com^
 ||9bbbabcb26.com^
+||9c431580d3.com^
 ||9c867e2056.com^
 ||9cbj41a5.de^
 ||9cd4abb9e0.com^
@@ -6716,6 +6717,7 @@
 ||actglimpse.com^
 ||actiflex.org^
 ||activatormanorplausible.com^
+||activelymoonlight.com^
 ||activelysmileintimate.com^
 ||activemetering.com^
 ||activepoststale.com^
@@ -8220,6 +8222,7 @@
 ||armedtidying.com^
 ||arminius.io^
 ||armmabbi.com^
+||armsfulpageant.top^
 ||army.delivery^
 ||arnedtolethi.com^
 ||arnimalconeer.com^
@@ -8622,6 +8625,7 @@
 ||automatedtraffic.com^
 ||automateyourlist.com^
 ||automobiledeem.com^
+||autoportgen.space^
 ||auxml.com^
 ||avads.co.uk^
 ||avads.live^
@@ -10065,6 +10069,7 @@
 ||btvhdscr.com^
 ||btvuiqgio.xyz^
 ||btxxxnav.com^
+||btyklhjjasgfm.club^
 ||bubblemayflowernephew.com^
 ||bubblestownly.com^
 ||bubrintta.com^
@@ -11391,6 +11396,7 @@
 ||concavobegan.shop^
 ||concealedcredulous.com^
 ||concealmentmimic.com^
+||concealtraveller.com^
 ||concedederaserskyline.com^
 ||conceitedfedapple.com^
 ||conceitneglectzeal.com^
@@ -13093,6 +13099,7 @@
 ||dpuplet.com^
 ||dpuppers.com^
 ||dqeaa.com^
+||dqfuxdpwfxc.com^
 ||dqmdfmswqp.com^
 ||dr0.biz^
 ||dr22.biz^
@@ -13557,6 +13564,7 @@
 ||eengange.com^
 ||eephaush.com^
 ||eephoawaum.com^
+||eepjhvlyzlred.icu^
 ||eepsoumt.com^
 ||eeptoabs.com^
 ||eergortu.net^
@@ -13918,6 +13926,7 @@
 ||equanimitypresentimentelectronics.com^
 ||equatedsizing.website^
 ||equides.pro^
+||equilibriumfestive.com^
 ||equipmentapes.com^
 ||equipmentselfemployed.com^
 ||equippeddetachmentabberant.com^
@@ -14045,6 +14054,7 @@
 ||etoexukpreses.com^
 ||etougais.net^
 ||etphoneme.com^
+||etrkcdxc.com^
 ||etwitemuffer.top^
 ||etyerecentlyhav.org^
 ||etymonsibycter.com^
@@ -14450,6 +14460,7 @@
 ||fdlqccbxhqthy.com^
 ||fdubsbonier.top^
 ||fe7qygqi2p2h.com^
+||feableandworld.com^
 ||feadrope.net^
 ||fearinvulnerablediagnosis.com^
 ||feastfirefly.shop^
@@ -14826,6 +14837,7 @@
 ||fmgxqcxzpfbel.click^
 ||fmhyysk.com^
 ||fmiafsohcku.com^
+||fmiomdrwy.com^
 ||fmipurdtuta.com^
 ||fmiqcupku.com^
 ||fmksnfjldgpls.buzz^
@@ -15297,6 +15309,7 @@
 ||gaghygienetheir.com^
 ||gagowtvi.com^
 ||gaifutaishede.xyz^
+||gaikailorouma.com^
 ||gaimopooshadou.com^
 ||gaimoupy.net^
 ||gainaustephodoo.com^
@@ -16207,6 +16220,7 @@
 ||guftibkagam.com^
 ||guhomnfuzq.com^
 ||guhscaafjp.com^
+||guhtaqgt.com^
 ||guidepaparazzisurface.com^
 ||guidonsfeeing.com^
 ||guineaacrewayfarer.com^
@@ -16229,6 +16243,7 @@
 ||gunzblazingpromo.com^
 ||guofbdtsgepvjh.com^
 ||guqeeflwaxjec.today^
+||gurjunbassia.com^
 ||guro2.com^
 ||gusadrwacg.com^
 ||guserflexing.shop^
@@ -16247,6 +16262,7 @@
 ||guxidrookr.com^
 ||guypane.com^
 ||guzdhs26.xyz^
+||gvemhzxalv.com^
 ||gvfejsk.beauty^
 ||gvggatrvte.com^
 ||gvt2.com^
@@ -16350,6 +16366,7 @@
 ||halileo.com^
 ||hallanjerbil.com^
 ||hallowcichlid.shop^
+||halmfrisii.com^
 ||haloedessed.top^
 ||halogennetwork.com^
 ||haltedcoyly.shop^
@@ -16828,6 +16845,7 @@
 ||hmeqpjky.xyz^
 ||hmkwhhnflgg.space^
 ||hmntf.com^
+||hmqphmhktywbq.space^
 ||hmsuxcnrcyzmn.today^
 ||hmxg5mhyx.com^
 ||hmxoufchteecf.world^
@@ -17693,6 +17711,7 @@
 ||intermediatebelownomad.com^
 ||internewsweb.com^
 ||internodeid.com^
+||interpersonalskillse.com^
 ||interpersonalskillse.info^
 ||interposedflickhip.com^
 ||interpretprogrammesmap.com^
@@ -18032,6 +18051,7 @@
 ||jdeekqk-bjqt.fun^
 ||jdoqocy.com^
 ||jdt8.net^
+||jdtqomztnnwzu.com^
 ||jeadjolc.com^
 ||jealousstarw.shop^
 ||jealousupholdpleaded.com^
@@ -18161,6 +18181,7 @@
 ||jl63v3fp1.com^
 ||jlaebigzfq.com^
 ||jlnxjwmeadaw.com^
+||jlotlwqrgmpxfh.com^
 ||jlovoiqtgarh.com^
 ||jmopproojsc.xyz^
 ||jmpmedia.club^
@@ -18688,6 +18709,7 @@
 ||klspkjyub-n.xyz^
 ||klutzblawing.shop^
 ||klutzesobarne.top^
+||klutzy-load.pro^
 ||km-kryxqvt.site^
 ||kmbjerbaafdn.global^
 ||kmfkiwghhe.xyz^
@@ -19029,6 +19051,7 @@
 ||latest-news.pro^
 ||latestsocial.com^
 ||latexestetrane.top^
+||lathamnovel.shop^
 ||latheendsmoo.com^
 ||latigraver.top^
 ||latinwayy.com^
@@ -19249,6 +19272,7 @@
 ||lhpigkujw.com^
 ||lhpuvnqyecvkd.icu^
 ||lhqmmqmbqtezs.space^
+||lhrjmbnkyj.com^
 ||lhwimdpdjajfx.rocks^
 ||li.blogtrottr.com^
 ||liabilitygenerator.com^
@@ -19405,6 +19429,7 @@
 ||lizzieforcepincers.com^
 ||ljbiynvyhfteq.rocks^
 ||ljbwzlmlzvavm.top^
+||ljcvlagsgqebugt.xyz^
 ||ljdzjtpnijpns.space^
 ||ljnulatbntogvd.com^
 ||ljoaqeqwbkeqk.top^
@@ -20314,6 +20339,7 @@
 ||messramneek.shop^
 ||messrsmaiidae.top^
 ||messsomehow.com^
+||messy-brain.com^
 ||messyadvance.com^
 ||mestreqa.com^
 ||metabatted.com^
@@ -20891,6 +20917,7 @@
 ||musicnote.info^
 ||musselchangeableskier.com^
 ||mustersvyrnwy.top^
+||mustunsognouft.net^
 ||mutablebackcap.shop^
 ||mutcheng.net^
 ||mutenessdollyheadlong.com^
@@ -21269,6 +21296,7 @@
 ||newwinner.life^
 ||nex8.space^
 ||nexjzgqalrtgq.online^
+||nexkrnphsfipi.buzz^
 ||nextmeon.com^
 ||nextmillmedia.com^
 ||nextpointkaynersave.com^
@@ -23039,6 +23067,7 @@
 ||perigshfnon.com^
 ||periodspoppyrefuge.com^
 ||perksyringefiring.com^
+||perkyexcitedlyscenario.com^
 ||permanentillnessclever.com^
 ||permitfeatures.com^
 ||perpetratejewels.com^
@@ -24387,6 +24416,7 @@
 ||qmgpfrwyhtwp.com^
 ||qmkackqmigezu.club^
 ||qmlnioxbjldsfsa.xyz^
+||qmlrmarmalebo.top^
 ||qmpolidwfefrxem.com^
 ||qmrelvevwlwlw.top^
 ||qmslgwdr.com^
@@ -25322,6 +25352,7 @@
 ||rlqtwlxm.com^
 ||rmahmighoogg.com^
 ||rmaticalacycurated.info^
+||rmgujvailde.com^
 ||rmhfrtnd.com^
 ||rmishe.com^
 ||rmshqa.com^
@@ -25506,6 +25537,7 @@
 ||rregahfuk.com^
 ||rrentlysearchi.org^
 ||rrmlejvyqwzk.top^
+||rrobbybmkwjww.top^
 ||rrqwarwrewrlj.top^
 ||rruxvlycnmeko.xyz^
 ||rruyfnxmoq.com^
@@ -25741,6 +25773,7 @@
 ||saillevity.com^
 ||saimplemukente.org^
 ||saipsoan.net^
+||sairvecitable.shop^
 ||saishook.com^
 ||saiteejoudoreep.com^
 ||sakura-traffic.com^
@@ -26270,6 +26303,7 @@
 ||shfsdvc.com^
 ||shiftclang.com^
 ||shifthare.com^
+||shigaxapo.com^
 ||shikarsfrecket.top^
 ||shikroux.net^
 ||shiltaupsy.com^
@@ -26286,6 +26320,7 @@
 ||shipsmotorw.xyz^
 ||shipwreckclassmate.com^
 ||shirtclumsy.com^
+||shistirgeemp.net^
 ||shiswashisco.com^
 ||shitcustody.com^
 ||shitsoojacm.net^
@@ -27287,6 +27322,7 @@
 ||subbasejigman.shop^
 ||subdatejutties.com^
 ||subdo.torrentlocura.com^
+||subduedfilthloot.com^
 ||subduedgrainchip.com^
 ||subduegrape.com^
 ||subeditpathic.shop^
@@ -27814,6 +27850,7 @@
 ||tetrylscullion.com^
 ||tetyerecently.com^
 ||texsxhprkkljb.rocks^
+||textbookfilamentguidance.com^
 ||textilewhine.com^
 ||tfaln.com^
 ||tfarruaxzgi.com^
@@ -27823,6 +27860,7 @@
 ||tfb7jc.de^
 ||tffkroute.com^
 ||tfjqlenfcqnfnes.com^
+||tfkyucxml.com^
 ||tfla.xyz^
 ||tfosrv.com^
 ||tfrectkfp.com^
@@ -34111,25 +34149,8 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
-||9c431580d3.com^
-||armsfulpageant.top^
-||autoportgen.space^
-||btyklhjjasgfm.club^
-||dqfuxdpwfxc.com^
-||eepjhvlyzlred.icu^
-||fmiomdrwy.com^
-||gaikailorouma.com^
 ||gaming001.site
 ||get-me-wow.
-||hmqphmhktywbq.space^
-||jdtqomztnnwzu.com^
-||klutzy-load.pro^
-||lhrjmbnkyj.com^
-||mustunsognouft.net^
-||noopapnoeic.digital
-||qmlrmarmalebo.top^
-||sairvecitable.shop^
-||tfkyucxml.com^
 ||wenoolgo.icu
 ||adservice.google.
 ||admothreewallent.com
@@ -40778,6 +40799,7 @@
 ||cnzz.trafficmanager.net^
 ||7x9i88rvn.com^
 ||jkn05310loi.com^
+||jkn05311loi.com^
 ||mc5e9p8qx.com^
 ||yeuviq.icu^
 ||riht.cn^
@@ -40785,6 +40807,9 @@
 ||mwgehrudb.com^
 ||cockersbehint.com^
 ||aldusmiskals.com^
+||lbjupq.top^
+||w9uwz5966.com^
+||0a0atz2sh.top^
 ||f9gv87zoq2.com^
 ||aoydwg.icu^
 ||3exfu7vaxu.com^
@@ -87980,6 +88005,7 @@
 ||mullvaad.net^
 ||hardware-gui.su^
 ||plotp.mazamob.space^
+||win32diskimager.org^
 !
 ! Source name: uBlock filters – Unbreak
 ! Source: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
