@@ -37,6 +37,9 @@ jobs:
 
           # ディレクトリの確認
           ls -la Filters
+
+          # 作業フォルダにコピー
+          cp Filters/main_filter.txt $WORK_DIR/main_filter.txt
           
           # 作業用ディレクトリ作成＆初期化
           mkdir -p "$WORK_DIR"
@@ -91,8 +94,8 @@ jobs:
               }
               i--
             }
-          }'
-          Filters/main_filter.txt > $WORK_DIR/white_rules.txt
+          }
+          ' $WORK_DIR/main_filter.txt | sort -u > $WORK_DIR/white_rules.txt
           
       # アップロード
       - name: Upload new filter
