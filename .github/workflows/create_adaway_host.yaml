@@ -34,16 +34,13 @@ jobs:
           
       - name: Create Adaway
         run: |
-
-          # ディレクトリの確認
-          ls -la Filters
-
-          # 作業フォルダにコピー
-          cp Filters/main_filter.txt $WORK_DIR/main_filter.txt
           
           # 作業用ディレクトリ作成＆初期化
           mkdir -p "$WORK_DIR"
           rm -f "$OUTPUT_FILE"
+  
+          # 作業フォルダにコピー
+          cp Filters/main_filter.txt $WORK_DIR/main_filter.txt
           
           # public_suffix_list.datをダウンロード
           curl -sSL https://publicsuffix.org/list/public_suffix_list.dat -o $WORK_DIR/public_suffix_list.dat || true
