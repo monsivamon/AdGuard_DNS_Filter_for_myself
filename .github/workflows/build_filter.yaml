@@ -1,9 +1,11 @@
 name: Build Filter & modify
 
 on:
-  schedule:
-    # 8H事に自動実行
-    - cron: '3 1,9,17 * * *'
+  workflow_run:
+    # ublockフィルタが完成したら実行
+    workflows: ["Merge Ublock_Filter"]
+    types:
+      - completed
 
   # 手動実行を許可
   workflow_dispatch:
