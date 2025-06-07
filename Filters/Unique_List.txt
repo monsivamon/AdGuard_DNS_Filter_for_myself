@@ -1,5 +1,3 @@
-! --- 広告・アフィリエイト・トラッキング系 ---
-
 ! --- Amazon 関連 ---
 @@||aan.amazon.co.jp^|
 @@||aax-fe.amazon-adsystem.com^|
@@ -8,7 +6,7 @@
 @@||fls-fe.amazon.co.jp^|
 @@||mads.amazon-adsystem.com^|
 
-! --- Google 広告 / トラッキング 関連 ---
+! --- Google 関連 ---
 @@||pagead2.googlesyndication.com^|
 @@||pubads.g.doubleclick.net^|
 @@||ad.doubleclick.net^|
@@ -20,8 +18,13 @@
 @@||www.googletagmanager.com^|
 @@||lh3.googleusercontent.com^|
 @@||lh3.ggpht.com^|
+
+! --- YouTube 関連 ---
 @@||yt3.ggpht.com^|
 @@||youtube.googleapis.com^|
+@@||i.ytimg.com^|
+@@||ytimg.com^|
+@@||youtube.com^|
 
 ! --- 楽天 関連 ---
 @@||api.r10s.jp^|
@@ -87,6 +90,26 @@
 @@||dsb.yahoo.co.jp^|
 @@||s.yimg.jp^|
 
+! --- Microsoft 関連 ---
+@@||microsoft.com^|
+@@||office.com^|
+@@||outlook.com^|
+@@||live.com^|
+@@||msn.com^|
+@@||aka.ms^|
+@@||bing.com^|
+@@||microsoftonline.com^|
+@@||onestore.ms^|
+
+! --- Apple 関連 ---
+@@||apple.com^|
+@@||icloud.com^|
+@@||mzstatic.com^|
+@@||itunes.apple.com^|
+@@||metrics.icloud.com^|
+@@||init-p01st.push.apple.com^|
+@@||xp.apple.com^|
+@@||books.itunes.apple.com^|
 
 ! --- AIサービス関連 ---
 
@@ -120,3 +143,14 @@
 @@||cloudflare.com^|
 @@||fastly.net^|
 @@||akamai.net^|
+
+! --- Web表示補助 / 開発系CDN・フォント等 ---
+! ※ サイトの見た目や機能に必要なリソースの許可リスト
+! ※ GitHub画像、CDN経由のJS/CSS、Google Fontsなどを許可
+
+@@||githubusercontent.com^|
+@@||raw.githubusercontent.com^|
+@@||jsdelivr.net^|
+@@||fonts.googleapis.com^|
+@@||fonts.gstatic.com^|
+
