@@ -55,7 +55,7 @@ They have been invaluable for learning and building this filter list.
 - [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) – Official filter list from the uBlock Origin team.
 - [blechschmidt/massdns](https://github.com/blechschmidt/massdns) – High-performance DNS resolver used here to verify domains.
 - [curbengh/phishing-filter](https://github.com/curbengh/phishing-filter) – Blocks sites that try to steal your info by pretending to be legit.
-- [curbengh/urlhaus-filter](https://github.com/curbengh/urlhaus-filter) – Blocks domains and URLs associated with malware, based on abuse.ch's URLhaus project.
+- [curbengh/urlhaus-filter](https://github.com/curbengh/urlhaus-filter) – Blocks domains and URLs associated with malware.
 - [Yuki2718/adblock2](https://github.com/Yuki2718/adblock2) – AdGuard/uBlock-compatible filter tailored for Japanese websites.
 - [host2ch](https://note.com/hosts2ch) - Host filters for smartphone apps and websites, freely distributed in Japan.
 - [publicsuffix.org](https://publicsuffix.org/) – Public Suffix List, used for accurate domain parsing and filtering.
