@@ -1,0 +1,56 @@
+name: reset_commit_force
+
+on:
+  workflow_dispatch:  # 手動トリガーで動かす
+
+jobs:
+  squash_and_push:
+    runs-on: ubuntu-latest  # Ubuntu環境で実行
+
+    steps:
+      - name: Checkout mine branch
+        uses: actions/checkout@v4
+        with:
+          ref: mine        # mineブランチをチェックアウト
+          fetch-depth: 0   # 履歴を全部取得（深さ制限なし）
+
+      - name: Setup git user
+        run: |
+          # Gitのユーザー情報を設定（Actions用ボット名）
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Find first commit on mine branch
+        id: find_first
+        run: |
+          # mineブランチのルートコミット（親なしの最初のコミット）を取得
+          FIRST_COMMIT=$(git rev-list --max-parents=0 HEAD)
+          # 後で使えるように出力として保存
+          echo "first_commit=$FIRST_COMMIT" >> $GITHUB_OUTPUT
+
+      - name: Soft reset to parent of first commit or first commit if root
+        run: |
+          # ルートコミットを再取得（先ほどの出力でもOK）
+          FIRST_COMMIT=$(git rev-list --max-parents=0 HEAD)
+          # ルートコミットの親コミットを取得。なければ空文字列になる。
+          PARENT_COMMIT=$(git rev-parse "${FIRST_COMMIT}^" -- 2>/dev/null || true)
+          
+          if [ -z "$PARENT_COMMIT" ]; then
+            # 親コミットがない＝ルートコミットなので、ルートコミットにsoft reset
+            git reset --soft $FIRST_COMMIT
+          else
+            # 親コミットがあればその親にsoft reset（履歴をまとめる準備）
+            git reset --soft $PARENT_COMMIT
+          fi
+
+      - name: Commit squash
+        run: |
+          # まとめた状態で1つのコミットを作成（メッセージは固定）
+          git commit -m "Reset Commit by GitHub Actions"
+
+      - name: Force push to mine branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 強制プッシュしてブランチを上書き
+          git push origin mine --force

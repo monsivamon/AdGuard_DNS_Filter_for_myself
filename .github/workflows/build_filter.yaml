@@ -1,0 +1,303 @@
+name: Build Filter & modify
+
+on:
+  schedule:
+    # 8H事に自動実行
+    - cron: '3 1,9,17 * * *'
+
+  # 手動実行を許可
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: 18.x
+  # 各種変数の設定
+  branch: mine
+  OUTPUTFILE: Filters/main_filter.txt
+  WORK_DIR: Filters/tmp_dir
+  
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          
+      # ビルドで使う最新フィルタを取得（URL直接指定だとconfiguration.json記述が長くなる為）
+      - name: Get Latest File
+        run: |
+
+          # 作業フォルダの作成
+          mkdir -p "$WORK_DIR"
+          
+          # Adguard 公式フィルタを取得
+          curl -sSfL https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt -o Filters/exclusions.txt
+          # host2ch を取得
+          curl -sSL https://pastebin.com/raw/XF5FP2rG -o "$WORK_DIR/tmp_host2ch.txt" || true
+          
+      # フィルタビルド実行
+      - name: Build Filter
+        run: |
+          # 依存関係をインストール
+          yarn install
+          # コマンドコケたらスクリプト停止
+          set -e
+          # フィルタビルド実行
+          ./node_modules/.bin/hostlist-compiler -c configuration.json -o "$OUTPUTFILE" --verbose
+          
+      # クリーンアップ前の異常フィルタを一部修正
+      # ホストコンパイラ側で原則処理されてるからここで処理することはおそらくほぼない
+      # コンパイラ設定弄る前の名残として一応残しておく
+      - name: Pre-cleanup of malformed filters
+        run: |
+        
+          # オリジナルファイルバックアップ
+          cp "$OUTPUTFILE" Filters/generated_org.txt
+
+          # 異常箇所の抽出
+          awk '
+          #コメント行を除外し、フィルタ形式じゃない行を処理
+          !/^!/ && !/^\|\|/ && !/^@@/ {
+            print
+          }
+          ' "$OUTPUTFILE" | sort -u > "$WORK_DIR/tmp_before_bad_filter.txt"
+
+          # フィルタ修正
+          awk '
+          # コメント・正規表現っぽい行はスキップ
+          /^#/ || /[+?(){}\\]/ {
+            next
+          }
+          {
+            # 先頭の:// を || に変換
+            sub(/^:[/][/]/, "||")
+            # 先頭の . を || に変換
+            sub(/^\./, "||")
+            # || が付いてなければ付ける
+            if ($0 !~ /^\|\|/) {
+              $0 = "||" $0
+            }
+            print
+          }
+          ' "$WORK_DIR/tmp_before_bad_filter.txt" | sort -u > "$WORK_DIR/tmp_before_bad_filter_fix.txt"
+
+          # 修正したものをメインフィルタに追記
+          cat "$WORK_DIR/tmp_before_bad_filter_fix.txt" >> "$OUTPUTFILE"
+          
+          # 中間データの確認
+          cat $WORK_DIR/tmp_before_bad_filter.txt
+          cat $WORK_DIR/tmp_before_bad_filter_fix.txt
+          
+      # フィルタ部分をクリーンアップ
+      - name: Filter Clean up
+        run: |
+          awk '
+          #フィルタ形式の行のみ対象
+          /^\|\|/ || /^@@/ {
+            # $badfilterを@@に変換(本来この処理は正しいとは言えないがDNSフィルタなのでとりあえずこうする)
+            if ($0 ~ /\$badfilter/) {
+              sub(/\$badfilter/, "")
+              sub(/^\|\|/, "@@||")
+            }
+            # @@ではじまり、かつ @@||ではない行は変換ミスだと思われるので修正
+            if ($0 ~ /^@@/ && $0 !~ /^@@\|\|/) {
+              sub(/^@@\|?/, "@@||")
+            }
+            # $important 以外の修飾子削除
+            if ($0 ~ /\$.*$/ && $0 !~ /\$important$/) {
+              sub(/\$.*$/, "")
+            }
+            # @@行の最終処理
+            if (/^@@/) {
+              # 行末が ^| でなければ ^| にする
+              if ($0 !~ /\^\|$/) {
+                # 既に ^ や | が末尾にあれば削除
+                sub(/[\^|]+$/, "")
+                $0 = $0 "^|"
+              }
+            }
+            # ||行の最終処理
+            if (!/^@@/) {
+              # 行末の ^ がある場合削除
+              sub(/\^+$/, "")
+              # 行末が ^ でない場合、^ を追加
+              if (!/\^$/) {
+                $0 = $0 "^"
+              }
+            }
+            print
+          }
+          ' "$OUTPUTFILE" | sort -u > "$WORK_DIR/tmp_body_filter.txt"
+          
+      # host2chのファイルを整形してフィルタへ追記
+      - name: Convert host2ch
+        run: |
+          # ファイルのダウンロードに失敗していた場合は何もしない
+          if [ -f "$WORK_DIR/tmp_host2ch.txt" ]; then
+            awk '
+            # コメントと空行をスキップ
+            /^#/ || NF == 0 {
+              next
+            }
+            {
+              # AdGuard形式に変換
+              print "||" $2 "^"
+            }
+            ' "$WORK_DIR/tmp_host2ch.txt" | sort -u >> "$WORK_DIR/tmp_body_filter.txt"
+          fi
+        
+      # massdnsチェック用にドメインのみ抽出
+      - name: Grep Domain
+        run: |
+          awk -v OutDir=$WORK_DIR '
+          # 許可側のドメイン切り出し
+          /^@@/ {
+            sub(/^@@\|\|/, "")
+            sub(/\^\|$/, "")
+            print > OutDir"/tmp_domains_only_before_check_allow.txt"
+          }
+          # ブロック側ドメインの切り出し
+          /^\|\|/ {
+            sub(/^\|\|/, "")
+            sub(/\^$/, "")
+            print > OutDir"/tmp_domains_only_before_check_block.txt"
+          }
+          ' "$WORK_DIR/tmp_body_filter.txt"
+          
+          # ファイル確認
+          ls -la "$WORK_DIR"
+
+      # massdnsでDNSアドレスの存在確認実行
+      - name: massdns Check
+        run: |
+        
+          # ファイルがなければスキップ
+          if [ ! -s "$WORK_DIR/tmp_domains_only_before_check_allow.txt" ] && [ ! -s "$WORK_DIR/tmp_domains_only_before_check_block.txt" ]; then
+            echo "No domains to check. Skipping massdns."
+            exit 0
+          fi
+
+          # massdns環境構築
+          sudo apt-get update
+          sudo apt-get install -y git make gcc
+          git clone https://github.com/blechschmidt/massdns.git
+          make -C massdns
+          
+          # massdns用に信頼できるリゾルバリストを取得
+          curl -sf https://public-dns.info/nameservers.txt > "$WORK_DIR/resolvers.txt" || true
+          
+          # オリジナルからの取得に失敗したときはリポから取得
+          if [ ! -s lists/resolvers.txt ]; then
+            curl -sSfL https://raw.githubusercontent.com/DNSet/public-dns/master/resources/public-dns/nameservers.txt -o "$WORK_DIR/resolvers.txt"
+          fi
+          
+          # massdnsで許可リストに記載のあるドメインが存在しているかを確認
+          massdns/bin/massdns -r "$WORK_DIR/resolvers.txt" -t A -o S \
+            -w "$WORK_DIR/tmp_Exist_allow_raw.txt" "$WORK_DIR/tmp_domains_only_before_check_allow.txt" || true
+            
+          # massdnsでブロックリストに記載のあるドメインが存在しているかを確認
+          massdns/bin/massdns -r "$WORK_DIR/resolvers.txt" -t A -o S \
+            -w "$WORK_DIR/tmp_Exist_block_raw.txt" "$WORK_DIR/tmp_domains_only_before_check_block.txt" || true
+            
+          # ファイル確認
+          ls -la "$WORK_DIR"
+          
+          # 中身の簡易的な確認
+          head "$WORK_DIR/tmp_Exist_allow_raw.txt"
+          head "$WORK_DIR/tmp_Exist_block_raw.txt"
+          
+      # 存在するドメインのみ書き出す
+      - name: Check Result modify
+        run: |
+          # 許可リストとブロックリストを比較し、許可リストに記載ある行をブロックリストから除外
+          awk '
+            # 1ファイル目の処理（許可リスト側）
+            FNR==NR {
+              # 行末の「.」を削除して通常のドメイン形式に整形
+              sub(/\.$/, "", $1)
+              # 仮想配列に格納（後でブロックリストと比較する用）
+              allow[$1] = 1
+              # 許可側は普通に書き出す
+              print "@@||" $1 "^|"
+              next
+            }
+            # 2ファイル目の処理（ブロックリスト側）
+            {
+              # 同様に整形
+              sub(/\.$/, "", $1)
+              # 仮想配列に含まれていない（≠許可リスト）場合のみ出力
+              if (!($1 in allow)) {
+                print "||" $1 "^"
+              }
+            }
+            ' "$WORK_DIR/tmp_Exist_allow_raw.txt" "$WORK_DIR/tmp_Exist_block_raw.txt" | sort -u > "$WORK_DIR/tmp_body_filter_Complete.txt"
+          
+      # ヘッダー部分の作成
+      - name: Create Header
+        run: |
+        
+          # 現在の日付と時間をJST形式で取得
+          Now="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          Today="$(TZ=Asia/Tokyo date '+%Y%m%d')"
+
+          # ヘッダーを追記するだけ
+          awk -v ver="${Today}" -v modifi="${Now}" -v br="$branch" '
+          BEGIN {
+            print "! Title: AdGuard_DNS_Filter_for_myself"
+            print "! Description: AdGuard DNS filter Customized by monsivamon"
+            print "! Version: "ver
+            print "! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself"
+            print "! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/"br"/LICENSE"
+            print "! Last modified: "modifi
+            print "!"
+          }
+          {
+            print $0
+          }
+          ' "$WORK_DIR/tmp_body_filter_Complete.txt" > "$OUTPUTFILE"
+
+      # 中間ファイルの削除
+      - name: Unnecessary File Cleanup
+        run: |
+          # 確認用
+          ls -la "$WORK_DIR"
+          # 一時ファイル削除
+          rm -rf "$WORK_DIR" 
+          rm -f Filters/exclusions.txt
+          
+      # 完成フィルタから異常フィルタを抽出
+      - name: Bad Filter Check
+        run: |
+          awk '
+          #コメント行を除外
+          !/^!/ {
+            # @@||もしくは||で始まらないフィルタを抽出
+            if ($0 !~ /^@@\|\|/ && $0 !~ /^\|\|/) {
+              print
+            }
+          } ' "$OUTPUTFILE" | sort -u > Filters/bad_filter.txt
+          
+          # ファイル行数が0の場合、bad_filter.txtを削除
+          if [ $(wc -l < Filters/bad_filter.txt) -eq 0 ]; then
+            rm Filters/bad_filter.txt
+          else
+            # 内容表示
+            cat Filters/bad_filter.txt
+          fi
+
+      # フィルタをアップロード
+      - name: Upload new filter
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # フィルタアップロード
+          git add Filters/generated_org.txt
+          git add "$OUTPUTFILE"
+          # いつアップロードしたかわかるようにする
+          TODAY="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          git commit -m "chore: update main filter - ${TODAY}"
+          git push origin "$branch"

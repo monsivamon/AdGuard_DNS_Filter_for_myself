@@ -1,0 +1,146 @@
+name: Merge Ublock_Filter
+
+on:
+  schedule:
+    # 8H事に自動実行
+    - cron: '3 22,6,14 * * *'
+    
+  # 手動実行を許可
+  workflow_dispatch:
+  
+permissions:
+  contents: write
+  
+env:
+  NODE_VERSION: 18.x
+
+  # 各種変数の設定
+  branch: mine
+  WORK_DIR=: Filters/tmp_dir
+  BASE_URL: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters
+  OUTPUT_FILE: Filters/ublock_filters_merge.txt
+  
+jobs:
+  create:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true 
+          
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      # 合成前の準備
+      - name: Synthesis preparation
+        run: |
+
+          # 作業用ディレクトリ作成
+          mkdir -p "$WORK_DIR"
+
+          # filters.txt を取得
+          curl -sf "${BASE_URL}/filters.txt" -o "$WORK_DIR/filters.txt"
+
+          # filters.txtの中の!#include行からファイル名を抽出
+          includes=$(grep '^!#include ' "$WORK_DIR/filters.txt" | awk '{print $2}')
+
+          # それをループでダウンロード
+          for file in $includes; do
+            curl -sf "${BASE_URL}/${file}" -o "$WORK_DIR/${file}"
+          done
+
+      # フィルタ合成、出力
+      - name: Include Filter Synthesis
+        run: |
+
+          # mapfile 配列に読み込む (filters.txt 除く)
+          mapfile -t includes < <(ls "$WORK_DIR" | grep -v '^filters.txt$')
+          echo "${includes[@]}"
+
+          # 配列をカンマ区切りの文字列に変換
+          includes_str=$(IFS=,; echo "${includes[*]}")
+
+          awk -v dir="$WORK_DIR" -v includes="$includes_str" '
+          BEGIN {
+            # awkに渡した文字列を配列に変換
+            n = split(includes, arr, ",")
+          }
+          # 空行と#include以外のコメント行をスキップ
+          /^\s*$/ || (/^!/ && $0 !~ /^!#include/) {
+            next
+          }
+          {
+            # 配列に格納された数だけループ
+            i = 1
+            while (i <= n) {
+              # "!#include"を発見したときの処理
+              if ($0 ~ ("^!#include[ \t]+" arr[i] "$")) {
+                # ファイルパスを作成
+                fname = dir "/" arr[i]
+                # includeしたファイルがどこから始まるかわかるようにする
+                print ""
+                print "!# Begin include: " fname
+                print ""
+                # 最終行に到達するまでループ
+                while ((getline line < fname) > 0) {
+                  # includeしたファイルの空行とinclude以外のコメントをスキップ
+                  if (!(line ~ /^\s*$/ || (line ~ /^!/ && line !~ /^!#include/))) {
+                    print line
+                  }
+                }
+                # include したファイルがどこで終わりかわかるようにする
+                print ""
+                print "!# End include: " fname
+                print ""
+                # 書き出しが終わったらファイルを閉じる
+                close(fname)
+                # 次の行に進む
+                next
+              }
+              i++
+            }
+            print
+          }
+          ' "$WORK_DIR/filters.txt" > "$WORK_DIR/filters_merge.txt"
+
+      # ヘッダーを追加
+      - name: Add Header
+        run: |
+
+          # JST現在時刻取得
+          TIMESTAMP=$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')
+          
+          awk -v ts="$TIMESTAMP" '
+          BEGIN {
+            # ヘッダーを一括出力
+            print "! Title: Merged uBlock Filters"
+            print "! Description: Combined list from uBlock includes"
+            print "! Version: " ts
+            print "! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself"
+            print "! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE"
+            print ""
+          }
+          {
+            print $0
+          }
+          ' "$WORK_DIR/filters_merge.txt" > "$OUTPUT_FILE"
+
+      # クリーンアップ
+      - name: Cleanup
+        run: |
+          rm -rf "$WORK_DIR"
+
+      # フィルタをアップロード
+      - name: Upload new filter
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          TODAY="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          git add "$OUTPUT_FILE"
+          git commit -m "chore: update ublock filter - ${TODAY}"
+          git push origin "$branch"
+

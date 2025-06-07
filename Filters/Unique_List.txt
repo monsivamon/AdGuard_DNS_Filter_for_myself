@@ -1,0 +1,122 @@
+! --- 広告・アフィリエイト・トラッキング系 ---
+
+! --- Amazon 関連 ---
+@@||aan.amazon.co.jp^|
+@@||aax-fe.amazon-adsystem.com^|
+@@||c.amazon-adsystem.com^|
+@@||device-metrics-us.amazon.com^|
+@@||fls-fe.amazon.co.jp^|
+@@||mads.amazon-adsystem.com^|
+
+! --- Google 広告 / トラッキング 関連 ---
+@@||pagead2.googlesyndication.com^|
+@@||pubads.g.doubleclick.net^|
+@@||ad.doubleclick.net^|
+@@||clickserve.dartsearch.net^|
+@@||s0.2mdn.net^|
+@@||ssl.google-analytics.com^|
+@@||www.googleadservices.com^|
+@@||www.google-analytics.com^|
+@@||www.googletagmanager.com^|
+@@||lh3.googleusercontent.com^|
+@@||lh3.ggpht.com^|
+@@||yt3.ggpht.com^|
+@@||youtube.googleapis.com^|
+
+! --- 楽天 関連 ---
+@@||api.r10s.jp^|
+@@||r.r10s.jp^|
+@@||r10.to^|
+@@||rd.rakuten.co.jp^|
+@@||grp10.ias.rakuten.co.jp^|
+@@||hb.afl.rakuten.co.jp^|
+
+! --- ValueCommerce 関連 ---
+@@||atrrd.valuecommerce.com^|
+@@||ck.jp.ap.valuecommerce.com^|
+@@||trj.valuecommerce.com^|
+@@||vcentry3.valuecommerce.com^|
+
+! --- Facebook / Meta 関連 ---
+@@||facebook.com^|
+@@||m.facebook.com^|
+@@||fbcdn.net^|
+@@||fbsbx.com^|
+@@||static.xx.fbcdn.net^|
+@@||staticxx.facebook.com^|
+@@||scontent.xx.fbcdn.net^|
+@@||scontent-nrt1-1.xx.fbcdn.net^|
+@@||edge-chat.facebook.com^|
+
+! --- Twitter (X) 関連 ---
+@@||analytics.twitter.com^|
+@@||t.co^|
+
+! --- LINE 関連 ---
+@@||line.me^|
+
+! --- DMM 関連 ---
+@@||ad.dmm.com^|
+
+! --- kakaku.com 関連 ---
+@@||c.kakaku.com^|
+
+! --- Ameba 関連 ---
+@@||imgstat.ameba.jp^|
+
+! --- Growthbeat/Growthpush 関連 ---
+@@||api.growthbeat.com^|
+@@||api.growthpush.com^|
+
+! --- Tapjoy 関連 ---
+@@||ws.tapjoyads.com^|
+
+! --- Adforce 関連 ---
+@@||app-adforce.jp^|
+
+! --- Uliza 関連 ---
+@@||ad-api-v01.uliza.jp^|
+
+! --- ad-v.jp 関連 ---
+@@||web-jp.ad-v.jp^|
+
+! --- adzcore 関連 ---
+@@||setting.adzcore.com^|
+
+! --- Yahoo 関連 ---
+@@||dsb.yahoo.co.jp^|
+@@||s.yimg.jp^|
+
+
+! --- AIサービス関連 ---
+
+! --- OpenAI（ChatGPT）関連 ---
+@@||openai.com^|
+@@||api.openai.com^|
+@@||chat.openai.com^|
+
+! --- Azure OpenAI 関連 ---
+@@||azure.com^|
+@@||azure.microsoft.com^|
+@@||openai.azure.com^|
+
+! --- Gemini（Google Bard / PaLM）関連 ---
+@@||bard.google.com^|
+@@||palm.googleapis.com^|
+
+! --- GitHub Copilot 関連 ---
+@@||copilot.github.com^|
+@@||github.com^|
+
+! --- DeepSeek 関連 ---
+@@||deepseek.ai^|
+@@||deepseek.com^|
+
+! --- Hugging Face 関連 ---
+@@||huggingface.co^|
+@@||huggingfaceusercontent.com^|
+
+! --- CDN系（AIツールが依存することの多いCDN） ---
+@@||cloudflare.com^|
+@@||fastly.net^|
+@@||akamai.net^|

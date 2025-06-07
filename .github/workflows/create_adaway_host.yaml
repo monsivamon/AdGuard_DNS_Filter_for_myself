@@ -1,0 +1,168 @@
+
+name: Create Adaway Host
+
+on:
+  workflow_run:
+    # DNSフィルタが完成したら実行
+    workflows: ["Build Filter & modify"]
+    types:
+      - completed
+    
+  # 手動実行を許可
+  workflow_dispatch:
+  
+permissions:
+  contents: write
+  
+env:
+  NODE_VERSION: 18.x
+  
+  # 各種変数の設定
+  branch: mine
+  OUTPUT_FILE: Filters/converted_for_adaway.txt
+  WORK_DIR: Filters/tmp_adaway_dir
+  
+jobs:
+  create:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true 
+          
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          
+      - name: Preparation
+        run: |
+          
+          # 作業用ディレクトリ作成
+          mkdir -p "$WORK_DIR"
+  
+          # 作業フォルダにコピー
+          cp Filters/main_filter.txt $WORK_DIR/main_filter.txt
+          
+          # public_suffix_list.datをダウンロード
+          curl -sSL https://publicsuffix.org/list/public_suffix_list.dat -o $WORK_DIR/public_suffix_list.dat || true
+
+          # ダウンロード失敗してないかを確認
+          if [[ ! -e $WORK_DIR/public_suffix_list.dat ]]; then
+            echo "download failed" >&2
+            exit 1
+          fi
+
+      # 誤爆ドメインの除外
+      - name: Excluding erroneous domains
+        run: |
+        
+          # コメントと空行を除いてテキストに変換
+          awk '!/^\/\// && NF' $WORK_DIR/public_suffix_list.dat > $WORK_DIR/tld_rules.txt
+
+          # 除外用ホワイトリストを作成
+          awk -v tld_file="$WORK_DIR/tld_rules.txt" '
+          BEGIN {
+            # tld_rules.txtを読み込み仮想配列にセット
+            while ((getline line < tld_file) > 0) {
+              tld[line] = 1
+            }
+            close(tld_file)
+          }
+          # 許可ルールに対する処理
+          /^@@\|\|/ {
+            # ドメインのみに変換 
+            sub(/^@@\|\|/, "")
+            sub(/\^\|$/, "")
+            # "."で分割して配列にセット（nは分割数)
+            n = split($0, parts, ".")
+            # 親ドメイン名を初期化
+            base = ""
+            # 初期値をセット(ドメイン一番右側)
+            tld_candidate = parts[n]
+            # 分割した数-1だけループ
+            i = n - 1
+            while (i >= 1) {
+              # 検証用文字列作成
+              tld_candidate = parts[i] "." tld_candidate
+              # 文字列が仮想配列に含まれていたら
+              if (tld_candidate in tld) {
+                # parts[i-1]が無い場合を防止。
+                if (i > 1) {
+                  # TLDルールに合致したら親ドメインを決定
+                  base = parts[i-1] "." tld_candidate
+                  print base
+                  break
+                }
+              }
+              i--
+            }
+            # whileを抜けた時点でbaseが空のままだった場合、救済措置
+            if (base == "" && n > 1) {
+              base = parts[n-1] "." parts[n]
+              print base
+            }
+          }
+          ' $WORK_DIR/main_filter.txt | sort -u > $WORK_DIR/white_rules.txt
+
+          # ホワイトリストにマッチしないブロックリストのみ出力
+          awk -v white="$WORK_DIR/white_rules.txt" '
+          BEGIN {
+            # ホワイトリストを仮想配列に格納
+            while ((getline line < white) > 0) {
+              whitelist[line] = 1
+            }
+            close(white)
+          }
+          # ||で始まる行だけ処理
+          /^\|\|/ {
+            # ドメインのみ出力
+            sub(/^\|\|/, "")
+            sub(/\^$/, "")
+            # AdAway方式に変換
+            if (!($0 in whitelist)) {
+              print "0.0.0.0 "$0
+            }
+          }
+          ' $WORK_DIR/main_filter.txt > $WORK_DIR/not_matched_rules.txt
+
+      # ヘッダーを作成 
+      - name: Add Header
+        run: |
+        
+          # 現在の日付と時間をJST形式で取得
+          Now="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          Today="$(TZ=Asia/Tokyo date '+%Y%m%d')"
+          
+          # ヘッダー作成を追記
+          awk -v ver="${Today}" -v modifi="${Now}" -v br="${branch}" '
+          BEGIN {
+            print "# Title: AdGuard_DNS_Filter_for_myself for AdAway"
+            print "# Description: Auto Converted from AdGuard_DNS_Filter_for_myself"
+            print "# Version: "ver
+            print "# Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself"
+            print "# License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/"br"/LICENSE"
+            print "# Last modified: "modifi
+            print ""
+          }
+          {
+            print $0
+          }
+          ' $WORK_DIR/not_matched_rules.txt > $OUTPUT_FILE
+
+      # 作業フォルダの削除
+      - name: Cleaning up
+        run: |
+          rm -rf $WORK_DIR
+          
+      # アップロード
+      - name: Upload new filter
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          TODAY="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          git add "$OUTPUT_FILE"
+          git commit -m "chore: update converted_for_adaway.txt - ${TODAY}"
+          git push origin $branch
