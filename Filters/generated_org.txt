@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
-! Last modified: 2025-06-07T01:28:52.257Z
+! Last modified: 2025-06-07T02:47:21.774Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -10260,6 +10260,7 @@
 ||bringchukker.com^
 ||bringglacier.com^
 ||bringthrust.com^
+||brinjaluganda.top^
 ||brinkprovenanceamenity.com^
 ||brioletredeyes.com^
 ||brionyamanist.com^
@@ -11355,6 +11356,7 @@
 ||clearedlapcontrast.com^
 ||clearonclick.com^
 ||clearwatch.tv^
+||cledafqx.com^
 ||cleftmeter.com^
 ||clemencyexceptionpolar.com^
 ||clenchedfavouritemailman.com^
@@ -17263,6 +17265,7 @@
 ||hmazuxhikosj.com^
 ||hmeqpjky.xyz^
 ||hmkwhhnflgg.space^
+||hmngiyrwgprlh.com^
 ||hmntf.com^
 ||hmqphmhktywbq.space^
 ||hmsuxcnrcyzmn.today^
@@ -23784,6 +23787,7 @@
 ||picarasgalax.com^
 ||picarosexempt.shop^
 ||picbitok.com^
+||picchutupxu.com^
 ||pickaflick.co^
 ||picmega.com^
 ||picsofdream.space^
@@ -27325,6 +27329,7 @@
 ||soalonie.com^
 ||soalouve.com^
 ||soaneefooy.net^
+||soapboxmaugis.top^
 ||soaperdeils.com^
 ||soapsudkerfed.com^
 ||soawunoovaiwhog.net^
@@ -28191,6 +28196,7 @@
 ||symbolsovereigndepot.com^
 ||symbolultrasound.com^
 ||symmorybewept.com^
+||sympatheticcream.pro^
 ||sympathizecopierautobiography.com^
 ||sympathizecrewfrugality.com^
 ||symptomprominentfirewood.com^
@@ -34865,20 +34871,18 @@
 ! Source: https://easylist.to/easylist/easylist.txt
 !
 ||9eebf015a5.com^
-||brinjaluganda.top^
 ||c4cef5b39d.com^
-||cledafqx.com^
 ||gaming001.site
 ||get-me-wow.
 ||henyardflota.shop^
-||hmngiyrwgprlh.com^
 ||kitosimpugnoul.com^
+||lufpyrujgrvcq.com^
+||m2xg.space^
+||nanismtarlike.shop^
 ||nnkjgbdsiq.com^
-||picchutupxu.com^
 ||qazrvoyayvrjj.top^
 ||rickrlivhjkbc.com^
-||soapboxmaugis.top^
-||sympatheticcream.pro^
+||updelvedegrees.shop^
 ||vtsdatrildv.com^
 ||wenoolgo.icu
 ||adservice.google.
@@ -41556,6 +41560,8 @@
 ||afno.cn^
 ||nmg02g56z.com^
 ||7dgk5h1lk.com^
+||nl2v1uw9e.com^
+||eletys.icu^
 ||1qfxm8hgqd.com^
 ||yiybmi.icu^
 ||uroz44gxhx.com^
