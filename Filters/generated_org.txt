@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
-! Last modified: 2025-06-07T13:36:38.793Z
+! Last modified: 2025-06-07T14:18:24.618Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -34944,6 +34944,7 @@
 ! Source: https://easylist.to/easylist/easylist.txt
 !
 ||billboardwring.com^
+||boxtymappy.com^
 ||calmlygelatinecandle.com^
 ||contingentmusician.com^
 ||decimalmasculineawe.com^
@@ -34952,6 +34953,7 @@
 ||fragrantanger.com^
 ||gaming001.site
 ||get-me-wow.
+||gleedsodrobeel.net^
 ||gtvigtuqqsxdv.com^
 ||haullollipop.com^
 ||hlinit.com^
