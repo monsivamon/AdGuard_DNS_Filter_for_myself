@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-06-07 08:12:16 JST
+! Version: 2025-06-07 10:40:28 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
 
@@ -6802,7 +6802,7 @@ thejobsmovie.com##+js(nostif, adsBlocked)
 @@||techdracula.com^$ghide
 techdracula.com##ins.adsbygoogle
 
-!# Begin include: =Filters/tmp_dir/filters-general.txt
+!# Begin include: Filters/tmp_dir/filters-general.txt
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.co|ebacdn.com|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlycdn.com|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|raincaptcha.com|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|moredesi.com|nkiri.com|onlyfullporn.video|vjav.*
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.co|ebacdn.com|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlycdn.com|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|raincaptcha.com|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|moredesi.com|nkiri.com|onlyfullporn.video|vjav.com|vjav.tube
@@ -8079,10 +8079,10 @@ forum.ge##.w3-hide-medium:has(img[src="/trash/ads_down.gif"])
 player.pl##+js(no-fetch-if, /gaid=, war:noop-vast2.xml)
 /^https:\/\/[a-z0-9]{6,10}\.[a-z]{2,3}\/js\d?\/noadblocker\.js(?:\?v=\d)?$/$script,1p,strict1p
 
-!# End include: =Filters/tmp_dir/filters-general.txt
+!# End include: Filters/tmp_dir/filters-general.txt
 
 
-!# Begin include: =Filters/tmp_dir/filters-2020.txt
+!# Begin include: Filters/tmp_dir/filters-2020.txt
 
 *$script,redirect-rule=noopjs,domain=arcai.com
 arcai.com##+js(set, pubAdsService, trueFunc)
@@ -10190,10 +10190,10 @@ nsw2u.*##+js(no-xhr-if, googlesyndication)
 ||com/|$xhr,3p,method=head,domain=nsw2u.com
 ||xyz/|$xhr,3p,method=head,domain=nsw2u.com
 
-!# End include: =Filters/tmp_dir/filters-2020.txt
+!# End include: Filters/tmp_dir/filters-2020.txt
 
 
-!# Begin include: =Filters/tmp_dir/filters-2021.txt
+!# Begin include: Filters/tmp_dir/filters-2021.txt
 
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ottwow.com,redirect=google-ima.js
 @@||backlinkping.com^$ghide
@@ -12787,10 +12787,10 @@ scjhg5oh.fun,a-b-f-dd-aa-bb-cctwd3a.fun,mjukb26l.fun,ghajini-4urg44yg.lol##+js(n
 scjhg5oh.fun,a-b-f-dd-aa-bb-cctwd3a.fun,mjukb26l.fun,ghajini-4urg44yg.lol##+js(acs, Math, localStorage['\x)
 @@?*=$xhr,1p,strict1p,method=get,domain=mjukb26l.fun|ghajini-4urg44yg.lol|scjhg5oh.fun|a-b-f-dd-aa-bb-cctwd3a.fun
 
-!# End include: =Filters/tmp_dir/filters-2021.txt
+!# End include: Filters/tmp_dir/filters-2021.txt
 
 
-!# Begin include: =Filters/tmp_dir/filters-2022.txt
+!# Begin include: Filters/tmp_dir/filters-2022.txt
 
 akoam.*##+js(nowoif)
 porner.tv##.sources
@@ -15106,10 +15106,10 @@ cdnm4m.nl##+js(nowoif)
 euro2024direct.ru##+js(acs, document.documentElement, break;case $.)
 ||ss-mndsrv.b-cdn.net^
 
-!# End include: =Filters/tmp_dir/filters-2022.txt
+!# End include: Filters/tmp_dir/filters-2022.txt
 
 
-!# Begin include: =Filters/tmp_dir/filters-2023.txt
+!# Begin include: Filters/tmp_dir/filters-2023.txt
 
 guccihide.com##+js(nowoif)
 filelions.*,guccihide.com,streamwish.*,vidhidevip.com##+js(aopr, __Y)
@@ -17784,10 +17784,10 @@ a-b-c-d-e-f9jeats0w5hf22jbbxcrpnq37qq6nbxjwypsy.fun##+js(nowoif)
 a-b-c-d-e-f9jeats0w5hf22jbbxcrpnq37qq6nbxjwypsy.fun##+js(acs, Math, localStorage['\x)
 @@?*=$xhr,1p,strict1p,method=get,domain=a-b-c-d-e-f9jeats0w5hf22jbbxcrpnq37qq6nbxjwypsy.fun
 
-!# End include: =Filters/tmp_dir/filters-2023.txt
+!# End include: Filters/tmp_dir/filters-2023.txt
 
 
-!# Begin include: =Filters/tmp_dir/filters-2024.txt
+!# Begin include: Filters/tmp_dir/filters-2024.txt
 
 360haven.com###pageWrapper:style(display: initial !important;)
 360haven.com###notices
@@ -20035,10 +20035,10 @@ flatai.org##+js(rmnt, script, adblock)
 windowsreport.com##^script:has-text(wpadmngr.com)
 windowsreport.com##+js(rmnt, script, wpadmngr.com)
 
-!# End include: =Filters/tmp_dir/filters-2024.txt
+!# End include: Filters/tmp_dir/filters-2024.txt
 
 
-!# Begin include: =Filters/tmp_dir/filters-2025.txt
+!# Begin include: Filters/tmp_dir/filters-2025.txt
 
 filecrypt.*##^script:has-text('{delete window[')
 filecrypt.*##+js(rmnt, script, '{delete window[')
@@ -20957,10 +20957,10 @@ kungfutv.net##+js(aeld, DOMContentLoaded, window.open)
 lecrabeinfo.net##+js(set, LCI.adBlockDetectorEnabled, false)
 y2meta.mobi##+js(nowoif, !y2meta)
 
-!# End include: =Filters/tmp_dir/filters-2025.txt
+!# End include: Filters/tmp_dir/filters-2025.txt
 
 
-!# Begin include: =Filters/tmp_dir/ubo-link-shorteners.txt
+!# Begin include: Filters/tmp_dir/ubo-link-shorteners.txt
 
 @@*$ghide,domain=gplinks.*|sabkiyojana.com|bookmystrip.com
 bookmystrip.com,sabkiyojana.com##center:others()
@@ -22047,10 +22047,10 @@ zmamobile.com##main > center > a[target="_blank"][rel="nofollow noreferrer noope
 theuser.cloud##+js(acs, fetch, Math.random)
 canalobra.com,tulink.org##+js(no-fetch-if, /doubleclick|googlesyndication/)
 
-!# End include: =Filters/tmp_dir/ubo-link-shorteners.txt
+!# End include: Filters/tmp_dir/ubo-link-shorteners.txt
 
 
-!# Begin include: =Filters/tmp_dir/filters-mobile.txt
+!# Begin include: Filters/tmp_dir/filters-mobile.txt
 
 xnxx.com,xvideos.com###ad-header-mobile
 jprime.jp##.ad-overlay
@@ -22128,5 +22128,5 @@ timesofindia.indiatimes.com##+js(set, Object.prototype.isAdActive, false)
 redd.tube##+js(set, Object.prototype.vastOptions, {})
 redd.tube###closeable_widget
 
-!# End include: =Filters/tmp_dir/filters-mobile.txt
+!# End include: Filters/tmp_dir/filters-mobile.txt
 
