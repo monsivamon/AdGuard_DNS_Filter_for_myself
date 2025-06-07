@@ -16,7 +16,7 @@ env:
 
   # 各種変数の設定
   branch: mine
-  WORK_DIR=: Filters/tmp_dir
+  WORK_DIR: Filters/tmp_dir
   BASE_URL: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters
   OUTPUT_FILE: Filters/ublock_filters_merge.txt
   
