@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-06-07 10:40:28 JST
+! Version: 2025-06-07 15:28:10 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
 
@@ -7387,16 +7387,6 @@ asiaflix.net,asiangay.tv,hentairead.io,japangaysex.com,mangagun.net,mangajikan.c
 coinsbomb.com,daemon-hentai.com,daemonanime.net##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/, /^data:/)
 besthdgayporn.com,drivenime.com,erothots1.com,filegram.to,javup.org,savefiles.com,shemaleup.net,transflix.net,worthcrete.com##^script:has-text(/popMagic|pop1stp/)
 besthdgayporn.com,drivenime.com,erothots1.com,filegram.to,javup.org,savefiles.com,shemaleup.net,transflix.net,worthcrete.com##+js(rmnt, script, /popMagic|pop1stp/)
-||colossal-extension.com^
-||dreary-fuel.com^
-||dreary-hunt.com^
-||knownamount.com^
-||nifty-pie.com^
-||private-hide.com^
-||runnyextent.com^
-||tiptaglewi.com^
-||unsungpolicy.com^
-||untried-manager.com^
 fucksporn.com###FloatingLayer
 fucksporn.com##.adv_banners
 fucksporn.com##.prefix-player-out
