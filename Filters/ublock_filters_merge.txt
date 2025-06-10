@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-06-10 15:31:21 JST
+! Version: 2025-06-10 23:21:19 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
 
@@ -8220,6 +8220,7 @@ imintweb.com##+js(aopr, adBlockDetected)
 *$image,redirect-rule=1x1.gif,domain=minorpatch.com
 minorpatch.com##ins.adsbygoogle
 minorpatch.com##+js(acs, decodeURIComponent, checkAD)
+minorpatch.com##+js(no-fetch-if, googlesyndication)
 kropic.com##+js(aopr, decodeURI)
 kropic.com##+js(aopr, LieDetector)
 kropic.com##+js(aeld, , _0x)
