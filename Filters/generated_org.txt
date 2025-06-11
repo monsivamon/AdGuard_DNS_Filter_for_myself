@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
-! Last modified: 2025-06-11T14:20:30.953Z
+! Last modified: 2025-06-11T22:40:42.572Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -7027,6 +7027,7 @@
 ||actscattydecode.com^
 ||actuallyfrustration.com^
 ||actuallyhierarchyjudgement.com^
+||acuchiunquert.com^
 ||acuityplatform.com^
 ||acuwdwxqcutt.com^
 ||aczaqkaxbwu.com^
@@ -8653,6 +8654,7 @@
 ||asgildedalloverw.com^
 ||asgorebysschan.com^
 ||ashacgqr.com^
+||ashamed-factor.pro^
 ||ashamedbirchpoorly.com^
 ||ashamedtriumphant.com^
 ||ashasvsucoce.com^
@@ -8800,6 +8802,7 @@
 ||ateaudiblydriving.com^
 ||atefpurga.top^
 ||atellanabdali.shop^
+||aterhouseoyope.com^
 ||aterroppop.com^
 ||atertuvums.com^
 ||atethebenefitsshe.com^
@@ -8873,6 +8876,7 @@
 ||atthewonderfu.com^
 ||attidaeclavers.top^
 ||attirecideryeah.com^
+||attractivecutier9t3.com^
 ||attractivereception.com^
 ||attractivesurveys.com^
 ||attrapincha.com^
@@ -8883,6 +8887,7 @@
 ||atttkaapqvh.com^
 ||atwola.com^
 ||atwpizpit.com^
+||atwqtirutamh.com^
 ||atyoureatth.org^
 ||atzekromchan.com^
 ||au2m8.com^
@@ -9324,6 +9329,7 @@
 ||bamtinseefta.xyz^
 ||banawgaht.com^
 ||banclip.com^
+||bancosharang.top^
 ||bancosviage.top^
 ||bandageretaliateemail.com^
 ||bandanamarhala.top^
@@ -9428,6 +9434,7 @@
 ||bauchvairs.click^
 ||baucuptaugo.com^
 ||baumtvndvncob.rocks^
+||baupsitheeb.com^
 ||bauptost.net^
 ||bauwheenepti.com^
 ||bauzoanu.com^
@@ -10033,6 +10040,7 @@
 ||bmndx.com^
 ||bmucuzdho.com^
 ||bmudhianrfat.com^
+||bmufqfnqgfh.com^
 ||bmycupptafr.com^
 ||bmzgcv-eo.rocks^
 ||bn5x.net^
@@ -10074,6 +10082,7 @@
 ||boasttrial.com^
 ||boatheeh.com^
 ||boatjadeinconsistency.com^
+||boazaicheewasti.net^
 ||bobabillydirect.org^
 ||bobapsoabauns.com^
 ||bobblegoobers.top^
@@ -10277,6 +10286,7 @@
 ||bqsnmpwxwd.buzz^
 ||bqtoijvqrad.com^
 ||bqvzsxadeajio.global^
+||bqwfemjlhxpia.online^
 ||br3azil334nutsz.com^
 ||bracecherry.com^
 ||bracespickedsurprise.com^
@@ -10732,6 +10742,7 @@
 ||calcescutler.shop^
 ||calcpol.com^
 ||calculatingvoice.com^
+||calculationoccasional.com^
 ||calendavesture.com^
 ||calibrelugger.com^
 ||calksenfire.com^
@@ -10755,6 +10766,7 @@
 ||cameoutofthecatey.com^
 ||cameraunfit.com^
 ||camiocw.com^
+||camisreed.com^
 ||cammpaign.com^
 ||camonecash.biz^
 ||camouque.net^
@@ -11081,6 +11093,7 @@
 ||certified-apps.com^
 ||ceryldelaine.com^
 ||ces2007.org^
+||cesarebientt.com^
 ||ceschemicalcovenings.info^
 ||cesebsir.xyz^
 ||cessationcorrectmist.com^
@@ -11833,6 +11846,7 @@
 ||complainttattooshy.com^
 ||complementinstancesvarying.com^
 ||completeminimum.pro^
+||complex-burn.pro^
 ||complex-nasty.pro^
 ||complexastare.shop^
 ||complicated-scale.pro^
@@ -12402,6 +12416,7 @@
 ||cuckoosad.com^
 ||cuddlethehyena.com^
 ||cuddly-read.pro^
+||cuddlywomanrl.com^
 ||cudgeletc.com^
 ||cudjgcnwoo-s.icu^
 ||cudlina.top^
@@ -12888,6 +12903,7 @@
 ||defeature.xyz^
 ||defectiveaskewsite.com^
 ||defenceblake.com^
+||defensiveassist.pro^
 ||defiancebelow.com^
 ||defiancefaithlessleague.com^
 ||defiantmotherfamine.com^
@@ -13000,6 +13016,7 @@
 ||deporttideevenings.com^
 ||depotdesirabledyed.com^
 ||depreciateape.com^
+||depreciatorybollocksupkitchen.com^
 ||depressedchamber.com^
 ||deputizeeverydayexorcist.com^
 ||deputizepacifistwipe.com^
@@ -13174,6 +13191,7 @@
 ||digonalratel.top^
 ||diguver.com^
 ||diingsinspiringtg.com^
+||dikasomywnqww.website^
 ||dikeaxillas.com^
 ||dikersballo.shop^
 ||dikkoplida.cam^
@@ -13427,6 +13445,7 @@
 ||dmpdgiwcel.com^
 ||dmphcubeiux.com^
 ||dmrtx.com^
+||dmsik.com^
 ||dmsktmld.com^
 ||dmtmffrjbw.com^
 ||dmupywgfuurjd.club^
@@ -13815,6 +13834,7 @@
 ||duskentsuba.com^
 ||dusksgaumish.com^
 ||dust-0001.delorazahnow.workers.dev^
+||dustexhibition.com^
 ||dustinga.com^
 ||dustyrender.com^
 ||dustywrenchdesigned.com^
@@ -14342,6 +14362,7 @@
 ||endowmentoverhangutmost.com^
 ||endream.buzz^
 ||enduranceblond.com^
+||endurancesupervision.com^
 ||enduresopens.com^
 ||endurosweekday.com^
 ||endymehnth.info^
@@ -15354,6 +15375,7 @@
 ||flirting-place.com^
 ||flirtmydating.com^
 ||flirtorix.com^
+||flirtyj0y.com^
 ||flixdot.com^
 ||flixtrial.com^
 ||floccischlump.com^
@@ -16063,6 +16085,7 @@
 ||gelatinelighter.com^
 ||gelescu.cloud^
 ||gelhp.com^
+||gelnhamforma.com^
 ||gemfowls.com^
 ||geminibugs.com^
 ||gemsbucks25.fun^
@@ -16168,6 +16191,7 @@
 ||ggwifobvx.com^
 ||ggxqzamc.today^
 ||gharrywrapt.com^
+||ghawtysdv.com^
 ||ghcaoaefmj.com^
 ||ghettosteal.shop^
 ||ghhidmrlpiogcg.com^
@@ -17512,6 +17536,7 @@
 ||hoarsecoupons.top^
 ||hoaxcookingdemocratic.com^
 ||hobbiesshame.online^
+||hobblehorrifiedfox.com^
 ||hobbleobey.com^
 ||hockeycomposure.com^
 ||hockeyhavoc.com^
@@ -17604,6 +17629,7 @@
 ||horizontallywept.com^
 ||hornsobserveinquiries.com^
 ||horny.su^
+||hornywomancrsu.com^
 ||horrible-career.pro^
 ||horrifiedloudly.com^
 ||horselygoanna.shop^
@@ -18048,6 +18074,7 @@
 ||ilo134ulih.com^
 ||iloptrex.com^
 ||ilovemakingpics.com^
+||iltbvaulpebh.com^
 ||iltharidity.top^
 ||ilthdodd.shop^
 ||iluemvh.com^
@@ -18881,6 +18908,7 @@
 ||jkbewmebyqkoq.top^
 ||jkha742.xyz^
 ||jklpy.com^
+||jkqiweqrxsieb.website^
 ||jktabzfgykmxa.top^
 ||jkuxishhikp.com^
 ||jkyawbabvjeq.top^
@@ -19070,6 +19098,7 @@
 ||juicyads.me^
 ||juicycash.net^
 ||juicyriverboatunlit.com^
+||julekapp.com^
 ||jullyambery.net^
 ||julolecalve.website^
 ||julrdr.com^
@@ -19119,11 +19148,13 @@
 ||jvgmwdtvwnxw.com^
 ||jvknujm4.click^
 ||jvmbgorjhyyao.click^
+||jvppbvnyz.com^
 ||jvweslyefx.com^
 ||jwalf.com^
 ||jwalkin.com^
 ||jwamnd.com^
 ||jwcpgnlnwbukt.xyz^
+||jwnlbsceu.com^
 ||jwqvnbzxwiibj.one^
 ||jwskgkxnwdivg.online^
 ||jwuazngiqap.com^
@@ -19660,6 +19691,7 @@
 ||kwbgmufi.com^
 ||kwdflqos.com^
 ||kwfrroescqswc.com^
+||kwgkkhcv.com^
 ||kwgladkr.com^
 ||kwlnds.com^
 ||kwqmugaonqtqa.com^
@@ -19870,6 +19902,7 @@
 ||lbuepkvfyo.com^
 ||lby2kd27c.com^
 ||lbylqerzmzlzq.top^
+||lbynwfntolegb.site^
 ||lbzyjmbvmkkzr.top^
 ||lcebfpvqdbih.com^
 ||lchdnstfxdxve.com^
@@ -20054,6 +20087,7 @@
 ||lhrjmbnkyj.com^
 ||lhuwawhcxtltx.space^
 ||lhwimdpdjajfx.rocks^
+||lhxmrcyaqsvze.site^
 ||li.blogtrottr.com^
 ||liabilitygenerator.com^
 ||liablematches.com^
@@ -20487,6 +20521,7 @@
 ||lqgenuq-j.life^
 ||lqjfhehcrkatj.xyz^
 ||lqrjuhhbzagoq.online^
+||lqtbsflvsaqiy.store^
 ||lqtiwevsan.com^
 ||lqzoyqvbjkmyy.top^
 ||lqzoyqvbjkzqm.top^
@@ -20679,6 +20714,7 @@
 ||lzoasvofvzw.com^
 ||lzolanahk.com^
 ||lzoorgpta.com^
+||lzoqokmewrjmy.top^
 ||lzqmjakwllbrj.top^
 ||lztjczymishqn.com^
 ||lzukrobrykk.com^
@@ -20755,6 +20791,7 @@
 ||magsrv.com^
 ||magtgingleagained.org^
 ||mahkjru.cam^
+||mahmalbifer.top^
 ||mahoganyproductthat.com^
 ||mahubraces.com^
 ||maideninfected.com^
@@ -22331,6 +22368,7 @@
 ||noptog.com^
 ||norentisol.com^
 ||noretia.com^
+||normalballet.com^
 ||normalfloat.com^
 ||normallycollector.com^
 ||normallydirtenterprising.com^
@@ -23197,6 +23235,7 @@
 ||opticlygremio.com^
 ||optidownloader.com^
 ||optimatic.com^
+||optimizepro.online^
 ||optimizesocial.com^
 ||optimizesrv.com^
 ||optionsdisk.com^
@@ -23716,6 +23755,7 @@
 ||pannamdashee.com^
 ||panniervocate.shop^
 ||pannumregnal.com^
+||panocero.com^
 ||pansymerbaby.com^
 ||pantafives.com^
 ||pantraidgeometry.com^
@@ -23945,6 +23985,7 @@
 ||pennilesscomingall.com^
 ||pennyotcstock.com^
 ||pensionboarding.com^
+||pensionprovost.top^
 ||pentalime.com^
 ||peopleshouldthin.com^
 ||pepepush.net^
@@ -24257,6 +24298,7 @@
 ||pkehswqnitpvr.global^
 ||pkhhyool.com^
 ||pki87n.pro^
+||pknqfgmdfp.com^
 ||pksqahsa.com^
 ||pkuscuncykeql.life^
 ||pkycugri.com^
@@ -25564,6 +25606,7 @@
 ||qxdownload.com^
 ||qxeidsj.com^
 ||qxhspimg.com^
+||qxlejekibi.com^
 ||qxozluyvvyabw.online^
 ||qxrbu.com^
 ||qxwls.rocks^
@@ -27084,6 +27127,7 @@
 ||seasx.cfd^
 ||seatedparanoiaenslave.com^
 ||seatrackingdomain.com^
+||seattleunderly.top^
 ||seawmmibmf.com^
 ||seayipsex.com^
 ||sebkhapaction.com^
@@ -27121,6 +27165,7 @@
 ||security-suggestion.com^
 ||security-u.com^
 ||securitycheckonline.com^
+||sedatesdwyka.top^
 ||sedatingnews.com^
 ||sedativebitty.com^
 ||sedodna.com^
@@ -27887,6 +27932,7 @@
 ||sonalrecomefu.info^
 ||songcorrespondence.com^
 ||songoudacmouph.com^
+||songslunger.com^
 ||songtopbrand.com^
 ||sonnerie.net^
 ||sonnyadvertise.com^
@@ -29976,6 +30022,7 @@
 ||uaivqzpqzehth.love^
 ||uakarisigneur.com^
 ||uawvmni.com^
+||uayaxndct.com^
 ||ubbfpm.com^
 ||ubeestis.net^
 ||ubesykrmo.xyz^
@@ -30049,6 +30096,7 @@
 ||uikyqdtressuj.online^
 ||uimserv.net^
 ||uingroundhe.com^
+||uinnertablis.com^
 ||uioypgnwldkcnt.com^
 ||uiphk.one^
 ||uitesousefulheady.org^
@@ -30208,6 +30256,7 @@
 ||unluxioer.com^
 ||unmantyker.com^
 ||unmectappic.com^
+||unnatural-shot.pro^
 ||unnaturalstring.com^
 ||unnecessarydispleasedleak.com^
 ||unoblotto.net^
@@ -30708,6 +30757,7 @@
 ||vicesus.com^
 ||viciousarea.pro^
 ||viciousphenomenon.com^
+||victorrapider.top^
 ||victoryrugbyumbrella.com^
 ||vid.me^
 ||vidcpm.com^
@@ -30841,6 +30891,7 @@
 ||vjlyljbjjmley.top^
 ||vjlyljbylmeel.top^
 ||vjlyljbylmemj.top^
+||vjmrjomeljwrw.top^
 ||vjojjdird.com^
 ||vjugz.com^
 ||vkciwjeys.xyz^
@@ -31683,6 +31734,7 @@
 ||worthlessbend.com^
 ||worthylighteravert.com^
 ||woudaufe.net^
+||woujoakoob.net^
 ||woujoami.com^
 ||woukrkskillsom.org^
 ||woulddecade.com^
@@ -31814,6 +31866,7 @@
 ||wyaoormajveqk.top^
 ||wyaoormajvwqj.top^
 ||wyaoormajvykm.top^
+||wydiguefvjpn.com^
 ||wyeosamxhgqwt.world^
 ||wyglyvaso.com^
 ||wyhifdpatl.com^
@@ -32277,6 +32330,7 @@
 ||yrzmxrasdhwbq.store^
 ||ysesials.net^
 ||yshfyhfhzvcik.club^
+||ystationalhed.com^
 ||ytdut.online^
 ||yterxv.com^
 ||ytihp.com^
@@ -32317,12 +32371,14 @@
 ||ywpdobsvqlchvrl.com^
 ||ywronwasthetron.com^
 ||ywusfyjhnpflr.top^
+||ywyakfjnj.com^
 ||yx-ads6.com^
 ||yxbiuxoegdrtfy.com^
 ||yxpmkgzsqcxyu.site^
 ||yxuytpfe-t.icu^
 ||yxyrblnpmtahz.world^
 ||yy9s51b2u05z.com^
+||yyaglwwsdj.com^
 ||yydwkkxhjb.com^
 ||yyidbueudlkcw.love^
 ||yyjvimo.com^
@@ -35501,16 +35557,19 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
-||boazaicheewasti.net^
-||bqwfemjlhxpia.online^
-||defensiveassist.pro^
-||dmsik.com^
+||daleanomala.top^
 ||gaming001.site
 ||get-me-wow.
-||jvppbvnyz.com^
-||mahmalbifer.top^
+||htrem.site^
+||jqtxivlqbntspc.com^
+||nentsyshruggl.com^
+||skzljadgwjh.com^
+||tamisbestock.shop^
+||thujaoswego.shop^
 ||wenoolgo.icu
-||yyaglwwsdj.com^
+||wet-hurt.com^
+||xumgarqig.com^
+||zmrrjyyqeavzw.top^
 ||adservice.google.
 ||admothreewallent.com
 ||mimosaavior.top
@@ -40617,7 +40676,6 @@
 ||soldansportify.shop^
 ||solerasignori.com^
 ||songsify.com^
-||songslunger.com^
 ||sonraifishnet.website^
 ||soojoafaleh.com^
 ||sookeindited.website^
@@ -51497,7 +51555,6 @@
 ||demo123.info^
 ||demtaudeeg.com^
 ||dendranthe4edm7um.com^
-||depreciatorybollocksupkitchen.com^
 ||despicablereporthusband.com^
 ||detachmentoccasionedarena.com^
 ||detailedgovernment.com^
@@ -87730,6 +87787,9 @@
 ||hardware-gui.su^
 ||plotp.mazamob.space^
 ||win32diskimager.org^
+||figa.beauty^
+||lonely.beauty^
+||adwareremoval.info^
 !
 ! Source name: uBlock filters – Unbreak
 ! Source: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
