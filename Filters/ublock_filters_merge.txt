@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-06-11 23:19:55 JST
+! Version: 2025-06-12 07:19:48 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
 
@@ -7928,7 +7928,7 @@ usatoday.com,ydr.com##+js(set, gnt.u.adfree, true)
 247sports.com##+js(rpnt, script, /^/, (()=>{window.admiral=function(d\,a\,b){if("function"==typeof b)try{b({})}catch(a){}}})();, sedCount, 1)
 247sports.com##+js(set, __INITIAL_DATA__.siteData.admiralScript)
 ||zaf.api.fanbyte.com/stable/js/
-||gameskinny.com/wp-json/navy/v*/tag?pid=
+/wp-json/navy/v*/tag?pid=$xhr,1p
 ||storage.googleapis.com/pravda-ad-script/
 ||s.w-x.co/helios/twc/
 ||07c225f3.online^$~css,domain=dogdrip.net|infinityfree.com|smsonline.cloud
@@ -15151,13 +15151,6 @@ techpp.com##.brxe-div > div[class="brxe-container"] .adsbygoogle:upward(.brxe-co
 techpp.com###customad:upward(.code-block)
 techpp.com##section.brxe-section > div[class="brxe-container"] .adsbygoogle:upward(section)
 streamtb.me##+js(nowoif)
-moviesonlinefree.net##+js(acs, setTimeout, admc)
-moviesonlinefree.net##+js(acs, RegExp, 0x)
-moviesonlinefree.net##+js(aopw, p$00a)
-moviesonlinefree.net##+js(set, D4zz, noopFunc)
-moviesonlinefree.net###bread > div
-moviesonlinefree.net##.overlays
-moviesonlinefree.net##[href^="https://espionagegardenerthicket.com"]
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|googleapis.com|jsdelivr.net|stripst.com|strpst.com|datatables.net|jwpcdn.com,domain=javplayer.org|pubjav.com|sextb.net|sextb.xyz
 jizzbunker2.com##.partner-site
 ||cdn3x.com/*/js/*.vast.
@@ -16099,9 +16092,6 @@ garoetpos.com###wpsafe-generate, #wpsafe-link:style(display: block !important;)
 thefastcode.com##div[id^="placeholder_"]
 thefastcode.com##body[style="margin-top: 90px; margin-bottom: 90px;"]:style(margin-top: 0 !important; margin-bottom: 0 !important;)
 projectlive.info##+js(acs, eval, replace)
-mangaesp.co##+js(acs, akadb)
-mangaesp.co##+js(noeval-if, replace)
-comedyshow.to##+js(aost, document.querySelector, showModal)
 leviathanmanga.com##+js(aopr, popns)
 besargaji.com##button[onclick^="window.open"]:remove-attr(onclick)
 besargaji.com##+js(nowoif)
@@ -16126,8 +16116,8 @@ bakai.org##+js(aeld, load, nextFunction)
 ||bakai.org/uploads/fhentai.js$script,1p
 japscan.lol##+js(nostif, detectImgLoad)
 mgnetu.com##h4:has-text(VPN)
-bondagevalley.cc##+js(rmnt, script, innerHTML)
-||bondagevalley.cc/upload/photos/kcs.webp
+bondagevalley.cc##+js(acs, document.querySelectorAll, popMagic)
+@@||bondagevalley.cc^$ghide
 ||aucdn.net/library/*.mp4|$media,domain=clgt.one
 ||in-jpn.com^$script,replace=/function myFunc[\s\S\n]+?doSakigake\(\);[\s\S\n]+?\}//
 azaleasdolls.com##td[height="279"]
@@ -20984,6 +20974,8 @@ safefileku.com##.cHNI
 safefileku.com##button#download ~ div:has(> a[target="_blank"])
 nontonx.com##+js(rmnt, script, getComputedStyle)
 pelisflix20.*>>##+js(nowoif, /^ [-\d]/)
+moviesonlinefree.*##+js(rmnt, script, _0x)
+moviesonlinefree.*##+js(nowoif)
 
 !# End include: Filters/tmp_dir/filters-2025.txt
 
