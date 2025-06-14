@@ -3,7 +3,7 @@
 ! Description: AdGuard DNS filter Customized by monsivamon
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
-! Last modified: 2025-06-14T14:18:12.488Z
+! Last modified: 2025-06-14T22:19:56.314Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -8632,6 +8632,7 @@
 ||arsfoundhertobe.com^
 ||arshelmeton.com^
 ||arswabluchan.com^
+||artcbrphkbiw.com^
 ||artditement.info^
 ||arteltubman.top^
 ||arterybasin.com^
@@ -9059,6 +9060,7 @@
 ||avhtaapxml.com^
 ||aviatenabalus.shop^
 ||aviewrodlet.com^
+||aviiivsxdmbgc.site^
 ||aviwracnuwpcse.com^
 ||avjbjbekaawzr.top^
 ||avknaronfjin.com^
@@ -9070,6 +9072,7 @@
 ||avsakrcapna.com^
 ||avsfpiax.com^
 ||avsojlonp.com^
+||avspceadfb.com^
 ||avthelkp.net^
 ||avvelwamqklew.top^
 ||avvelwavlkjev.top^
@@ -9829,6 +9832,7 @@
 ||bhcont.com^
 ||bhigziaww.com^
 ||bhihakqmybat.com^
+||bhivpvsbhskzv.site^
 ||bhkfnroleqcjhm.xyz^
 ||bhlph.com^
 ||bhohazozps.com^
@@ -11769,6 +11773,7 @@
 ||co5n3nerm6arapo7ny.com^
 ||coalbandmanicure.com^
 ||coaphauk.net^
+||coarse-you.pro^
 ||coarseauthorization.com^
 ||coarseneat.pro^
 ||coastlinejudgement.com^
@@ -12896,6 +12901,7 @@
 ||dc-rotator.com^
 ||dc7dad4603.com^
 ||dcakwfzcjfjjb.life^
+||dcaqtvqaopjoha.com^
 ||dcff90fa75.com^
 ||dcfnihzg81pa.com^
 ||dcgjpojm.space^
@@ -13303,6 +13309,7 @@
 ||dignityhourmulticultural.com^
 ||digonalratel.top^
 ||diguver.com^
+||digzjnuguwwxr.online^
 ||diingsinspiringtg.com^
 ||dikasomywnqww.website^
 ||dikeaxillas.com^
@@ -13713,6 +13720,7 @@
 ||douploadfiles.click^
 ||dousoavaisoup.com^
 ||douthosh.net^
+||douwhaiwupe.net^
 ||douzvrswnkxzv.icu^
 ||dovictinian.com^
 ||dovoeqhym.xyz^
@@ -14576,6 +14584,7 @@
 ||envious-low.com^
 ||enviousinevitable.com^
 ||environmental3x.fun^
+||enwoveveneer.com^
 ||enzav.xyz^
 ||eobrndvhdrf.com^
 ||eocxfdzi.com^
@@ -14690,6 +14699,7 @@
 ||erwallowsisheha.com^
 ||erwksojkxxlff.icu^
 ||erxdq.com^
+||erxnqfhkkjkzz.site^
 ||erymuchadmirl.org^
 ||eryondistain.com^
 ||erysilenitmanb.com^
@@ -16886,6 +16896,7 @@
 ||greerogloo.net^
 ||greeshoamagh.com^
 ||greeter.me^
+||greeterstaniel.com^
 ||greetpanda.org^
 ||greewepi.net^
 ||grefutiwhe.com^
@@ -18717,6 +18728,7 @@
 ||irkantyip.com^
 ||irmyckddtm.com^
 ||irnmh.fun^
+||ironclad-temperature.pro^
 ||ironcladtrouble.com^
 ||ironicaldried.com^
 ||irousbisayan.com^
@@ -18946,6 +18958,7 @@
 ||jaumevie.com^
 ||jauntycrystal.com^
 ||jauntyit.com^
+||jautauhoch.com^
 ||jauwaust.com^
 ||java8.xyz^
 ||javascriptcdnlive.com^
@@ -19053,6 +19066,7 @@
 ||jfiavkaxdm.com^
 ||jfjle4g5l.com^
 ||jfkc5pwa.world^
+||jfsysurbajap.com^
 ||jftobitbxg.com^
 ||jgfuxnrloev.com^
 ||jggegj-rtbix.top^
@@ -19162,6 +19176,7 @@
 ||jobestzipolike.org^
 ||jobeyeball.com^
 ||jobfukectivetr.com^
+||jobmkewkzwbkq.top^
 ||jobmkewkzwrkb.top^
 ||jobsyndicate.com^
 ||jocmiglenedsupi.com^
@@ -19189,6 +19204,7 @@
 ||joopaish.com^
 ||joorekbzwrjoz.top^
 ||jootizud.net^
+||jootuteeloobour.net^
 ||jopbvpsglwfm.com^
 ||jopel.site^
 ||joqowqyaarewj.top^
@@ -19768,6 +19784,7 @@
 ||knpfx.life^
 ||kntqxwhr.com^
 ||knutenegros.pro^
+||knycoblq.com^
 ||koabouphie.xyz^
 ||koacucooptour.com^
 ||koafaimoor.net^
@@ -20214,6 +20231,7 @@
 ||leetmedia.com^
 ||leezeept.com^
 ||leezoama.net^
+||lefeljupoh.com^
 ||leforgotteddisg.com^
 ||leforgotteddisg.info^
 ||left-world.com^
@@ -20306,6 +20324,7 @@
 ||lexlime.top^
 ||lfakutozqax.com^
 ||lfdisicuttrod.rocks^
+||lfelnkxiazxkx.store^
 ||lfhqslstrnkcd.com^
 ||lfmcxivswsbenec.com^
 ||lfstmedia.com^
@@ -20901,6 +20920,7 @@
 ||luzypntaczbig.website^
 ||lv9qr0g0.xyz^
 ||lvaazvwzylvbq.top^
+||lvbeybbrwlamk.top^
 ||lvbeybbrwvywq.top^
 ||lvhcqaku.com^
 ||lvlhmjerf.buzz^
@@ -20943,6 +20963,7 @@
 ||lydiacorneredreflect.com^
 ||lydiapain.com^
 ||lydidqrpbqaia.com^
+||lydilhoyowr.com^
 ||lyearsfoundhertob.com^
 ||lyfjnkpupaxixm.com^
 ||lyingleisurelycontagious.com^
@@ -21317,6 +21338,7 @@
 ||mdwzdvbjkixim.site^
 ||me4track.com^
 ||me7x.site^
+||meager-start.pro^
 ||meagplin.com^
 ||mealrake.com^
 ||meanedreshear.shop^
@@ -21382,6 +21404,7 @@
 ||meedoorepsapoa.net^
 ||meekscooterliver.com^
 ||meenetiy.com^
+||meepsaithiry.net^
 ||meepwrite.com^
 ||meerihoh.net^
 ||meestaigroasa.net^
@@ -22872,6 +22895,7 @@
 ||nv3tosjqd.com^
 ||nvaxjmyg.com^
 ||nvejmzqxuuujx.love^
+||nvfyxzjwojbkd.website^
 ||nvpylxkdptacm.today^
 ||nvqlygqniapyb.site^
 ||nvtvssczb.com^
@@ -23143,6 +23167,7 @@
 ||ofklefkian.com^
 ||ofkrabbyr.com^
 ||ofleafeona.com^
+||ofljjrxtflpva.space^
 ||ofphanpytor.com^
 ||ofpmadgfo.com^
 ||ofredirect.com^
@@ -25703,6 +25728,7 @@
 ||qgimxtyttlpyj.store^
 ||qgmoslspensxh.buzz^
 ||qgpiphehhrcvl.space^
+||qguusmmvndeor.website^
 ||qgwgweoxulrb.com^
 ||qgxbluhsgad.com^
 ||qhiatcfrywgse.click^
@@ -25754,6 +25780,7 @@
 ||qmahepzo.one^
 ||qmaoqbvpuo.com^
 ||qmargziexagv.com^
+||qmefcejujmezq.website^
 ||qmgpfrwyhtwp.com^
 ||qmkackqmigezu.club^
 ||qmlnioxbjldsfsa.xyz^
@@ -25982,6 +26009,7 @@
 ||radiancethedevice.com^
 ||radianttank.com^
 ||radicalpackage.com^
+||radishrarity.com^
 ||radiusfellowship.com^
 ||radiusmarketing.com^
 ||radshedmisrepu.info^
@@ -27026,6 +27054,7 @@
 ||rtuinrjezwkj.love^
 ||rtxfeed.com^
 ||rtxrtb.com^
+||rtygbpsmcinlyoj.com^
 ||rtyufo.com^
 ||rtyznd.com^
 ||rtzbpsy.com^
@@ -27895,6 +27924,7 @@
 ||sidegeographycondole.com^
 ||sidelinearrogantinterposed.com^
 ||sidenoteproductionbond.com^
+||sidfclwryxnr.com^
 ||sierradissolved.com^
 ||sievynaw.space^
 ||sifenews.com^
@@ -28169,6 +28199,7 @@
 ||smsapiens.com^
 ||smuggeralapa.com^
 ||smugismanaxon.com^
+||smugshare.pro^
 ||smumazydhxnou.online^
 ||smutterchis.top^
 ||smuwroli.com^
@@ -28436,6 +28467,7 @@
 ||spitspacecraftfraternity.com^
 ||spitzrafting.top^
 ||spklmis.com^
+||spkutusmnpmjf.site^
 ||splendid-concert.com^
 ||splendidsugar.com^
 ||splendidtelevision.pro^
@@ -29810,6 +29842,7 @@
 ||tomechyki.pro^
 ||tomekas.com^
 ||tomeletparton.top^
+||tomizizingeel.net^
 ||tomladvert.com^
 ||tomlldahehun.org^
 ||tommyholysnapped.com^
@@ -31018,6 +31051,7 @@
 ||vclouds.com^
 ||vcmedia.com^
 ||vcommission.com^
+||vcqdsnjbtxclz.space^
 ||vcsjbnzmgjs.com^
 ||vcsxfynmtgwwj.global^
 ||vctcajeme.tech^
@@ -31035,6 +31069,7 @@
 ||vdulz.org^
 ||vdxnkmjloixhc.store^
 ||vdzna.com^
+||vealbkvvorarz.top^
 ||vealbkvvorqry.top^
 ||vebadu.com^
 ||vebv8me7q.com^
@@ -31122,6 +31157,7 @@
 ||vfegqmbcgyndw.today^
 ||vfghc.com^
 ||vfghd.com^
+||vfgjzkrchtdaj.space^
 ||vfgte.com^
 ||vfgtg.com^
 ||vfl81ea28aztw7y3.pro^
@@ -31794,6 +31830,7 @@
 ||wfexxzpmengpk.today^
 ||wffbdim.com^
 ||wffnhpcsenwviw.com^
+||wfhahspcye.com^
 ||wfjkzgbcjnezi.fun^
 ||wfnetwork.com^
 ||wfredir.net^
@@ -32638,6 +32675,7 @@
 ||ygimeqcpvbtci.rocks^
 ||ygmkcuj3v.com^
 ||ygvqughn.com^
+||ygytagwykabfst.com^
 ||yhbcii.com^
 ||yhgio.com^
 ||yhigrmnzd.life^
@@ -36020,19 +36058,15 @@
 ! Source name: EasyList
 ! Source: https://easylist.to/easylist/easylist.txt
 !
-||artcbrphkbiw.com^
-||enwoveveneer.com^
+||augjmwws.com^
 ||gaming001.site
 ||get-me-wow.
-||greeterstaniel.com^
-||jautauhoch.com^
-||jobmkewkzwbkq.top^
-||nvfyxzjwojbkd.website^
-||ofljjrxtflpva.space^
-||radishrarity.com^
-||rtygbpsmcinlyoj.com^
-||sidfclwryxnr.com^
+||jqilyjagezcqk.site^
+||mcocayxlebnuv.space^
+||squigglyproduct.pro^
 ||wenoolgo.icu
+||yakgexurp.com^
+||zzqolojveoozq.top^
 ||adservice.google.
 ||admothreewallent.com
 ||mimosaavior.top
