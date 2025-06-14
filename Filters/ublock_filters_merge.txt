@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-06-14 23:17:32 JST
+! Version: 2025-06-15 07:19:20 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
 
@@ -11500,9 +11500,6 @@ unblocked.id,uproxy2.*,unblock2.*##[onclick*="vpnk.net/?vpn"]
 ||vpnk.net/?vpn$doc
 codingnepalweb.com##+js(rpnt, script, (isAdblock), (false))
 codingnepalweb.com##+js(nano-stb, animation)
-cozumpark.com##.adv-link
-lordhd.com##+js(nowoif)
-embed-channel.stream##+js(acs, document.addEventListener, nextFunction)
 ||juicebarads.com^$3p
 drop.download##+js(acs, document.addEventListener, google_ad_client)
 drop.download##.row > .col-md-8
@@ -11514,7 +11511,7 @@ flightsim.to##+js(no-xhr-if, pub.network)
 @@||pub.network/flightsim-to/pubfig.min.js$script,xhr,domain=flightsim.to
 @@||flightsim.to^$ghide
 moviemakeronline.com##+js(nosiif, adsbygoogle)
-moviemakeronline.com##.bbbOwner
+moviemakeronline.com##ins.adsbygoogle:upward(1)
 cinemakottaga.*##+js(no-xhr-if, googlesyndication)
 cinemakottaga.*##+js(aeld, DOMContentLoaded, adsBlocked)
 cinemakottaga.*##+js(acs, document.addEventListener, adsbygoogle)
@@ -20967,7 +20964,7 @@ safefileku.com##+js(ra, onclick, button#download, complete)
 safefileku.com##+js(nowoif, _blank)
 safefileku.com##.cHNI
 safefileku.com##button#download ~ div:has(> a[target="_blank"])
-nontonx.com##+js(rmnt, script, getComputedStyle)
+@@||nontonx.com/cdn-cgi/rum$xhr,1p
 pelisflix20.*>>##+js(nowoif, /^ [-\d]/)
 buzzheavier.com##+js(set, window.adLink, null)
 moviesonlinefree.*##+js(rmnt, script, _0x)
@@ -20980,6 +20977,8 @@ magnetdl.*##+js(nowoif, !magnetdl., 1)
 yt1s.com.co##+js(nowoif)
 cerberusapp.com##+js(set, stoCazzo, true)
 streamecho.top##+js(acs, addEventListener, detect)
+videq.cloud##+js(no-fetch-if, googlesyndication)
+south-park-tv.fr##+js(set-cookie, popunder, 1)
 
 !# End include: Filters/tmp_dir/filters-2025.txt
 
