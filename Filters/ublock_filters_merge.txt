@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-06-14 15:28:00 JST
+! Version: 2025-06-14 23:17:32 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
 
@@ -11608,6 +11608,7 @@ nation.africa##+js(aopr, evolokParams.adblock)
 techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
 techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][href$="er/images/gmchjhj.png"]
 ||www.techpowerup.com/reviyuu/$image,1p
+techpowerup.com##div.s--item:has(a[href^="/reviyuu/"])
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect-rule,domain=carousell.*
 unblocknow.*##.adstg
 unblocknow.*##.alert
@@ -12430,6 +12431,7 @@ thecustomrom.com##+js(nano-stb, window.location.href, *)
 111.90.159.132##+js(nostif, mfp)
 111.90.159.132##+js(set, Object.prototype.ads, noopFunc)
 /wp-content/plugins/catfish-advert-banner/*$script
+*/wp-content/plugins/lnw-ad-blocker-detector/$script,1p
 111.90.159.132##[href="http://buaksib.in/"]
 111.90.159.132###catfish
 111.90.159.132##.mfp-ready
@@ -14171,15 +14173,7 @@ movierulzhd.*##+js(aost, document.createElement, /(?=^(?!.*(http)))/)
 @@||documaniatv.com^$script,xhr,1p
 @@||delicious-audio.com^$ghide
 delicious-audio.com##.big-ads-show
-streaming-french.net##+js(aopr, BetterJsPop)
-streaming-french.net##^script:has-text(BetterJsPop.add)
-secretstash.in##+js(noeval)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=noopjs,domain=liveone.com
-@@||orbispatches.com^$ghide
-orbispatches.com##.adsbyvli:style(max-height: 1px !important;)
-@@||vlitag.com^$script,xhr,domain=orbispatches.com
-||assets.vlitag.com/plugins/*$important,script,domain=orbispatches.com
-||assets.vlitag.com/prebid/*$important,script,domain=orbispatches.com
 idevicecentral.com##+js(nostif, ()=>)
 lib.hatenablog.com##+js(acs, document.addEventListener, google_ad_client)
 komputerswiat.pl##+js(acs, $onet, adblock)
@@ -14190,9 +14184,6 @@ ewrc-results.com##+js(no-xhr-if, googlesyndication)
 theappstore.org##+js(no-fetch-if, adsbygoogle, length:11000)
 dzeko11.net##+js(nostif, keepChecking)
 *$script,redirect-rule=noopjs,domain=sprawdzwegiel.pl
-ier.ai##+js(nowoif)
-ier.ai##+js(set, blurred, false)
-ier.ai##a[href][target="_blank"] > img
 imhentai.xxx###slider
 tokuvn.com##+js(acs, goToURL)
 worldpopulationreview.com##.video-container
