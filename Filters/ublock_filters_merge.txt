@@ -1,6 +1,6 @@
 ! Title: Merged uBlock Filters
 ! Description: Combined list from uBlock includes
-! Version: 2025-06-15 07:19:20 JST
+! Version: 2025-06-15 15:28:53 JST
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
 
@@ -6891,6 +6891,7 @@ techdracula.com##ins.adsbygoogle
 /^https?:\/\/a\.[-0-9a-z]{4,21}\.[a-z]{2,5}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
 /^https?:\/\/ar\.[-0-9a-z]{4,21}\.[a-z]{2,5}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
 /^https?:\/\/asg\.[-0-9a-z]{4,21}\.[a-z]{2,5}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
+/^https?:\/\/emsi\.[-0-9a-z]{4,21}\.[a-z]{2,5}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
 /^https?:\/\/pre\.[0-9a-z]{6,12}\.[a-z]{3,4}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
 /^https?:\/\/oi\.[0-9a-z]{6,12}\.[a-z]{3,4}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
 /^https?:\/\/dl\.[0-9a-z]{6,12}\.[a-z]{3,4}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
@@ -6912,11 +6913,20 @@ techdracula.com##ins.adsbygoogle
 ://cdn.*.com/vast2.js|$3p
 /\.[a-z]{2,5}\/[0-9a-zA-Z]{5,7}\.js$/$script,3p,match-case,domain=javtiful.com|nukibooks.com
 /\.com\/[0-9a-zA-Z]{5,7}\.js$/$script,1p,strict3p,match-case,domain=love4porn.com|suptube.com|upload-pics.com
+/^https?:\/\/a\.[-0-9a-z]{4,}\.[a-z]{2,5}\/[0-9a-zA-Z]{5,7}\.js$/$script,match-case,to=~gov|~edu
+/^https?:\/\/asg\.[-0-9a-z]{4,}\.[a-z]{2,5}\/[0-9a-zA-Z]{5,7}\.js$/$script,match-case,to=~gov|~edu
+/^https?:\/\/emsi\.[-0-9a-z]{4,}\.[a-z]{2,5}\/[0-9a-zA-Z]{5,7}\.js$/$script,match-case,to=~gov|~edu
+/^https?:\/\/a\.[-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?\.[a-z][a-z][a-z]?[a-z]?[a-z]?\/[0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z]?[0-9a-zA-Z]?\.js$/$script,match-case
+/^https?:\/\/asg\.[-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?\.[a-z][a-z][a-z]?[a-z]?[a-z]?\/[0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z]?[0-9a-zA-Z]?\.js$/$script,match-case
+/^https?:\/\/emsi\.[-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?[-0-9a-z]?\.[a-z][a-z][a-z]?[a-z]?[a-z]?\/[0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z]?[0-9a-zA-Z]?\.js$/$script,match-case
+||livetwo.store^
+||mainos.pro^
+||yamcha.xyz^
 /^https:\/\/[0-9a-z]{3,15}\.biz\/\?[a-z]e=[0-9a-z]{22,26}$/$script,3p,match-case,to=biz
 /^https?:\/\/cdn\.[a-z]{3,8}\.[a-z]{2,6}\/app\.js$/$script,3p,match-case,domain=~edu|~gov
 /^https?:\/\/cdn\.[a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?\.[a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?\/app\.js$/$script,3p,match-case,domain=~edu|~gov
 ://p.*/go/$popup,3p
-||cdn.srxy.xyz^
+||srxy.xyz^
 /fp-interstitial.js
 /splash.php?idzone=
 ://a.*/pn.php
@@ -7396,7 +7406,7 @@ simpcity.su##.nav-faze
 simpcity.su##.nav-tpd
 saint2.cr##^script:has-text(WebAssembly)
 saint2.cr##+js(acs, WebAssembly, Promise)
-10convert.com,2girls1cup.ca,animez.org,banglachotigolpo.xyz,besthdgayporn.com,bigojav.com,bookfrom.net,ddd-smart.net,dojing.net,drivenime.com,favoyeurtube.net,fucksporn.com,fullxcinema1.com,gdrivelatinohd.net,gigmature.com,hachiraw.net,hentairead.io,homemoviestube.com,javboys.*,javbraze.com,javchill.com,javhat.tv,javhd.today,javhdz.today,javseen.tv,javup.org,kaliscan.me,kisscos.net,kmansin09.*,leermanga.net,mangajikan.com,mangamovil.net,milfnut.*,naijauncut.com,nicomanga.com,nudeslegion.com,onlinework4all.com,otomi-games.com,piratehaven.xyz,poapan.xyz,porn00.org,pornohubonline.com,pornxp.com,raw1001.net,rawinu.com,safefileku.com,sexdiaryz.*,shemale6.com,shemaleup.net,smarttrend.xyz,socigames.com,streamup.ws,tatli.biz,teenager365.com,theblank.net,transflix.net,turboimagehost.com,weloma.art,welovemanga.one,worthcrete.com##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
+10convert.com,2girls1cup.ca,animez.org,banglachotigolpo.xyz,besthdgayporn.com,bigojav.com,bookfrom.net,ddd-smart.net,dojing.net,drivenime.com,favoyeurtube.net,fucksporn.com,fullxcinema1.com,gdrivelatinohd.net,gigmature.com,hachiraw.net,hentairead.io,homemoviestube.com,javboys.*,javbraze.com,javchill.com,javhat.tv,javhd.today,javhdz.today,javseen.tv,javtiful.com,javup.org,kaliscan.me,kisscos.net,kmansin09.*,leermanga.net,mangajikan.com,mangamovil.net,milfnut.*,naijauncut.com,nicomanga.com,nudeslegion.com,onlinework4all.com,otomi-games.com,piratehaven.xyz,poapan.xyz,porn00.org,pornohubonline.com,pornxp.com,raw1001.net,rawinu.com,safefileku.com,sexdiaryz.*,shemale6.com,shemaleup.net,smarttrend.xyz,socigames.com,streamup.ws,tatli.biz,teenager365.com,theblank.net,transflix.net,turboimagehost.com,weloma.art,welovemanga.one,worthcrete.com##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
 asiaflix.net,asiangay.tv,bootstrample.com,hentairead.io,japangaysex.com,mangagun.net,mangajikan.com,nicomanga.com,nudeslegion.com,rawinu.com,watchsouthpark.tv,weloma.art,welovemanga.one##+js(aopr, popns)
 coinsbomb.com,daemon-hentai.com,daemonanime.net##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/, /^data:/)
 besthdgayporn.com,drivenime.com,erothots1.com,filegram.to,javup.org,savefiles.com,shemaleup.net,transflix.net,worthcrete.com##^script:has-text(/popMagic|pop1stp/)
@@ -20979,6 +20989,18 @@ cerberusapp.com##+js(set, stoCazzo, true)
 streamecho.top##+js(acs, addEventListener, detect)
 videq.cloud##+js(no-fetch-if, googlesyndication)
 south-park-tv.fr##+js(set-cookie, popunder, 1)
+/asyncjs.php^$script,redirect=noopjs,domain=pics-x.com
+pics-x.com##.player-schmad
+pics-x.com##.schmad-container
+pics-x.com###footer-schmads
+pics-x.com###gallery-header-schmad
+pics-x.com###slider
+pics-x.com###homepage-links
+pics-x.com##a[href^="https://pics-x.com/marketing/"]
+pics-x.com##nav[aria-label="additional navigation"]
+javenglish.cc##+js(nowoif, _blank)
+||javenglish.net^$3p
+||javenglish.cc/terra2.js^
 
 !# End include: Filters/tmp_dir/filters-2025.txt
 
