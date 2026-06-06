@@ -1,0 +1,80 @@
+name: Build All Filters
+
+on:
+  push:
+    branches:
+      - mine
+    # 変更があったファイルがFilters、scripts、.github/workflowsのいずれかの場合に実行
+    paths:
+      - 'Filters/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
+  schedule:
+    # 8時間ごとに自動実行
+    - cron: '3 22,6,14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  NODE_VERSION: 24
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      # ---------------------------------------------------
+      # 1. フィルタービルド実行
+      # ---------------------------------------------------
+      - name: 1. Merge uBlock Filter
+        run: bash scripts/01_merge_ublock.bash
+
+      - name: 2. Build Main Filter
+        run: bash scripts/02_build_main_filter.bash
+
+      - name: 3. Create Adaway Host
+        run: bash scripts/03_create_adaway.bash
+
+      # ---------------------------------------------------
+      # 2. デプロイの準備
+      # ---------------------------------------------------
+      - name: Prepare deploy
+        run: |
+          # buildの中にFiltersフォルダを作る
+          mkdir -p build/Filters
+          
+          # 成果物をFiltersフォルダの中にコピーする
+          cp Filters/generated_org.txt build/Filters/
+          cp Filters/main_filter.txt build/Filters/
+          cp Filters/ublock_filters_merge.txt build/Filters/
+          cp Filters/converted_for_adaway.txt build/Filters/
+          
+          # 異常フィルタログ(bad_filter.txt)が存在する場合のみ追加でコピー
+          if [ -f "Filters/bad_filter.txt" ]; then
+            cp Filters/bad_filter.txt build/Filters/
+          fi
+        env:
+          CI: true
+
+      # ---------------------------------------------------
+      # 3. デプロイの実行
+      # ---------------------------------------------------
+      - name: Deploy to release branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: release
+          force_orphan: true
+          enable_jekyll: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'chore: update all filters (8h schedule) - ${{ github.event.head_commit.message }}'

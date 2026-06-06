@@ -1,0 +1,117 @@
+[Adblock Plus 2.0]
+! Title: AdGuard_DNS_Filter_for_myself - Unique List
+! Description: This source component (Unique_List.txt) is intended to be merged into AdGuard_DNS_Filter_for_myself.
+! Version: 1.0.0
+! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
+! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
+! Last modified: 2026-6-6
+! Expires: 24 hours
+! ----------------------------------------------------------------------
+
+! アフィリエイト・ASP
+! --- A8.net ---
+@@||a8.net^|
+@@||a8clk.jp^|
+@@||a8cv.jp^|
+@@||as.uncn.jp^|
+
+! --- AccessTrade ---
+@@||accesstrade.jp^|
+@@||accesstrade.net^|
+
+! --- Amazon ---
+@@||aax-fe.amazon-adsystem.com^|
+@@||amzn.to^|
+@@||c.amazon-adsystem.com^|
+
+! --- Google ---
+@@||clickserve.dartsearch.net^|
+@@||googleads.g.doubleclick.net^|
+@@||ssl.google-analytics.com^|
+@@||www.google-analytics.com^|
+@@||www.googletagmanager.com^|
+
+! --- LinkShare (Rakuten Advertising) ---
+@@||ad.linksynergy.com^|
+@@||click.linksynergy.com^|
+
+! --- Rakuten ---
+@@||affiliate.rakuten.co.jp^|
+@@||grp10.ias.rakuten.co.jp^|
+@@||hb.afl.rakuten.co.jp^|
+@@||r.r10s.jp^|
+@@||r10.to^|
+@@||rd.rakuten.co.jp^|
+@@||secure.rat.rakuten.co.jp^|
+
+! --- SNS ---
+@@||t.co^|
+
+! --- ValueCommerce ---
+@@||atrrd.valuecommerce.com^|
+@@||ck.jp.ap.valuecommerce.com^|
+@@||ck.valuecommerce.com^|
+@@||js.ap.valuecommerce.com^|
+@@||trj.valuecommerce.com^|
+
+! --- Yahoo! / Softbank ---
+@@||dsb.yahoo.co.jp^|
+@@||rdsig.yahoo.co.jp^|
+
+! --- その他主要ASP (Global) ---
+@@||impact.com^|
+@@||impactradius.com^|
+@@||zenaps.com^|
+
+! --- その他主要ASP (Domestic) ---
+@@||ad2.trafficgate.net^|
+@@||af.moshimo.com^|
+@@||aff.i-mobile.co.jp^|
+@@||click.j-a-net.jp^|
+@@||rentracks.jp^|
+@@||j-a-net.jp^|
+@@||prf.hn^|
+@@||smart-c.jp^|
+@@||t.felmat.net^|
+@@||tcs-asp.net^|
+@@||track.afb.jp^|
+
+! docomo
+@@||dcm-b.jp^|
+
+! アプリ安定化・計測
+@@||appsflyer.com^|
+@@||appsflyersdk.com^|
+@@||api2.branch.io^|
+@@||sentry.io^|
+
+! レガシーWeb解析
+@@||counter1.fc2.com^|
+@@||i2i.jp^|
+@@||nakanohito.jp^|
+@@||shinobi.jp^|
+@@||statcounter.com^|
+
+! LINE
+||im.c.yimg.jp^
+||a.line.me^
+||obs.line-scdn.net^
+||gw.line.naver.jp^
+||ad.line-scdn.net^
+||scdn.line-apps.com^
+||linevoom.line.me^
+||voom-assets.line-scdn.net^
+||voom-obs.line-scdn.net^
+||ch-news.line-apps.com^
+||square-api.line.me^
+||crs-event.line.me^
+||crs-hometab-event.line.me^
+
+! 明示的なブロックリスト
+||ads.tver.jp^
+||click.tver.jp^
+||pangle.io^
+||unityads.unity3d.com^
+||iads.unity3d.com^
+||fivecdm.com^
+||uncn.jp^

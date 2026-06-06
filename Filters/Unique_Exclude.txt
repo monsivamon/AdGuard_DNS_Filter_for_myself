@@ -1,0 +1,10 @@
+! Title: AdGuard_DNS_Filter_for_myself - Unique_Exclude
+! Description: This source component (Unique_Exclude.txt) is intended to be merged into AdGuard_DNS_Filter_for_myself.
+! Version: 1.0.0
+! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
+! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
+! Last modified: 2026-6-6
+! Expires: 24 hours
+
+! Unbreak domain
+pragma-life.jp
