@@ -4,7 +4,7 @@
 ! Version: 1.0.0
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
-! Last modified: 2026-6-6
+! Last modified: 2026-8-08
 ! Expires: 24 hours
 ! ----------------------------------------------------------------------
 
@@ -38,7 +38,6 @@
 ! --- Rakuten ---
 @@||affiliate.rakuten.co.jp^|
 @@||grp10.ias.rakuten.co.jp^|
-@@||hb.afl.rakuten.co.jp^|
 @@||r.r10s.jp^|
 @@||r10.to^|
 @@||rd.rakuten.co.jp^|
@@ -75,6 +74,9 @@
 @@||t.felmat.net^|
 @@||tcs-asp.net^|
 @@||track.afb.jp^|
+@@||link-a.jp^|
+@@||adbomber.jp^|
+@@||forthree.co.jp^|
 
 ! docomo
 @@||dcm-b.jp^|
@@ -84,6 +86,16 @@
 @@||appsflyersdk.com^|
 @@||api2.branch.io^|
 @@||sentry.io^|
+@@||adjust.com^|
+@@||adjust.io^|
+@@||firebase.com^|
+@@||firebaseio.com^|
+@@||singular.net^|
+@@||kochava.com^|
+@@||mixpanel.com^|
+@@||amplitude.com^|
+@@||flurry.com^|
+@@||count.ly^|
 
 ! レガシーWeb解析
 @@||counter1.fc2.com^|
@@ -91,27 +103,6 @@
 @@||nakanohito.jp^|
 @@||shinobi.jp^|
 @@||statcounter.com^|
-
-! LINE
-||im.c.yimg.jp^
-||a.line.me^
-||obs.line-scdn.net^
-||gw.line.naver.jp^
-||ad.line-scdn.net^
-||scdn.line-apps.com^
-||linevoom.line.me^
-||voom-assets.line-scdn.net^
-||voom-obs.line-scdn.net^
-||ch-news.line-apps.com^
-||square-api.line.me^
-||crs-event.line.me^
-||crs-hometab-event.line.me^
-
-! 明示的なブロックリスト
-||ads.tver.jp^
-||click.tver.jp^
-||pangle.io^
-||unityads.unity3d.com^
-||iads.unity3d.com^
-||fivecdm.com^
-||uncn.jp^
+@@||histats.com^|
+@@||hit-counter.jp^|
+@@||web-stat.com^|

@@ -94,39 +94,11 @@ awk '
   }
   print
 }
-' "$WORK_DIR/tmp_body_filter_before_pre.txt" | sort -u > "$WORK_DIR/tmp_body_filter_before.txt"
+' "$WORK_DIR/tmp_body_filter_before_pre.txt" | sort -u > "$WORK_DIR/tmp_body_filter.txt"
 echo "STEP 5 Finish: Cleaned up and formatted final filter syntax"
 ls -la "$WORK_DIR"
 
-# 6. コンパイラ外の外部フィルター追加
-curl -sSL "https://raw.githubusercontent.com/Kdroidwin/uB-filter-by-kdroidwin/main/uBlockorigin.txt" -o "$WORK_DIR/tmp_kdroidwin.txt" || true
-
-if [ -s "$WORK_DIR/tmp_kdroidwin.txt" ]; then
-  awk '
-  !/\./ {
-    next
-  }
-  /^(@@)?\|\|[a-zA-Z0-9_.-]+\.[a-zA-Z0-9_.-]+\^/ {
-    sub(/\^.*$/, "^")
-    if ($0 ~ /^@@\|\|/) {
-      $0 = $0 "|"
-    }      
-    print
-  }
-  ' "$WORK_DIR/tmp_kdroidwin.txt" >> "$WORK_DIR/tmp_body_filter_before.txt"
-fi
-
-cat Filters/Unique_List.txt >> "$WORK_DIR/tmp_body_filter_before.txt"
-
-awk '
-!/^!/ && !/^#/ {
-  print
-}
-' "$WORK_DIR/tmp_body_filter_before.txt" | sort -u > "$WORK_DIR/tmp_body_filter.txt"
-echo "STEP 6 Finish: Merged external lists and removed duplicates"
-ls -la "$WORK_DIR"
-
-# 7. massdnsによる存在確認準備 (全ルールのドメイン抽出)
+# 6. massdnsによる存在確認準備 (全ルールのドメイン抽出)
 awk '
 {
   tmp = $0
@@ -138,10 +110,10 @@ awk '
   }
 }
 ' "$WORK_DIR/tmp_body_filter.txt" | sort -u > "$WORK_DIR/tmp_domains_for_massdns.txt"
-echo "STEP 7 Finish: Extracted ALL domains for massdns (No bypass)"
+echo "STEP 6 Finish: Extracted ALL domains for massdns (No bypass)"
 ls -la "$WORK_DIR"
 
-# 8. massdnsの実行 (全ドメイン対象)
+# 7. massdnsの実行 (全ドメイン対象)
 if [ -s "$WORK_DIR/tmp_domains_for_massdns.txt" ]; then
   sudo apt-get update
   sudo apt-get install -y git make gcc
@@ -156,10 +128,10 @@ if [ -s "$WORK_DIR/tmp_domains_for_massdns.txt" ]; then
   massdns/bin/massdns -r "$WORK_DIR/resolvers.txt" -t A -o S \
     -w "$WORK_DIR/tmp_Exist_domains_raw.txt" "$WORK_DIR/tmp_domains_for_massdns.txt" || true
 fi
-echo "STEP 8 Finish: Completed domain live-checking via massdns"
+echo "STEP 7 Finish: Completed domain live-checking via massdns"
 ls -la "$WORK_DIR"
 
-# 9. 結果の比較と元のルールの復元
+# 8. 結果の比較と元のルールの復元
 if [ -f "$WORK_DIR/tmp_Exist_domains_raw.txt" ]; then
   awk '
   FNR==NR {
@@ -181,10 +153,10 @@ if [ -f "$WORK_DIR/tmp_Exist_domains_raw.txt" ]; then
 else
   > "$WORK_DIR/tmp_body_filter_base.txt"
 fi
-echo "STEP 9 Finish: Reconstructed filter list (Kept original formatting & modifiers)"
+echo "STEP 8 Finish: Reconstructed filter list (Kept original formatting & modifiers)"
 ls -la "$WORK_DIR"
 
-# 10. 独自除外リスト (Unique_Exclude.txt) の適用
+# 9. 独自除外リスト (Unique_Exclude.txt) の適用
 UNIQUE_EXCLUDE="Filters/Unique_Exclude.txt"
 if [ -f "$UNIQUE_EXCLUDE" ]; then
   awk '
@@ -202,7 +174,14 @@ if [ -f "$UNIQUE_EXCLUDE" ]; then
     sub(/^\|\|/, "", tmp)
     sub(/[\^$|].*$/, "", tmp)
     
-    if (tmp in exclude) {
+    matched = 0
+    for (pattern in exclude) {
+      if (index(tmp, pattern) > 0) {
+        matched = 1
+        break
+      }
+    }
+    if (matched == 1) {
       next
     }
     print $0
@@ -210,15 +189,95 @@ if [ -f "$UNIQUE_EXCLUDE" ]; then
   ' "$UNIQUE_EXCLUDE" "$WORK_DIR/tmp_body_filter_base.txt" > "$WORK_DIR/tmp_body_filter_base_excluded.txt"
   
   mv "$WORK_DIR/tmp_body_filter_base_excluded.txt" "$WORK_DIR/tmp_body_filter_base.txt"
-  echo "STEP 10 Finish: Applied Unique_Exclude.txt (Plain Domain List)"
+  echo "STEP 9 Finish: Applied Unique_Exclude.txt (Plain Domain List)"
 else
-  echo "STEP 10 Skip: Unique_Exclude.txt not found"
+  echo "STEP 9 Skip: Unique_Exclude.txt not found"
 fi
-
-mv "$WORK_DIR/tmp_body_filter_base.txt" "$WORK_DIR/tmp_body_filter_complete.txt"
 ls -la "$WORK_DIR"
 
-# 11. ヘッダーの付与
+# 10. コンパイラ外の外部フィルター追加 (独自リストのマージ)
+echo "STEP 10 Start: Merging external manual list (Unique_List.txt)..."
+cp "$WORK_DIR/tmp_body_filter_base.txt" "$WORK_DIR/tmp_body_filter_merged.txt"
+if [ -f "Filters/Unique_List.txt" ]; then
+  cat Filters/Unique_List.txt >> "$WORK_DIR/tmp_body_filter_merged.txt"
+fi
+awk '
+!/^!/ && !/^#/ {
+  print
+}
+' "$WORK_DIR/tmp_body_filter_merged.txt" | sort -u > "$WORK_DIR/tmp_body_filter_merged_clean.txt"
+mv "$WORK_DIR/tmp_body_filter_merged_clean.txt" "$WORK_DIR/tmp_body_filter_merged.txt"
+echo "STEP 10 Finish: Merged Unique_List.txt and removed duplicates"
+ls -la "$WORK_DIR"
+
+# 11. 冗長なサブドメインルールを削除
+echo "STEP 11 Start: Removing redundant subdomain rules..."
+
+# 許可ルール抽出と最適化
+awk '/^@@\|\|/' "$WORK_DIR/tmp_body_filter_merged.txt" | \
+awk '
+{
+    line = $0
+    domain = line
+    sub(/^@@\|\|/, "", domain)
+    sub(/[\^$].*$/, "", domain)
+    
+    split(domain, parts, ".")
+    rev = ""
+    for (i = length(parts); i >= 1; i--) {
+        if (rev != "") rev = rev "."
+        rev = rev parts[i]
+    }
+    printf "%s\t%s\n", rev, line
+}' | sort -k1,1 | \
+awk -F '\t' '
+BEGIN { prev_rev = "" }
+{
+    curr_rev = $1
+    curr_line = $2
+    if (prev_rev != "" && index(curr_rev, prev_rev ".") == 1) {
+        next
+    }
+    print curr_line
+    prev_rev = curr_rev
+}' > "$WORK_DIR/tmp_allowed_optimized.txt"
+
+# ブロックルール抽出と最適化
+awk '/^\|\|/' "$WORK_DIR/tmp_body_filter_merged.txt" | \
+awk '
+{
+    line = $0
+    domain = line
+    sub(/^\|\|/, "", domain)
+    sub(/[\^$].*$/, "", domain)
+    
+    split(domain, parts, ".")
+    rev = ""
+    for (i = length(parts); i >= 1; i--) {
+        if (rev != "") rev = rev "."
+        rev = rev parts[i]
+    }
+    printf "%s\t%s\n", rev, line
+}' | sort -k1,1 | \
+awk -F '\t' '
+BEGIN { prev_rev = "" }
+{
+    curr_rev = $1
+    curr_line = $2
+    if (prev_rev != "" && index(curr_rev, prev_rev ".") == 1) {
+        next
+    }
+    print curr_line
+    prev_rev = curr_rev
+}' > "$WORK_DIR/tmp_block_optimized.txt"
+
+# 結合 + 重複排除
+cat "$WORK_DIR/tmp_allowed_optimized.txt" "$WORK_DIR/tmp_block_optimized.txt" | sort -u > "$WORK_DIR/tmp_body_filter_complete.txt"
+
+echo "STEP 11 Finish: Redundant rules removed and duplicates eliminated"
+ls -la "$WORK_DIR"
+
+# 12. ヘッダーの付与
 Now="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
 
 awk -v ver="1.0.0" -v modifi="${Now}" -v br="${branch}" '
@@ -235,10 +294,10 @@ BEGIN {
   print 
 }
 ' "$WORK_DIR/tmp_body_filter_complete.txt" > "$OUTPUT_FILE"
-echo "STEP 11 Finish: Added headers and exported final filter"
+echo "STEP 12 Finish: Added headers and exported final filter"
 ls -la "$WORK_DIR"
 
-# 12. クリーンアップと最終確認
+# 13. クリーンアップと最終確認
 rm -rf "$WORK_DIR"
 rm -f Filters/exclusions.txt
 

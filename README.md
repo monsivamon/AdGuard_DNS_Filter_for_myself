@@ -1,6 +1,6 @@
 # AdGuard_DNS_Filter_for_myself
 
-This is a personal AdGuard DNS filter list, mainly created for learning and experimentation.
+This is a personal AdGuard DNS filter list.
 
 ---
 
@@ -53,10 +53,7 @@ They have been invaluable for learning and building this filter list.
 - [AdGuardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter) – DNS-based blocking of ads and tracking.
 - [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) – Official filter list from the uBlock Origin team.
 - [blechschmidt/massdns](https://github.com/blechschmidt/massdns) – High-performance DNS resolver used here to verify domains.
-- [curbengh/phishing-filter](https://github.com/curbengh/phishing-filter) – Blocks sites that try to steal your info by pretending to be legit.
-- [curbengh/urlhaus-filter](https://github.com/curbengh/urlhaus-filter) – Blocks domains and URLs associated with malware.
 - [Yuki2718/adblock2](https://github.com/Yuki2718/adblock2) – AdGuard/uBlock-compatible filter tailored for Japanese websites.
-- [Kdroidwin/uB-filter-by-kdroidwin](https://github.com/Kdroidwin/uB-filter-by-kdroidwin) – A filter list designed to block malicious websites, scam domains, and harmful content.
 - [publicsuffix.org](https://publicsuffix.org/) – Public Suffix List, used for accurate domain parsing and filtering.
 - [DNSet/public-dns](https://github.com/DNSet/public-dns) – Public DNS data referenced for domain filtering.
 - [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists) – A comprehensive set of categorized DNS blocklists for ads, trackers, and malware.
@@ -71,7 +68,4 @@ This project includes components from other repositories licensed under the GNU 
 Therefore, this repository is also licensed under the GPL v3.
 For full terms, please refer to the [LICENSE](./LICENSE) file.
 
----
 
-Thank you for visiting this repository!  
-I hope it may be helpful or inspiring in your own filtering efforts.

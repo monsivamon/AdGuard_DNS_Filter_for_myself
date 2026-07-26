@@ -3,8 +3,52 @@
 ! Version: 1.0.0
 ! Homepage: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself
 ! License: https://github.com/monsivamon/AdGuard_DNS_Filter_for_myself/blob/mine/LICENSE
-! Last modified: 2026-6-6
+! Last modified: 2026-7-25
 ! Expires: 24 hours
 
-! Unbreak domain
-pragma-life.jp
+! JP Blog
+ameba.jp
+ameblo.jp
+hatenablog.com
+hatenadiary.com
+hatenadiary.jp
+fc2.com
+livedoor.jp
+livedoor.biz
+livedoor.blog
+seesaa.net
+goo.ne.jp
+ss-blog.jp
+doorblog.jp
+blog.jp
+note.com
+jugem.jp
+
+! US Blog
+wordpress.com
+blogger.com
+medium.com
+tumblr.com
+wix.com
+squarespace.com
+weebly.com
+substack.com
+
+! EU Blog
+ghost.org
+jimdo.com
+write.as
+hyvor.com
+
+! CN Blog
+blog.163.com
+blog.sina.com.cn
+blog.sohu.com
+blogcn.com
+blogchina.com
+
+! KR Blog
+naver.com
+tistory.com
+brunch.co.kr
+velog.io

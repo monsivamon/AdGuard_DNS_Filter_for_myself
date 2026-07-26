@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - mine
-    # 変更があったファイルがFilters、scripts、.github/workflowsのいずれかの場合に実行
-    paths:
-      - 'Filters/**'
-      - 'scripts/**'
-      - '.github/workflows/**'
   schedule:
     # 8時間ごとに自動実行
     - cron: '3 22,6,14 * * *'
