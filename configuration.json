@@ -438,49 +438,49 @@
     },
     {
       "name": "HaGeZi's Samsung Tracker DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.samsung.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
       "name": "HaGeZi's Huawei Tracker DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.huawei.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
       "name": "HaGeZi's Xiaomi Tracker DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.xiaomi.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
       "name": "HaGeZi's OPPO & Realme Tracker DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.oppo-realme.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
       "name": "HaGeZi's Vivo Tracker DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.vivo.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
       "name": "HaGeZi's TikTok Fingerprinting DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.tiktok.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
       "name": "HaGeZi's Apple Tracker DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.apple.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
     {
       "name": "HaGeZi's TikTok Extended Fingerprinting DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.extended.txt",
+      "source": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/native.tiktok.extended.txt",
       "type": "adblock",
       "transformations": ["Validate"]
     },
